@@ -1,33 +1,31 @@
-name: docs
+name: Deploy GitHub Pages
 
+# 触发条件：在 push 到 master 分支后
 on:
-  # 每当 push 到 main 分支时触发部署
   push:
-    branches: [main]
-  # 手动触发部署
-  workflow_dispatch:
+    branches:
+      - master
 
+# 任务
 jobs:
-  docs:
+  build-and-deploy:
+    # 服务器环境：最新版 windows
     runs-on: windows-latest
-
     steps:
-      - uses: actions/checkout@v2
+      # 拉取代码
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
-          # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
-          fetch-depth: 0
+          persist-credentials: false
 
-      # 运行构建脚本
+      # 生成静态文件
       - name: Build
-        run: npm run docs:build
+        run: npm install && npm run docs:build
 
-      # 查看 workflow 的文档来获取更多信息
-      # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+      # 部署到 GitHub Pages
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          # 部署到 gh-pages 分支
           BRANCH: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
           FOLDER: docs/.vuepress/dist
