@@ -1,5 +1,5 @@
 # name 可以自定义
-name: Deploy GitHub Pages
+name: build geoncs
 
 on:
   push:
@@ -26,6 +26,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} 
-          BRANCH: gh-pages 
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
