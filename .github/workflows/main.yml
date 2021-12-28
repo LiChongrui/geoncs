@@ -7,7 +7,7 @@ on:
 
 jobs:
   docs:
-    runs-on: windows
+    runs-on: windows-latest
 
     steps:
       # 拉取代码
