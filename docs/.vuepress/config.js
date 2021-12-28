@@ -5,7 +5,7 @@ module.exports = {
     markdown:{
         lineNumbers: true
     },
-    base: '/home/',
+    base: '/geoncs/',
     head: [
         ['link', { rel: 'icon', href: '/images/Logo.png' }]
     ],
