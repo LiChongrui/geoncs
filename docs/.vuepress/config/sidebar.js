@@ -56,6 +56,15 @@ module.exports = {
             ]
         }
     ],
+    '/04.RS/': [
+        {
+            title: '植被指数',
+            collapsable: false,
+            children: [
+                 '/04.RS/VI/1.Sentinel-2',
+            ]
+        }
+    ],
     '/05.resources/': [
         {
             title: 'Python',
@@ -65,5 +74,16 @@ module.exports = {
                 'Python/1.FillNoData',
             ]
         }
+    ],
+    '/06.literature/': [
+        {
+            title: '寓言短诗',
+            collapsable: false,
+            children: [
+                'Sinngedichte/ReiseLeben'
+            ]
+        }
+
+
     ]
 }

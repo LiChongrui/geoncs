@@ -1,5 +1,6 @@
 module.exports = [  
-    { text: '首页', link: '/', icon: "fas fa-house-user"},
+    { text: '首页', link: '/', icon: "fas fa-house-user" },
+
     { 
         text: '地理与气象分析库', 
         link: '/01.gma/',
@@ -31,6 +32,7 @@ module.exports = [
              },
         ]
     },
+
     {
         text: '地信研学',
         link: '/02.geography/',
@@ -46,6 +48,7 @@ module.exports = [
             }
         ]
     },
+
     { 
         text: '气象研学', 
         link: '/03.meteorology/', 
@@ -58,11 +61,51 @@ module.exports = [
                 ]
             }
         ]
-        
     },
-    { text: '遥感研学', link: '/04.RS/', icon:"fas fa-satellite"},
-    { text: '资源教程', link: '/05.resources/', icon:"fab fa-sourcetree"},
-    { text: '地理人文', link: '/06.literature/', icon:"fab fa-artstation"},
+
+    {
+        text: '遥感研学',
+        link: '/04.RS/',
+        icon: "fas fa-satellite",
+        items: [
+            {
+                text: '植被指数',
+                items: [
+                    { text: 'Sentinel-2', link:'/04.RS/VI/1.Sentinel-2'}
+                ]
+            }
+        ]
+    },
+
+    {
+        text: '资源教程',
+        link: '/05.resources/',
+        icon: "fab fa-sourcetree",
+        items: [
+            {
+                text: 'Python',
+                items: [
+                    { text: '获取路径', link: '/05.resources/Python/0.GetPath'},
+                    { text: '缺失值插补', link: '/05.resources/Python/1.FillNoData' }
+                ]
+            }
+        ]
+    },
+
+    {
+        text: '地理人文',
+        link: '/06.literature/',
+        icon: "fab fa-artstation",
+        items: [
+            {
+                text: '寓言短诗',
+                items: [
+                    { text: '2020：一途旅行，一途人生', link: '/06.literature/Sinngedichte/ReiseLeben' }
+                ]
+            }
+        ]
+    },
+
     {
         text:'探索',
         icon:"fab fa-wpexplorer",

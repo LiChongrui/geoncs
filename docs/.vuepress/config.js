@@ -51,10 +51,10 @@ module.exports = {
         smoothScroll: true,
 
         // 备案号
-        record: '某某ICP备xxxxxxxxxx号',
-        recordLink: 'http://www.beian.gov.cn/portal/registerSystemInfo',
-        cyberSecurityRecord: 'xxx安备xxxxxxxxxx号',
-        cyberSecurityLink: 'https://beian.miit.gov.cn/',
+        // record: '某某ICP备xxxxxxxxxx号',
+        // recordLink: 'http://www.beian.gov.cn/portal/registerSystemInfo',
+        // cyberSecurityRecord: 'xxx安备xxxxxxxxxx号',
+        // cyberSecurityLink: 'https://beian.miit.gov.cn/',
         startYear: 2021,
         showAccessNumber: true,
         //codeTheme: 'tomorrow',//'solarizedlight', 'funky','okaidia', 'tomorrow'
@@ -62,7 +62,7 @@ module.exports = {
     plugins: [
          [
              'vuepress-plugin-mermaidjs',{
-                 //gantt: { barHeight: 40, fontSize:20}
+                 //gantt: { barHeight: 40, fontSize:20, titleTopMargin:25, barGap:4, topPadding:75, sidePadding:75}
              }        
          ],
          'vuepress-plugin-boxx',
