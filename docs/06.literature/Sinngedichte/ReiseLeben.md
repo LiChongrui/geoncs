@@ -30,7 +30,7 @@ categories:
 
 &emsp;&emsp;起初，在疫情没有流行的日子里，就怀着一颗热忱的心，寻遍河洛大地的踪影。伴着河图洛书的开端，几行符号，引领了一年的迷途与乐途……
 
-![xx](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E5%B0%8F%E5%BA%97.webp)
+![](https://s2.loli.net/2021/12/31/YVBJ8LgkwntISyA.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（规划展示馆）</div>
@@ -40,9 +40,10 @@ categories:
 
 &emsp;&emsp;我爱猫，它就那么粘着你。感觉不能出门的日子里，这就是我的欢乐，陪伴着我度过每一个焦灼的夜与日……
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E6%89%81%E6%8B%85%E8%B5%B5.webp)
+![](https://s2.loli.net/2021/12/31/9dUj4hSQEwHBXDv.jpg)
 
 <font color="#D3D3D3" >
+
 <div style="text-align:center;">（扁担赵）</div>
 </font>
 
@@ -50,7 +51,7 @@ categories:
 
 &emsp;&emsp;透了一个季节的干燥，晚来的微雨和软绵绵的东风让人倍感舒心。
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E9%9A%8B%E5%94%90%E5%9F%8E%E9%81%97%E5%9D%80%E6%A4%8D%E7%89%A9%E5%9B%AD.webp)
+![](https://s2.loli.net/2021/12/31/1bPhBHqCsXSRIgT.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（隋唐城遗址植物园）</div>
@@ -58,7 +59,7 @@ categories:
 
 &emsp;&emsp;细柳和棕榈，“微雨池塘见”。3月，久违的清风与新绿，久违的轻松与温情。
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E6%B4%9B%E6%B5%A6%E5%85%AC%E5%9B%AD.webp)
+![](https://s2.loli.net/2021/12/31/NhlDQxIOzcRWBGd.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（洛浦公园）</div>
@@ -70,7 +71,7 @@ categories:
 
 &emsp;&emsp;“远眺洛神步，近时落花情”。告别了曾经的人挤人，这算是我近几年来第一次在牡丹花会的时候去看牡丹。人间多有温情，在长久的呵护之后，是怒放……有花有情，无语言表，只是感觉，好看啊！
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E8%8A%B1%E5%9B%AD.webp)
+![](https://s2.loli.net/2021/12/31/M5faklFxZTocnLr.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（中国国花园）</div>
@@ -80,7 +81,7 @@ categories:
 
 &emsp;&emsp;“九洲逢盛世，一池阅千年”。昏昏暗暗的灯影下，除了一种留恋，还有那中生活变的正常的快感。从此，又开始向往着大唐盛世，向往着繁华神都。
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E4%B9%9D%E6%B4%B2%E6%B1%A0.webp)
+![](https://s2.loli.net/2021/12/31/Qa8nScIE7yB6grH.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（九洲池）</div>
@@ -98,7 +99,7 @@ categories:
 
 &emsp;&emsp;艺术细胞与我擦肩而过，或者说，我根本没有艺术细胞。老车与工厂对我来说，可能只是一个散步之地。但是呢，又感觉每走一步，都是艺术。
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/798%E8%89%BA%E6%9C%AF%E5%8C%BA.webp)
+![](https://s2.loli.net/2021/12/31/rKIcH1tD92Y6JFa.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（北京：798艺术区）</div>
@@ -108,9 +109,10 @@ categories:
 
 &emsp;&emsp;感谢三年，感谢成长，来日方长，我们依旧是兄弟……
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E5%86%9C%E7%A7%91%E9%99%A2%E7%8E%AF%E5%8F%91%E6%89%80.webp)
+![](https://s2.loli.net/2021/12/31/9Nmp3CWUIMRY6x1.jpg)
 
 <font color="#D3D3D3" >
+
 <div style="text-align:center;">（北京：农科院环发所）</div>
 </font>
 
@@ -120,15 +122,15 @@ categories:
 
 偶尔面朝大地哭泣，抓一把泥土，嗅着它的味道，与大地肌肤相触，感受大自然的恩典……
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E4%B9%A1%E4%B8%8B.webp)
+![](https://s2.loli.net/2021/12/31/yBWvm2KANt1TGw8.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（原阳：乡下）</div>
 </font>
 
-&emsp;&emsp;我妈说，我总能给身边的人带来好运。但是自己就没有好运。我希望未来我能把好运留给自己，未来的好运，也属于自己。
+&emsp;&emsp;有人说，我总能给身边的人带来好运。但是自己就没有好运。我希望未来我能把好运留给自己，未来的好运，也属于自己。
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E5%A4%9C.webp)
+![](https://s2.loli.net/2021/12/31/6VuRvEfZIghGQk2.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（哈尔滨：夜）</div>
@@ -140,7 +142,7 @@ categories:
 
 &emsp;&emsp;9月初凉，可夏风依旧来光临，然后就把我送到了这个地方。抛开倒地的玉米，其实这一副原野的景还蛮好看的，想想，要是有一片油菜花，一群大雁飞过，那真是令人心情舒畅。
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E5%86%9C%E5%9C%BA.webp)
+![](https://s2.loli.net/2021/12/31/z46qibvW58BDoSw.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（齐齐哈尔：农场）</div>
@@ -150,7 +152,7 @@ categories:
 
 &emsp;&emsp;你与诗的陪伴，是生命的相依……
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E5%A4%A9%E6%A1%A5.webp)
+![](https://s2.loli.net/2021/12/31/CqIZtwcjvQW6SMR.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（呼和浩特：天桥）</div>
@@ -160,7 +162,7 @@ categories:
 
 &emsp;&emsp;亦或“长相思，在长安”，亦或“长安陌上无穷树，唯有垂杨管别离”，亦或“长安道，一回来，一回老”。
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E5%A4%A7%E9%9B%81%E5%A1%94.webp)
+![](https://s2.loli.net/2021/12/31/Nk2oeZiYV6Lq8wx.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（西安：大雁塔）</div>
@@ -177,7 +179,7 @@ categories:
 &emsp;&emsp;初冬里的花和黄叶，仿佛凝缩着沐沐的天真和爱意。仔细端详，除了黯然的落寞感，竟还有一丝丝的欢愉。
 此刻的氛围给人一种错觉，就在那条路边。黄叶似乎变得翠绿，我看到花儿也在绽放……
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD.webp)
+![](https://s2.loli.net/2021/12/31/bHcJxKPqiY16GD2.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（北京：奥林匹克森林公园）</div>
@@ -187,7 +189,7 @@ categories:
 
 &emsp;&emsp;梦娜丽鸭的南国行。虽然时间紧凑，但解锁了新的南方。虽无所依，但好像重新有了旧爱与新欢……
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E5%B0%8F%E5%BA%97.webp)
+![](https://s2.loli.net/2021/12/31/v1wX96qohyWg7mC.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（南宁：小店）</div>
@@ -197,7 +199,7 @@ categories:
 
 &emsp;&emsp;这2020渐行渐远，无书，有心……
 
-![](https://raw.githubusercontent.com/LiChongrui/Image/main/img/%E4%B9%A6%E9%A6%86.webp)
+![](https://s2.loli.net/2021/12/31/lpsj7bg8u4KicLw.jpg)
 
 <font color="#D3D3D3" >
 <div style="text-align:center;">（北京：书馆）</div>
