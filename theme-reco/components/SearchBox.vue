@@ -172,7 +172,7 @@ export default defineComponent({
     margin auto
   input
     cursor text
-    width 10rem
+    width 8rem
     height: 2rem
     color lighten($textColor, 25%)
     display inline-block
