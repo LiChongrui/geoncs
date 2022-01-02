@@ -32,61 +32,44 @@ module.exports = [
              },
         ]
     },
-
     {
-        text: '地信研学',
-        link: '/02.geography/',
+        text: '地理研学',
         icon: "fas fa-globe-asia",
         items: [
             {
-                text: '坐标系',
+                text: '地信研学',
+                link: '/02.geography/GIS/',
                 items: [
-                    { text: '地理坐标系', link: '/02.geography/CoordinateSystem/1.gcs' }
-
+                    { text: '坐标系', link: '/02.geography/GIS/CoordinateSystem/1.gcs' }
                 ]
-
-            }
-        ]
-    },
-
-    { 
-        text: '气象研学', 
-        link: '/03.meteorology/', 
-        icon: "fas fa-cloud-sun-rain",
-        items:[
+            },
             {
-                text:'插值', 
-                items:[
-                    {text:'ANUSPLIN', link:'/03.meteorology/ANUSPLIN/1.Start'}
-                ]
-            }
-        ]
-    },
-
-    {
-        text: '遥感研学',
-        link: '/04.RS/',
-        icon: "fas fa-satellite",
-        items: [
-            {
-                text: '植被指数',
+                text: '气象研学',
+                link: '/02.geography/MET/',
                 items: [
-                    { text: 'Sentinel-2', link:'/04.RS/VI/1.Sentinel-2'}
+                    { text: 'ANUSPLIN', link: '/02.geography/MET/ANUSPLIN/1.Start' }
                 ]
-            }
+            },
+            {
+                text: '遥感研学',
+                link: '/02.geography/RS/',
+                items: [
+                    { text: '植被指数', link: '/02.geography/RS/VI/1.Sentinel-2' }
+                ]
+            },
+
         ]
     },
-
     {
         text: '资源教程',
-        link: '/05.resources/',
+        link: '/03.resources/',
         icon: "fab fa-sourcetree",
         items: [
             {
                 text: 'Python',
                 items: [
-                    { text: '获取路径', link: '/05.resources/Python/0.GetPath'},
-                    { text: '缺失值插补', link: '/05.resources/Python/1.FillNoData' }
+                    { text: '获取路径', link: '/03.resources/Python/0.GetPath'},
+                    { text: '缺失值插补', link: '/03.resources/Python/1.FillNoData' }
                 ]
             }
         ]
@@ -94,13 +77,13 @@ module.exports = [
 
     {
         text: '地理人文',
-        link: '/06.literature/',
+        link: '/04.literature/',
         icon: "fab fa-artstation",
         items: [
             {
                 text: '寓言短诗',
                 items: [
-                    { text: '2020：一途旅行，一途人生', link: '/06.literature/Sinngedichte/ReiseLeben' }
+                    { text: '2020：一途旅行，一途人生', link: '/04.literature/Sinngedichte/ReiseLeben' }
                 ]
             }
         ]

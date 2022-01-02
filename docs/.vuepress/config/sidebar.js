@@ -1,4 +1,5 @@
 module.exports = {
+    // gma的侧边栏
     '/01.gma/': [
         {
             title: '开始', 
@@ -27,45 +28,41 @@ module.exports = {
             ]
         }
     ],
-    '/02.geography/': [
+    // 地理研学侧边栏，地理、气象、遥感分别配置
+    '/02.geography/GIS/CoordinateSystem/': [
         {
             title: '坐标系', 
             collapsable: false, 
             children: [
-                'CoordinateSystem/1.gcs', 
+                '1.gcs', 
             ]
         }
     ],
-    '/03.meteorology/ANUSPLIN/': [
+    '/02.geography/MET/ANUSPLIN/': [
         {
-            title:'插值',
-            collapsable: false, 
-            children:[
-                {
-                    title: 'ANUSPLIN',
-                    collapsable: true, 
-                    children: [
-                        '1.Start',
-                        '2.Description',
-                        '3.IPProcess',
-                        '4.DataPP', 
-                        '5.DEMPP', 
-                        '6.Scripting'
-                    ]
-                }
+            title: 'ANUSPLIN',
+            collapsable: false,//true, 
+            children: [
+                '1.Start',
+                '2.Description',
+                '3.IPProcess',
+                '4.DataPP', 
+                '5.DEMPP', 
+                '6.Scripting'
             ]
         }
     ],
-    '/04.RS/': [
+    '/02.geography/RS/VI/': [
         {
             title: '植被指数',
             collapsable: false,
             children: [
-                 '/04.RS/VI/1.Sentinel-2',
+                 '1.Sentinel-2',
             ]
         }
     ],
-    '/05.resources/': [
+    // 资源教程
+    '/03.resources/': [
         {
             title: 'Python',
             collapsable: false,//true, 
@@ -75,15 +72,14 @@ module.exports = {
             ]
         }
     ],
-    '/06.literature/': [
-        {
-            title: '寓言短诗',
-            collapsable: false,
-            children: [
-                'Sinngedichte/ReiseLeben'
-            ]
-        }
-
-
-    ]
+    // 地理人文就不配置侧边栏了
+    //'/06.literature/': [
+    //    {
+    //        title: '寓言短诗',
+    //        collapsable: false,
+    //        children: [
+    //            'Sinngedichte/ReiseLeben'
+    //        ]
+    //    }
+    //]
 }

@@ -9,7 +9,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/images/Logo.png' }]
     ],
-    title: '地理研学',
+    title: '研学分享',
     theme: require.resolve('../../theme-reco'),
     themeConfig: {
         //导航栏logo
