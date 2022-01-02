@@ -1,33 +1,79 @@
-<svg version="1.1" baseProfile="full" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800">
+<svg id="太阳" xmlns="http://www.w3.org/2000/svg" baseProfile="full" width="100%" height="100%" viewBox="0 0 6667 3750">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fedc08;
+      }
 
-  <rect x="1300" y="400" rx="40" ry="40" width="300" height="300" stroke="#4954e6" fill="#4954e6">
-    <animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="35s" type="rotate" from="0 1450 550" to="360 1450 550" repeatCount="indefinite"/>
-  </rect>
+      .cls-2 {
+        fill: #fdd663;
+      }
 
-  <path d="M 100 350 A 150 150 0 1 1 400 350 Q400 370 380 370 L 250 370 L 120 370 Q100 370 100 350" stroke="rgb(253, 214, 99)" fill="rgb(253, 214, 99)">
-    <animateMotion path="M 800 -200 L 800 -300 L 800 -200" dur="20s" begin="0s" repeatCount="indefinite"/>
-    <animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="30s" type="rotate" values="0 210 530 ; -30 210 530 ; 0 210 530" keyTimes="0 ; 0.5 ; 1" repeatCount="indefinite"/>
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #565656;
+      }
+
+      .cls-4 {
+        fill: #212121;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #616ae5;
+      }
+
+      .cls-10, .cls-6 {
+        fill: #81c995;
+      }
+
+      .cls-7 {
+        fill: #fb0000;
+      }
+
+      .cls-9 {
+        fill: #cb5cf9;
+      }
+
+      .cls-11 {
+        fill: #ee675c;
+      }
+    </style>
+  </defs>
+  <circle id="太阳-2" data-name="太阳" class="cls-1" cx="1368.5" cy="705.14" r="276.91"/>
+  <path id="太阳光" class="cls-2" d="M1549.42,393.992a25.51,25.51,0,1,1-25.51,25.509A25.509,25.509,0,0,1,1549.42,393.992ZM1374.88,347a25.51,25.51,0,1,1-25.5,25.51A25.509,25.509,0,0,1,1374.88,347ZM1662.2,524.9a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1662.2,524.9Zm42.29,160.443a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1704.49,685.34Zm-54.37,175.883a25.51,25.51,0,1,1-25.51,25.51A25.507,25.507,0,0,1,1650.12,861.223ZM1536.67,978.7a25.509,25.509,0,1,1-25.51,25.508A25.509,25.509,0,0,1,1536.67,978.7Zm-163.13,40.278a25.51,25.51,0,1,1-25.51,25.51A25.508,25.508,0,0,1,1373.54,1018.98ZM1196.32,969.3a25.508,25.508,0,1,1-25.51,25.509A25.509,25.509,0,0,1,1196.32,969.3ZM1082.87,852.5a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1082.87,852.5Zm-52.36-171.855A25.51,25.51,0,1,1,1005,706.15,25.509,25.509,0,0,1,1030.51,680.641Zm53.03-171.855a25.51,25.51,0,1,1-25.51,25.509A25.509,25.509,0,0,1,1083.54,508.786Zm122.85-121.507a25.51,25.51,0,1,1-25.51,25.509A25.509,25.509,0,0,1,1206.39,387.279Z">
+	<animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="35s" type="rotate" from="0 1368.5 705.14" to="360 1368.5 705.14" repeatCount="indefinite"/>
   </path>
-
-  <circle cx="200" cy="150" r="20" stroke="#4954e6" fill="#4954e6">
+  <path id="卫星_左" data-name="卫星 左" class="cls-3" d="M4987,464l209.67,62.77,1.31,34.239L4987,498.714V464Z">
+	<animateMotion path="M 0 0 L 40 20 Z" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path id="卫星_右" data-name="卫星 右" class="cls-3" d="M5357,566l209.67,62.77,1.31,34.239L5357,600.714V566Z">
     <animateMotion path="M 0 0 L 40 20 Z" dur="5s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- 三角形 -->
-  <path d="M 165 580 L 270 580 Q275 578 270 570 L 223 483 Q220 480 217 483 L 165 570 Q160 578 165 580" stroke="rgb(238, 103, 92)" fill="rgb(238, 103, 92)">
-    <animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="35s" type="rotate" from="0 210 530" to="360 210 530" repeatCount="indefinite"/>
   </path>
-
-  <circle cx="1200" cy="600" r="30" stroke="rgb(241, 243, 244)" fill="rgb(241, 243, 244)">
-    <animateMotion path="M 0 0 L -20 40 Z" dur="9s" repeatCount="indefinite"/>
-  </circle>
-
-  <path d="M 100 350 A 40 40 0 1 1 180 350 L 180 430 A 40 40 0 1 1 100 430 Z" stroke="rgb(241, 243, 244)" fill="rgb(241, 243, 244)">
-    <animateMotion path="M 140 390 L 180 360 L 140 390" dur="20s" begin="0s" repeatCount="indefinite"/>
-    <animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="30s" type="rotate" values="0 140 390; -60 140 390; 0 140 390" keyTimes="0 ; 0.5 ; 1" repeatCount="indefinite"/>
+  <path id="卫星-2" data-name="卫星" class="cls-4" d="M5212,516l127,33,1,63-126.99-33.169Z">
+    <animateMotion path="M 0 0 L 40 20 Z" dur="5s" repeatCount="indefinite"/>
   </path>
-
-  <rect x="400" y="600" rx="40" ry="40" width="100" height="100" stroke="rgb(129, 201, 149)" fill="rgb(129, 201, 149)">
-    <animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="35s" type="rotate" from="-30 550 750" to="330 550 750" repeatCount="indefinite"/>
+  <path id="卫星_蓝" data-name="卫星 蓝" class="cls-5" d="M5160.7,617l23.3,18.345L4962.5,886.99l-23.49-23.041Z">
+    <animateMotion path="M 0 0 L 40 20 Z" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path id="卫星_绿" data-name="卫星 绿" class="cls-6" d="M5244.11,665.522l29.21,6.619-58.74,315.721-37.35-5.65Z">
+    <animateMotion path="M 0 0 L 40 20 Z" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path id="卫星_红" data-name="卫星 红" class="cls-7" d="M5343.47,672.929l30.75-9,119.87,313.13L5464,989.99Z">
+    <animateMotion path="M 0 0 L 40 20 Z" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <rect id="蓝" class="cls-8" x="770" y="2318" width="193" height="590" rx="10" ry="10">
+    <animateMotion path="M 0 0 L 0 40 Z" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect id="紫红" class="cls-9" x="5658" y="2319" width="193" height="590" rx="10" ry="10">
+    <animateMotion path="M 0 0 L 0 40 Z" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect id="绿" class="cls-10" x="4783" y="2566" width="193" height="590" rx="10" ry="10">
+    <animateMotion path="M 0 0 L 0 40 Z" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect id="红" class="cls-11" x="1705" y="2564" width="193" height="590" rx="10" ry="10">
+    <animateMotion path="M 0 0 L 0 40 Z" dur="5s" repeatCount="indefinite"/>
   </rect>
 </svg>

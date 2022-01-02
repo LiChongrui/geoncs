@@ -1,0 +1,26 @@
+<svg id="山" xmlns="http://www.w3.org/2000/svg" width="2400" height="1116" viewBox="0 0 2400 1116">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c9c9c9;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #a3a8f4;
+      }
+
+      .cls-3 {
+        fill: #dcdcdc;
+      }
+    </style>
+  </defs>
+  <path id="后山_左" data-name="后山 左" class="cls-1" d="M352.15,960.007L744.116,594.153,1149.19,956.016Z"/>
+  <path id="后山_右" data-name="后山 右" class="cls-1" d="M1200.01,960.007l391.96-365.854,405.08,361.863Z"/>
+  <path id="大山" class="cls-2" d="M646.553,1052.9L1186.87,104.007,1730.4,1050.86Z"/>
+  <path id="前山_左" data-name="前山 左" class="cls-3" d="M27.007,1055.99L418.972,690.133,824.05,1052Z"/>
+  <path id="前山_右" data-name="前山 右" class="cls-3" d="M1575.95,1051.47l391.97-365.854L2373,1047.48Z"/>
+</svg>
