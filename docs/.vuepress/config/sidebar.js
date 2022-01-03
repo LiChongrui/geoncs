@@ -28,7 +28,8 @@ module.exports = {
             ]
         }
     ],
-    // 地理研学侧边栏，地理、气象、遥感分别配置
+    // 地理研学侧边栏，
+    // 地理
     '/02.geography/GIS/CoordinateSystem/': [
         {
             title: '坐标系', 
@@ -38,6 +39,7 @@ module.exports = {
             ]
         }
     ],
+    //气象
     '/02.geography/MET/ANUSPLIN/': [
         {
             title: 'ANUSPLIN',
@@ -52,12 +54,15 @@ module.exports = {
             ]
         }
     ],
-    '/02.geography/RS/VI/': [
+    //遥感
+    '/02.geography/RS/Sentinel-2/': [
         {
-            title: '植被指数',
+            title: 'Sentinel-2',
             collapsable: false,
             children: [
-                 '1.Sentinel-2',
+                '1.S2-Introduce',
+                '2.S2-Spectrum',
+                '3.S2-VI',
             ]
         }
     ],

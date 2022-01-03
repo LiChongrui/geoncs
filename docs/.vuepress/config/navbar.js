@@ -54,7 +54,7 @@ module.exports = [
                 text: '遥感研学',
                 link: '/02.geography/RS/',
                 items: [
-                    { text: '植被指数', link: '/02.geography/RS/VI/1.Sentinel-2' }
+                    { text: 'Sentinel-2', link: '/02.geography/RS/Sentinel-2/1.S2-Introduce' }
                 ]
             },
 
@@ -68,13 +68,12 @@ module.exports = [
             {
                 text: 'Python',
                 items: [
-                    { text: '获取路径', link: '/03.resources/Python/0.GetPath'},
+                    { text: '获取路径', link: '/03.resources/Python/0.GetPath' },
                     { text: '缺失值插补', link: '/03.resources/Python/1.FillNoData' }
                 ]
             }
         ]
     },
-
     {
         text: '地理人文',
         link: '/04.literature/',
@@ -88,7 +87,6 @@ module.exports = [
             }
         ]
     },
-
     {
         text:'探索',
         icon:"fab fa-wpexplorer",

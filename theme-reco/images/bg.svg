@@ -65,15 +65,15 @@
         <animateMotion path="M 0 0 L 40 20 Z" dur="4s" repeatCount="indefinite"/>
     </path>
     <rect id="蓝" class="cls-8" x="770" y="2318" width="193" height="590" rx="10" ry="10">
-        <animateMotion path="M 0 0 L 0 40 Z" dur="4s" repeatCount="indefinite"/>
+        <animateMotion path="M 0 0 L 0 50 Z" dur="4s" repeatCount="indefinite"/>
     </rect>
     <rect id="紫红" class="cls-9" x="5658" y="2318" width="193" height="590" rx="10" ry="10">
-        <animateMotion path="M 0 0 L 0 40 Z" dur="4s" repeatCount="indefinite"/>
+        <animateMotion path="M 0 0 L 0 50 Z" dur="4s" repeatCount="indefinite"/>
     </rect>
 	<rect id="绿" class="cls-10" x="4765" y="2564" width="193" height="590" rx="10" ry="10">
-        <animateMotion path="M 0 0 L 0 40 Z" dur="4s" repeatCount="indefinite"/>
+        <animateMotion path="M 0 0 L 0 50 Z" dur="4s" repeatCount="indefinite"/>
     </rect>
     <rect id="红" class="cls-11" x="1705" y="2564" width="193" height="590" rx="10" ry="10">
-        <animateMotion path="M 0 0 L 0 40 Z" dur="4s" repeatCount="indefinite"/>
+        <animateMotion path="M 0 0 L 0 50 Z" dur="4s" repeatCount="indefinite"/>
     </rect>
 </svg>
