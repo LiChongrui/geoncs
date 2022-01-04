@@ -22,7 +22,7 @@
         </p>
       </ModuleTransition>
       <ModuleTransition delay="0.16">
-        <p class="action" v-if="recoShowModule && $frontmatter.actionText && $frontmatter.actionLink">
+        <p class="action">
           <NavLink class="action-button" :item="actionLink"/>
         </p>
       </ModuleTransition>
