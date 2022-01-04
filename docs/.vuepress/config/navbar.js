@@ -71,7 +71,13 @@ module.exports = [
                     { text: '获取路径', link: '/03.resources/Python/0.GetPath' },
                     { text: '缺失值插补', link: '/03.resources/Python/1.FillNoData' }
                 ]
-            }
+            },
+            {
+                text: '陆表覆盖',
+                items: [
+                    { text: 'ESA WorldCover', link: '/03.resources/LST/1.WC_China_ESA_2020_Data' },
+                ]
+            },
         ]
     },
     {

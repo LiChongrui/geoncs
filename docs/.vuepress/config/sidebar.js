@@ -75,6 +75,13 @@ module.exports = {
                 'Python/0.GetPath',
                 'Python/1.FillNoData',
             ]
+        },
+        {
+            title: '陆表覆盖',
+            collapsable: false,
+            children: [
+                'LST/1.WC_China_ESA_2020_Data',
+            ]
         }
     ],
     // 地理人文就不配置侧边栏了
