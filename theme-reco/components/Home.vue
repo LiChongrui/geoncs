@@ -6,19 +6,19 @@
           v-if="recoShowModule && $frontmatter.heroImage"
           :style="heroImageStyle || {}"
           :src="$withBase($frontmatter.heroImage)"
-          alt="hero">
+          alt="hero"/>
       </ModuleTransition>
       <ModuleTransition delay="0.04">
         <h1
           v-if="recoShowModule && $frontmatter.heroText !== null"
           :style="{ marginTop: $frontmatter.heroImage ? '0px' : '140px'}"
         >
-          {{ $frontmatter.heroText || $title || 'vuePress-theme-reco' }}
+          {{ $frontmatter.heroText || $title || 'Theme' }}
         </h1>
       </ModuleTransition>
       <ModuleTransition delay="0.08">
         <p v-if="recoShowModule && $frontmatter.tagline !== null" class="description">
-          {{ $frontmatter.tagline || $description || 'Welcome to your vuePress-theme-reco site' }}
+          {{ $frontmatter.tagline || $description || 'Welcome!' }}
         </p>
       </ModuleTransition>
       <ModuleTransition delay="0.16">
@@ -97,7 +97,7 @@ export default defineComponent({
       color: #fff;
       background-color: $accentColor;
       padding: 0.2rem 1.2rem;
-      border-radius: $borderRadius
+      border-radius: $borderRadius;
       transition: background-color 0.1s ease;
       box-sizing: border-box;
       load-start()
@@ -109,7 +109,7 @@ export default defineComponent({
   }
 
   .features {
-    border-top: 1px solid var(--border-color);;
+    border-top: 1px solid var(--border-color);
     padding: 1.2rem 0;
     margin-top: 2.5rem;
     display: flex;
@@ -123,7 +123,7 @@ export default defineComponent({
     flex-grow: 1;
     flex-basis: 30%;
     max-width: 30%;
-    transition: all .5s
+    transition: all .1s;
     color: var(--text-color);
     h2 {
       font-size: 1.6rem;
