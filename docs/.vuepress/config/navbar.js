@@ -66,10 +66,10 @@ module.exports = [
         icon: "fab fa-sourcetree",
         items: [
             {
-                text: 'Python',
+                text: '数据处理',
                 items: [
-                    { text: '获取路径', link: '/03.resources/Python/0.GetPath' },
-                    { text: '缺失值插补', link: '/03.resources/Python/1.FillNoData' }
+                    { text: '获取路径', link: '/03.resources/DataProcessing/0.GetPath' },
+                    { text: '缺失值插补', link: '/03.resources/DataProcessing/1.FillNoData' }
                 ]
             },
             {

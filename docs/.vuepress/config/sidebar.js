@@ -69,11 +69,11 @@ module.exports = {
     // 资源教程
     '/03.resources/': [
         {
-            title: 'Python',
+            title: '数据处理',
             collapsable: false,//true, 
             children: [
-                'Python/0.GetPath',
-                'Python/1.FillNoData',
+                'DataProcessing/0.GetPath',
+                'DataProcessing/1.FillNoData',
             ]
         },
         {
