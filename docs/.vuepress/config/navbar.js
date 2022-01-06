@@ -94,7 +94,8 @@ module.exports = [
             {
                 text: '绘画设计展',
                 items: [
-                    { text: '卡通画', link: '/04.literature/Drawing/1.Cartoon' }
+                    { text: '卡通画', link: '/04.literature/Drawing/1.Cartoon' },
+                    { text: '艺术手绘', link: '/04.literature/Drawing/2.Art' }
                 ]
             },
         ]
