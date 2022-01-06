@@ -90,7 +90,13 @@ module.exports = [
                 items: [
                     { text: '2020：一途旅行，一途人生', link: '/04.literature/Sinngedichte/ReiseLeben' }
                 ]
-            }
+            },
+            {
+                text: '绘画设计展',
+                items: [
+                    { text: '卡通画', link: '/04.literature/Drawing/1.Cartoon' }
+                ]
+            },
         ]
     },
     {
