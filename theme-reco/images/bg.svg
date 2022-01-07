@@ -44,7 +44,27 @@
 			fill: #ffbb63;
 			fill-rule: evenodd;
 			}
+			.cls-a {
+			fill: none;
+			stroke: url(#orange_red);
+			stroke-width: 100px;
+			fill-rule: evenodd;
+			}
 		</style>
+		<linearGradient id="orange_red" x1="0%" y1="0%" x2="100%" y2="0%">
+			// 色彩渐变
+			<stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+			<stop offset="16%" style="stop-color:rgb(255,165,0);stop-opacity:1"/>
+			<stop offset="32%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+			<stop offset="48%" style="stop-color:rgb(0,255,0);stop-opacity:1"/>
+			<stop offset="64%" style="stop-color:rgb(0,255,255);stop-opacity:1"/>
+			<stop offset="80%" style="stop-color:rgb(0,0,255);stop-opacity:1"/>
+			<stop offset="100%" style="stop-color:rgb(255,0,255);stop-opacity:1"/>
+		</linearGradient>
+		<filter id="Gaussian_Blur">
+			//fegaussianblur- 高斯模糊,stdDeviation - 设置模糊程度
+			<feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+		</filter>
     </defs>
     <circle id="太阳-2" data-name="太阳" class="cls-1" cx="1578.5" cy="705.14" r="276.91"/>
     <path id="太阳光" class="cls-2" d="M1759.42,393.991a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1759.42,393.991ZM1584.88,347a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1584.88,347ZM1872.2,524.9a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1872.2,524.9Zm42.29,160.443a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1914.49,685.34Zm-54.37,175.883a25.51,25.51,0,1,1-25.51,25.509A25.507,25.507,0,0,1,1860.12,861.223ZM1746.67,978.7a25.509,25.509,0,1,1-25.51,25.508A25.515,25.515,0,0,1,1746.67,978.7Zm-163.13,40.278a25.51,25.51,0,1,1-25.51,25.51A25.508,25.508,0,0,1,1583.54,1018.98ZM1406.32,969.3a25.509,25.509,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1406.32,969.3ZM1292.87,852.5a25.51,25.51,0,1,1-25.51,25.509A25.509,25.509,0,0,1,1292.87,852.5ZM1240.51,680.64A25.51,25.51,0,1,1,1215,706.15,25.51,25.51,0,0,1,1240.51,680.64Zm53.03-171.855a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1293.54,508.785Zm122.85-121.507a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1416.39,387.278Z">
@@ -80,10 +100,5 @@
     <rect id="红" class="cls-11" x="1705" y="2564" width="193" height="590" rx="10" ry="10">
         <animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
     </rect>
-	<path id="流星尾巴" class="cls-12" d="M2243.15,926.134l3.46,4.4L2011.47,1116.01l-3.47-4.4Zm5.69-14.705,3.46,4.4L2017.16,1101.3l-3.47-4.4Zm10.43,13.282,3.46,4.4L2027.59,1114.58l-3.47-4.4Z">
-        <animateMotion path="M 50 0 L 0 40 Z" dur="4s" repeatCount="indefinite"/>
-    </path>
-	<path id="五角星" class="cls-12" d="M2247.02,963.426l-5.53-33.071-33.16-4.8,29.72-15.517-5.66-33.049,23.9,23.481,29.66-15.631L2271,914.873l24,23.389-33.15-4.922Z">
-        <animateMotion path="M 50 0 L 0 40 Z" dur="4s" repeatCount="indefinite"/>
-    </path>
+	
 </svg>
