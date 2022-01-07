@@ -51,13 +51,13 @@
   <path id="右山_上" data-name="右山 上" class="cls-3" d="M1686.1,534.6l-342.24-4.424,138-192.452s24.39-43.782,62.93,0C1544.91,337.863,1686.1,534.6,1686.1,534.6Z"/>
   <path id="右山_下" data-name="右山 下" class="cls-4" d="M1362.62,504.737s52.41,68.718,108.2-34.288c3.68-6.8,15.67-22.074,15.45-22.12-0.16-.036,24.49,34.265,55.2-1.106,0.33-.377,49.13,91.771,98.26,22.12,0.35-.486,18.77,27.652,18.77,27.652L1900.28,831.02l-770.6-1.106Z"/>
   <path id="星_下" data-name="星 下" class="cls-5" d="M1301.34,1329q-16.47-56.52-73.18-77.17,58.53-16.56,80.46-71.7,16.485,56.5,73.18,77.17Q1323.27,1273.86,1301.34,1329Z">
-	  <animate attributeType="XML" attributeName="fill"	values="#a0e5fc;#ffffff;#a0e5fc;" dur="5s" repeatCount="indefinite"/>
+	  <animate attributeType="XML" attributeName="fill"	values="rgba(160,229,252,1);rgba(255,255,255,0);rgba(160,229,252,1);" dur="5s" repeatCount="indefinite"/>
   </path>
   <path id="星_上_左" data-name="星 上 左" class="cls-6" d="M850.318,215.878q-16.474-56.508-73.18-77.168,58.527-16.556,80.464-71.694,16.473,56.507,73.18,77.168Q872.255,160.738,850.318,215.878Z">
-	  <animate attributeType="XML" attributeName="fill"	values="#ffffff;#a0fcc3;#ffffff;" dur="4.7s" repeatCount="indefinite"/>
+	  <animate attributeType="XML" attributeName="fill"	values="rgba(255,255,255,0);rgba(160,252,195,1);rgba(255,255,255,0);" dur="4.7s" repeatCount="indefinite"/>
   </path>
   <path id="星_上_右" data-name="星 上 右" class="cls-7" d="M1671.18,330.54Q1654.7,274.032,1598,253.372q58.515-16.555,80.46-71.7,16.47,56.508,73.18,77.168Q1693.11,275.4,1671.18,330.54Z">
-	  <animate attributeType="XML" attributeName="fill"	values="#ffffff;#c9a4f7;#ffffff;" dur="5.8s" repeatCount="indefinite"/>
+	  <animate attributeType="XML" attributeName="fill"	values="rgba(255,255,255,0);rgba(201,164,247,1);rgba(255,255,255,0);" dur="5.8s" repeatCount="indefinite"/>
   </path>
   <path id="阴影" class="cls-8" d="M1324.26,555.317l204.89,275.7h-39.94L1304.93,582.372Z"/>
   <path id="左山_上" data-name="左山 上" class="cls-3" d="M1232.77,485.748l-399.478-5.154L994.371,256.425s28.469-51,73.449,0C1067.97,256.587,1232.77,485.748,1232.77,485.748Z"/>

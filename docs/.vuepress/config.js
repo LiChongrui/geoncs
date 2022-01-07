@@ -7,13 +7,13 @@ module.exports = {
     },
     base: '/geoncs/',
     head: [
-        ['link', { rel: 'icon', href: '/images/Logo.svg' }]
+        ['link', { rel: 'icon', href: '/images/Home.svg' }]
     ],
     title: '研学分享',
     theme: require.resolve('../../theme-reco'),
     themeConfig: {
         //导航栏logo
-        logo: '/images/Logo.svg',
+        logo: '/images/Explore.svg',
         author: '洛',
         type: 'blog',
         authorAvatar: '/images/Luo.jpg',
