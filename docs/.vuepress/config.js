@@ -1,7 +1,7 @@
 
 module.exports = {
     locales: { '/': { lang: 'zh-CN' }},//,'/en/': { lang: 'en-US', },  },
-    port: '8888', // 本地端口
+    port: '10000', // 本地端口
     markdown:{
         lineNumbers: true
     },
@@ -16,7 +16,7 @@ module.exports = {
         logo: '/images/Logo.svg',
         author: '洛',
         type: 'blog',
-        authorAvatar: '/images/Luo.png',
+        authorAvatar: '/images/Luo.jpg',
         modePicker: true,
         nav: require('./config/navbar.js'),
 
