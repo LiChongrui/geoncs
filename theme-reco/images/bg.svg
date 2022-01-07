@@ -1,54 +1,58 @@
-<svg id="Home" xmlns="http://www.w3.org/2000/svg" baseProfile="full" width="100%" height="100%" viewBox="0 0 6667 3750">
-    <defs>
-        <style>
+<svg id="太阳" xmlns="http://www.w3.org/2000/svg" baseProfile="full" width="100%" height="100%" viewBox="0 0 6667 3750">
+	<defs>
+		<style>
 			.cls-1 {
 			fill: #fedc08;
 			}
 
 			.cls-2 {
-			fill: #fdd663;
+			fill: #ffcd7e;
 			}
 
-			.cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+			.cls-10, .cls-11, .cls-12, .cls-2, .cls-7, .cls-8, .cls-9 {
 			fill-rule: evenodd;
 			}
 
 			.cls-3 {
-			fill: #565656;
-			}
-
-			.cls-4 {
-			fill: #212121;
-			}
-
-			.cls-5, .cls-8 {
-			fill: #616ae5;
-			}
-
-			.cls-10, .cls-6 {
-			fill: #81c995;
-			}
-
-			.cls-7 {
-			fill: #fb0000;
-			}
-
-			.cls-9 {
 			fill: #cb5cf9;
 			}
 
-			.cls-11 {
+			.cls-4 {
+			fill: #81c995;
+			}
+
+			.cls-5 {
+			fill: #616ae5;
+			}
+
+			.cls-6 {
 			fill: #ee675c;
 			}
-			.cls-12 {
-			fill: #ffbb63;
-			fill-rule: evenodd;
+
+			.cls-7 {
+			fill: #020205;
 			}
-			.cls-a {
+
+			.cls-8 {
+			fill: #43c3ff;
+			}
+
+			.cls-9 {
+			fill: #4de4ca;
+			}
+
+			.cls-10 {
 			fill: none;
-			stroke: url(#orange_red);
-			stroke-width: 100px;
-			fill-rule: evenodd;
+			stroke: #020205;
+			stroke-width: 5px;
+			}
+
+			.cls-11 {
+			fill: #a0a0a0;
+			}
+
+			.cls-12 {
+			fill: #dcdcdc;
 			}
 		</style>
 		<linearGradient id="orange_red" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -65,40 +69,66 @@
 			//fegaussianblur- 高斯模糊,stdDeviation - 设置模糊程度
 			<feGaussianBlur in="SourceGraphic" stdDeviation="3" />
 		</filter>
-    </defs>
-    <circle id="太阳-2" data-name="太阳" class="cls-1" cx="1578.5" cy="705.14" r="276.91"/>
-    <path id="太阳光" class="cls-2" d="M1759.42,393.991a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1759.42,393.991ZM1584.88,347a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1584.88,347ZM1872.2,524.9a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1872.2,524.9Zm42.29,160.443a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1914.49,685.34Zm-54.37,175.883a25.51,25.51,0,1,1-25.51,25.509A25.507,25.507,0,0,1,1860.12,861.223ZM1746.67,978.7a25.509,25.509,0,1,1-25.51,25.508A25.515,25.515,0,0,1,1746.67,978.7Zm-163.13,40.278a25.51,25.51,0,1,1-25.51,25.51A25.508,25.508,0,0,1,1583.54,1018.98ZM1406.32,969.3a25.509,25.509,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1406.32,969.3ZM1292.87,852.5a25.51,25.51,0,1,1-25.51,25.509A25.509,25.509,0,0,1,1292.87,852.5ZM1240.51,680.64A25.51,25.51,0,1,1,1215,706.15,25.51,25.51,0,0,1,1240.51,680.64Zm53.03-171.855a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1293.54,508.785Zm122.85-121.507a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1416.39,387.278Z">
-        <animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="35s" type="rotate" from="0 1578.5 705.14" to="360 1578.5 705.14" repeatCount="indefinite"/>
-    </path>
-	<path id="卫星_右" data-name="卫星 右" class="cls-3" d="M5219.93,574.722l227.22,59.968-8.93,33.841L5211,608.563Z">
-        <animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
-    </path>
-	<path id="卫星_左" data-name="卫星 左" class="cls-3" d="M4823.93,470.722l227.22,59.968-8.93,33.841L4815,504.563Z">
-        <animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
-    </path>
-	<path id="卫星-2" data-name="卫星" class="cls-4" d="M5075.6,524L5201,555.059l-14.67,59.211-125.39-31.059Z">
-        <animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
-    </path>
-	<path id="卫星_蓝" data-name="卫星 蓝" class="cls-5" d="M5027.77,611.426l20.45,21.479-255.11,217.5-19.96-26.153Z">
-        <animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
-    </path>
-	<path id="卫星_绿" data-name="卫星 绿" class="cls-6" d="M5094.57,647.3l29.19,6.682L5059,969l-37-8Z">
-        <animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
-    </path>
-	<path id="卫星_红" data-name="卫星 红" class="cls-7" d="M5172.77,658.565l30.05-9.861L5317,959l-30,12Z">
-        <animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
-    </path>
-    <rect id="蓝" class="cls-8" x="770" y="2318" width="193" height="590" rx="10" ry="10">
-        <animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
-    </rect>
-    <rect id="紫红" class="cls-9" x="5658" y="2318" width="193" height="590" rx="10" ry="10">
-        <animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
-    </rect>
-	<rect id="绿" class="cls-10" x="4765" y="2564" width="193" height="590" rx="10" ry="10">
-        <animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
-    </rect>
-    <rect id="红" class="cls-11" x="1705" y="2564" width="193" height="590" rx="10" ry="10">
-        <animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
-    </rect>
+	</defs>
+	<circle id="太阳-2" data-name="太阳" class="cls-1" cx="1703.5" cy="719.14" r="276.91"/>
+	<path id="太阳光" class="cls-2" d="M1884.42,407.991a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1884.42,407.991ZM1709.88,361a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1709.88,361ZM1997.2,538.9a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,1997.2,538.9Zm42.29,160.443a25.51,25.51,0,1,1-25.51,25.51A25.509,25.509,0,0,1,2039.49,699.34Zm-54.37,175.883a25.51,25.51,0,1,1-25.51,25.509A25.507,25.507,0,0,1,1985.12,875.223ZM1871.67,992.7a25.509,25.509,0,1,1-25.51,25.508A25.513,25.513,0,0,1,1871.67,992.7Zm-163.13,40.278a25.51,25.51,0,1,1-25.51,25.51A25.508,25.508,0,0,1,1708.54,1032.98ZM1531.32,983.3a25.509,25.509,0,1,1-25.51,25.507A25.509,25.509,0,0,1,1531.32,983.3ZM1417.87,866.5a25.51,25.51,0,1,1-25.51,25.509A25.509,25.509,0,0,1,1417.87,866.5ZM1365.51,694.64A25.51,25.51,0,1,1,1340,720.15,25.51,25.51,0,0,1,1365.51,694.64Zm53.03-171.855a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1418.54,522.785Zm122.85-121.507a25.51,25.51,0,1,1-25.51,25.51A25.51,25.51,0,0,1,1541.39,401.278Z">
+		<animateTransform attributeType="XML" attributeName="transform" begin="0s" dur="35s" type="rotate" from="0 1703.5 719.14" to="360 1703.5 719.14" repeatCount="indefinite"/>
+	</path>
+			
+	<rect id="紫红" class="cls-3" x="6119" y="2323" width="193" height="590" rx="10" ry="10">
+		<animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
+	</rect>
+	<rect id="绿" class="cls-4" x="5226" y="2578" width="193" height="590" rx="10" ry="10">
+		<animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
+	</rect>
+	<rect id="蓝" class="cls-5" x="354" y="2323" width="193" height="590" rx="10" ry="10">
+		<animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
+	</rect>
+	<rect id="红" class="cls-6" x="1249" y="2578" width="193" height="590" rx="10" ry="10">
+		<animateMotion path="M 0 0 L 0 50 Z" dur="5s" repeatCount="indefinite"/>
+	</rect>
 	
+	
+	<path id="下" class="cls-7" d="M4975.67,581.115l-3.52,7.217-29.93-14.659,3.53-7.217Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="上" class="cls-7" d="M5132.15,656.867l-3.24,6.384-27.47-12.967,3.24-6.383Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="电池板_上" data-name="电池板 上" class="cls-8" d="M5272.58,796.125l-167.32-80.207c-2.17-1.04-2.65-4.55-1.08-7.839l46.71-97.68c1.57-3.289,4.61-5.113,6.77-4.073l167.32,80.207c2.17,1.04,2.66,4.55,1.08,7.839l-46.71,97.68C5277.78,795.341,5274.75,797.165,5272.58,796.125Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="电池板下" class="cls-8" d="M4915.31,627.1L4747.99,546.9c-2.17-1.039-2.65-4.549-1.08-7.838l46.71-97.68c1.57-3.289,4.6-5.113,6.77-4.073l167.32,80.207c2.17,1.04,2.65,4.55,1.08,7.839l-46.71,97.68C4920.51,626.319,4917.47,628.143,4915.31,627.1Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="身子" class="cls-2" d="M5058.37,735.5l-124.83-60.608a5.011,5.011,0,0,1-2.45-6.638l80.97-167.162a4.994,4.994,0,0,1,6.72-2.183l124.83,60.607a5.013,5.013,0,0,1,2.45,6.639L5065.1,733.318A5.006,5.006,0,0,1,5058.37,735.5Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="绿_下" data-name="绿 下" class="cls-9" d="M5122.02,548.2l-79.92-39.179a5.358,5.358,0,0,1-2.45-7.162l14.89-30.257a5.371,5.371,0,0,1,7.18-2.442l79.91,39.178a5.342,5.342,0,0,1,2.45,7.163l-14.89,30.256A5.357,5.357,0,0,1,5122.02,548.2Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="绿_上" data-name="绿 上" class="cls-9" d="M5000.01,730.15l-38.28-18.583a2.408,2.408,0,0,1-1.08-3.347l7.73-14.034a2.716,2.716,0,0,1,3.53-1.108l38.28,18.583a2.4,2.4,0,0,1,1.08,3.347l-7.73,14.034A2.713,2.713,0,0,1,5000.01,730.15Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="信号_3" data-name="信号 3" class="cls-10" d="M4908.12,1002.06A94.206,94.206,0,0,1,4788.77,942.8">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="信号_2" data-name="信号 2" class="cls-10" d="M4896.66,968.044a58.349,58.349,0,0,1-73.92-36.7">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="信号_1" data-name="信号 1" class="cls-10" d="M4881.43,927.971a15.518,15.518,0,0,1-19.66-9.764">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="信号挡板" class="cls-11" d="M5043.99,913.848l-258.92-124.16a5.343,5.343,0,1,1,4.64-9.626l258.92,124.159A5.343,5.343,0,1,1,5043.99,913.848Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="发射装置" class="cls-12" d="M4800.22,784.932c32.42-67.277,113.02-95.8,180.04-63.7s95.06,112.652,62.64,179.929">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="挡板与信号球连接" class="cls-11" d="M4916.67,842.386a6.268,6.268,0,0,1,2.91,8.362l-8.43,17.416a6.26,6.26,0,0,1-11.27-5.455l8.43-17.416A6.26,6.26,0,0,1,4916.67,842.386Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
+	<path id="信号球" class="cls-9" d="M4895.51,860.143a21.625,21.625,0,1,1-21.62,21.625A21.614,21.614,0,0,1,4895.51,860.143Z">
+		<animateMotion path="M 0 0 L 40 20 Z" dur="3s" repeatCount="indefinite"/>
+	</path>
 </svg>
