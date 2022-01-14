@@ -51,7 +51,7 @@ module.exports = {
         smoothScroll: true,
 
         // 备案号
-        // record: '某某ICP备xxxxxxxxxx号',
+        // record: '豫ICP备2022001184号',
         // recordLink: 'http://www.beian.gov.cn/portal/registerSystemInfo',
         // cyberSecurityRecord: 'xxx安备xxxxxxxxxx号',
         // cyberSecurityLink: 'https://beian.miit.gov.cn/',
