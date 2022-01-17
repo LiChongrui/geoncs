@@ -4,7 +4,7 @@ module.exports = [
     { 
         text: '地理与气象分析库', 
         link: '/01.gma/',
-        icon:"fas fa-book-reader",
+        icon: "fas fa-globe-asia",
         items: [
             {
                 text: '开始', 
@@ -34,7 +34,7 @@ module.exports = [
     },
     {
         text: '地理研学',
-        icon: "fas fa-globe-asia",
+        icon: "fas fa-book-reader",
         items: [
             {
                 text: '地信研学',
