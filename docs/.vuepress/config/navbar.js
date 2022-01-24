@@ -3,31 +3,42 @@ module.exports = [
 
     { 
         text: '地理与气象分析库', 
-        link: '/01.gma/',
+        link: '/gma/',
         icon: "fas fa-globe-asia",
         items: [
             {
                 text: '开始', 
                 items:[
-                    { text: '简介', link:'/01.gma/1.Introduce'},
-                    { text: '安装和引用', link:'/01.gma/2.Setup'}
+                    { text: '简介', link:'/gma/Introduce'},
+                    { text: '安装和引用', link:'/gma/Setup'}
                  ]
              },
             {
                 text: '函数和功能', 
                 items:[
-                    {text:'库组织方式', link: '/01.gma/3.Structure'},
-                    {text:'函数功能列表', link: '/01.gma/4.Function'},
-                    {text:'默认设置', link: '/01.gma/5.Default'},
-                    {text:'使用函数', link: '/01.gma/6.Use'},
+                    {text:'库组织方式', link: '/gma/Structure'},
+                    {text:'函数功能列表', link: '/gma/Function'},
+                    {text:'默认设置', link: '/gma/Default'},
                 ]
                 
-             },
+            },
+            {
+                text: '使用指南',
+                items: [
+                    { text: '指数运算', link: '/gma/UserGuide-index' },
+                    { text: '数学运算', link: '/gma/UserGuide-math' },
+                    { text: '系统交互', link: '/gma/UserGuide-osf' },
+                    { text: '空间杂项', link: '/gma/UserGuide-smc' },
+                    { text: '栅格处理', link: '/gma/UserGuide-rasp' },
+                    { text: '矢量处理', link: '/gma/UserGuide-vesp' },
+                ]
+
+            },
             {
                 text: '更新',
                 items:[
-                    {text:'更新计划', link: '/01.gma/7.Plan'},
-                    {text:'更新日志', link: '/01.gma/8.Update'},
+                    {text:'更新计划', link: '/gma/Plan'},
+                    {text:'更新日志', link: '/gma/Update'},
                 ]
              },
         ]
@@ -38,23 +49,23 @@ module.exports = [
         items: [
             {
                 text: '地信研学',
-                link: '/02.geography/GIS/',
+                link: '/geography/GIS/',
                 items: [
-                    { text: '坐标系', link: '/02.geography/GIS/CoordinateSystem/1.gcs' }
+                    { text: '坐标系', link: '/geography/GIS/CoordinateSystem/gcs' }
                 ]
             },
             {
                 text: '气象研学',
-                link: '/02.geography/MET/',
+                link: '/geography/MET/',
                 items: [
-                    { text: 'ANUSPLIN', link: '/02.geography/MET/ANUSPLIN/1.Start' }
+                    { text: 'ANUSPLIN', link: '/geography/MET/ANUSPLIN/Start' }
                 ]
             },
             {
                 text: '遥感研学',
-                link: '/02.geography/RS/',
+                link: '/geography/RS/',
                 items: [
-                    { text: 'Sentinel-2', link: '/02.geography/RS/Sentinel-2/1.S2-Introduce' }
+                    { text: 'Sentinel-2', link: '/geography/RS/Sentinel-2/S2-Introduce' }
                 ]
             },
 
@@ -62,40 +73,40 @@ module.exports = [
     },
     {
         text: '资源教程',
-        link: '/03.resources/',
+        link: '/resources/',
         icon: "fab fa-sourcetree",
         items: [
             {
                 text: '数据处理',
                 items: [
-                    { text: '获取路径', link: '/03.resources/DataProcessing/0.GetPath' },
-                    { text: '缺失值插补', link: '/03.resources/DataProcessing/1.FillNoData' }
+                    { text: '获取路径', link: '/resources/DataProcessing/GetPath' },
+                    { text: '缺失值插补', link: '/resources/DataProcessing/FillNoData' }
                 ]
             },
             {
                 text: '陆表覆盖',
                 items: [
-                    { text: 'ESA WorldCover', link: '/03.resources/LST/1.WC_China_ESA_2020_Data' },
+                    { text: 'ESA WorldCover', link: '/resources/LST/WC_China_ESA_2020_Data' },
                 ]
             },
         ]
     },
     {
         text: '地理人文',
-        link: '/04.literature/',
+        link: '/literature/',
         icon: "fab fa-artstation",
         items: [
             {
                 text: '寓言短诗',
                 items: [
-                    { text: '2020：一途旅行，一途人生', link: '/04.literature/Sinngedichte/ReiseLeben' }
+                    { text: '2020：一途旅行，一途人生', link: '/literature/Sinngedichte/ReiseLeben' }
                 ]
             },
             {
                 text: '绘画设计展',
                 items: [
-                    { text: '卡通画', link: '/04.literature/Drawing/1.Cartoon' },
-                    { text: '艺术手绘', link: '/04.literature/Drawing/2.Art' }
+                    { text: '卡通画', link: '/literature/Drawing/Cartoon' },
+                    { text: '艺术手绘', link: '/literature/Drawing/Art' }
                 ]
             },
         ]

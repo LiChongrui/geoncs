@@ -53,7 +53,7 @@ export default defineComponent({
   list-style none
   font-size 12px
   li
-    padding 0.2rem 0
+    padding 0.12rem 0
     cursor pointer
     border-left 1px solid var(--border-color)
     a
@@ -66,11 +66,12 @@ export default defineComponent({
       border-left 1px solid $accentColor 
       a
        color $accentColor
+       font-weight 550
     &.level-1
       padding-left .4rem
     &.level-2
-      padding-left .9rem
+      padding-left .8rem
     &.level-3
-      padding-left 1.5rem
+      padding-left 1.6rem
 </style>
 
