@@ -10,7 +10,7 @@ categories:
 
 **&emsp;&emsp;空间杂项** 为 gma 所有 **空间杂项（smc）** 相关函数的详细功能、参数设置和引用方法，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。
 
-## CALLengthFromPoint<Badge text="1.0.3 +"/>
+## CALLengthFromPoint<Badge text="1.0.5 +"/>
 ::: theorem
 
 **引用：**  CALLengthFromPoint(Points, Projection = 'WGS84', Unit = 'meter')
