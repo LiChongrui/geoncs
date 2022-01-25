@@ -7,7 +7,7 @@ tags:
 categories:
  - 地理与气象分析库
 ---
-**&emsp;&emsp;指数计算** 为 gma 所有 **数学运算（index）** 相关函数的详细功能、参数设置和引用方法，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。
+**&emsp;&emsp;数学运算** 为 **gma.math** 内所有数学方法相关函数的详细功能、参数设置和引用方法说明，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。
 
 
 ## _DFToNumeric
@@ -44,9 +44,9 @@ categories:
 
 &emsp;Method = `str`。 插补方法。默认线性插值（'linear'）。
 
-<Boxx type='tip' title='其他插补方法' content='&emsp;除了线性插值以外，函数还支持：time（时间）, index（索引）, values（序列值）, pad（前向填充）, nearest（最邻近）,  zero（零值）, slinear（滑动线性）, quadratic（2次插值）, cubic（3次插值）, spline（样条函数）, barycentric（重心）, polynomial（分段多项式）, from_derivatives（衍生）, krogh（克罗格）,  piecewise_polynomial（分段多项式）,pchip（分段三次Hermite多项式插值）, akima（akima光滑插值）,  cubicspline（3次样条）等插值方法。'/>
+<Boxx type='tip' title='其他插补方法' content='&emsp;除了线性插值以外，函数还支持：time（时间）, index（索引）, values（序列值），pad（前向填充），nearest（最邻近），zero（零值），slinear（滑动线性），quadratic（2次插值），cubic（3次插值），spline（样条函数），barycentric（重心），polynomial（分段多项式），from_derivatives（衍生），krogh（克罗格），piecewise_polynomial（分段多项式），pchip（分段三次 Hermite 多项式插值），akima（akima 光滑插值），cubicspline（3次样条）等插值方法。'/>
 
-&emsp;** kwargs。 传递给插值函数的其他参数。例如： Method 为 'polynomial' 或 'spline' 需要设置 order(阶数)，默认阶数为 3。
+&emsp;**kwargs。传递给插值函数的其他参数。例如：Method 为 polynomial 或 spline 需要设置 order（阶数），默认阶数为 3。
 
 **返回：** Series, DataFrame 返回`输入类型`；list, tuple, array 返回 `array`。
 
@@ -91,7 +91,7 @@ categories:
 
 &emsp;Mode = `str`。边缘数据处理方法。默认为 插补（'interp'）。
 
-<Boxx type='tip' title='其他方法' content='&emsp;其他处理方法还包括：mirror, nearest, wrap。' />
+<Boxx type='tip' title='其他方法' content='&emsp;其他处理方法还包括：mirror，nearest，wrap。' />
 
 **返回：**`array`。
 
@@ -110,7 +110,7 @@ categories:
 
 &emsp;Mode = `str`。边缘数据处理方法。默认为 采用最近数据填充（'nearest'）。
 
-<Boxx type='tip' title='其他方法' content='&emsp;其他处理方法还包括：mirror, interp, wrap。' />
+<Boxx type='tip' title='其他方法' content='&emsp;其他处理方法还包括：mirror，interp，wrap。' />
 
 **返回：**`array`。
 :::
@@ -144,7 +144,7 @@ categories:
 
 **功能：**【RMSE】。均方根误差。
 
-**返回：**`Array`。
+**返回：**`float`。
 
 ::: 
 
@@ -158,7 +158,7 @@ categories:
 
 **功能：**【NRMSE】。归一化均方根误差。
 
-**返回：**`Array`。
+**返回：**`float`。
 
 ::: 
 
@@ -172,20 +172,26 @@ categories:
 
 **功能：**【D】。D指标。
 
-**返回：**`Array`。
+**返回：**`float`。
 
 ::: 
 
-### r
+### CORR
 ::: theorem
 
-**引用：** gma.index.Evaluation().r()
+**引用：** gma.index.Evaluation().Correlation()
 
 &emsp;  注意：*引用前请先初始化 `Evaluation` 类。*
 
 **功能：**【r，P】。相关系数和显著性水平。
 
-**返回：**`Array`。
+**可选参数：** 
+
+&emsp;Method = `str`。默认计算皮尔逊相关（pearson）。
+        
+<Boxx type='tip' title='其他支持的方法' content='&emsp;kendall（肯德尔秩相关），spearman（斯皮尔曼相关）。' />
+
+**返回：**`tuple`。
 
 ::: 
 
@@ -199,7 +205,7 @@ categories:
 
 **功能：**【R2】。决定系数。
 
-**返回：**`Array`。
+**返回：**`float`。
 
 ::: 
 
@@ -213,7 +219,7 @@ categories:
 
 **功能：**【MaxAE】。最大绝对误差。
 
-**返回：**`Array`。
+**返回：**`float`。
 
 ::: 
 
@@ -229,9 +235,11 @@ categories:
 
 **可选参数：** 
 
-&emsp;Method = `str||list||tuple`。默认为输出所有方法的结果（'ALL'）。
+&emsp;Method = `str||list||tuple||set`。默认为输出所有方法的结果（'ALL'）。
 
-<Boxx type='tip' title='其他参数设置' content='&emsp;1. list 或 tuple: 列表或元组内所有方法（ Evaluation 已经定义过算法）的结果，未定义的方法将被忽略。<br> &emsp;2.str: 单个评价方法（Evaluation 已经定义过算法，例如 RMSE ）的结果。<br> &emsp;3.若设置的方法或格式不存在，则选择 RMSE 结果输出。' />
+<Boxx type='tip' title='其他参数设置' content='&emsp;1. list、tuple 或 set: 列表、元组或集合内所有方法（ Evaluation 已经定义过算法）的结果。<br> &emsp;2. str: 单个评价方法（Evaluation 已经定义过算法，例如 RMSE ）的结果。' />
+
+<Boxx type='warning' title='注意' content='&emsp;选择的方法只支持默认的可选参数。例如 CORR，其计算相关系数的方法只能为 pearson，不能传入其他方法。'/>
 
 **返回：**`dict`。
 

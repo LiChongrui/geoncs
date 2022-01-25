@@ -8,12 +8,12 @@ categories:
  - 地理与气象分析库
 ---
 
-**&emsp;&emsp;栅格处理** 为 gma 所有 **栅格处理（rasp）** 操作相关函数的详细功能、参数设置和引用方法，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。
+**&emsp;&emsp;栅格处理** 为 **gma.rasp** 内所有栅格处理操作相关函数的详细功能、参数设置和引用方法说明，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。
 
 
 ::: warning 须知
 
-&emsp;rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外部栅格金字塔 .ovr 文件。目前，除部分自带压缩的驱动，仅对 GTiff, HFA, netCDF 进行了完整的压缩支持。
+&emsp;rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外部栅格金字塔 .ovr 文件。目前，除部分自带压缩的驱动，仅对 GTiff，HFA，netCDF 进行了完整的压缩支持。
 
 :::
 

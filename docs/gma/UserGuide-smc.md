@@ -8,14 +8,14 @@ categories:
  - 地理与气象分析库
 ---
 
-**&emsp;&emsp;空间杂项** 为 gma 所有 **空间杂项（smc）** 相关函数的详细功能、参数设置和引用方法，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。
+**&emsp;&emsp;空间杂项** 为 **gma.smc** 内所有其他空间计算相关函数的详细功能、参数设置和引用方法说明，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。
 
-## CALLengthFromPoint<Badge text="1.0.5 +"/>
+## CALDistanceFromPoint<Badge text="1.0.5 +"/>
 ::: theorem
 
-**引用：**  CALLengthFromPoint(Points, Projection = 'WGS84', Unit = 'meter')
+**引用：**  CALDistanceFromPoint(Points, Projection = 'WGS84', Unit = 'meter')
 
-**功能：** 【计算距离】。计算输入两点（或多点）之间的距离（长度）。
+**功能：** 【计算距离】。计算输入两点（或多点）之间的距离。
 
 **参数：**
 

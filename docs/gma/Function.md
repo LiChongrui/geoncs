@@ -62,7 +62,7 @@ sticky: 2
 
 | 函数 | 引用（简版）| 功能 | 详细解释|                      
 | :----- | :----- | :----- | :-----|
-|[CALLengthFromPoint](UserGuide-smc.html#callengthfrompoint)<Badge text="1.0.5 +"/> | gma.smc.CALLengthFromPoint |【计算距离】|计算输入两点（或多点）之间的距离（长度）。|
+|[CALDistanceFromPoint](UserGuide-smc.html#callengthfrompoint)<Badge text="1.0.5 +"/> | gma.smc.CALDistanceFromPoint |【计算距离】|计算输入两点（或多点）之间的距离。|
 
  ## rasp 栅格处理
 
