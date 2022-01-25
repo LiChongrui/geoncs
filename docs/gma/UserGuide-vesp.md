@@ -34,7 +34,7 @@ categories:
 
 &emsp;&emsp;> > > City_County.shp
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
 :::
 
@@ -50,7 +50,7 @@ categories:
 
 &emsp;InFile：`str`。输入矢量文件路径。
 
-**返回：** 如果输入矢量通过检查，则返回 'Pass'。否则返回无效信息(tuple)。无效信息组成：{ Invalid float: 无效要素的数量。Invalid layer&FID: 无效图层和图层内无效要素的FID}。
+**返回：** 如果输入矢量通过检查，则返回 Pass。否则返回无效信息（tuple）。无效信息组成：{ Invalid float: 无效要素的数量。Invalid layer&FID: 无效图层和图层内无效要素的FID}。
 
 :::
 
@@ -76,7 +76,7 @@ categories:
 
 &emsp;OutNoData = `float`。输出栅格的值无效。默认不设置（None）无效值。如果 Attribute 不为 None 且 OutNoData 未设置，则 OutNoData 修改为无穷大（inf）。
 
-&emsp;OutFormat = `str`。输出栅格文件格式，默认为 'GTiff'。其他格式详见 rasp.ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出栅格文件格式，默认为 GTiff。其他格式详见 rasp.ToOtherFormat 函数。
 
 :::
 
@@ -98,7 +98,7 @@ categories:
 
 **可选参数：** 
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
 :::
 
@@ -120,7 +120,7 @@ categories:
 
 **可选参数：** 
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
 :::
 
@@ -142,7 +142,7 @@ categories:
 
 **可选参数：** 
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
 :::
 
@@ -164,7 +164,7 @@ categories:
 
 **可选参数：** 
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
 :::
 
@@ -186,7 +186,7 @@ categories:
 
 **可选参数：** 
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
 :::
 
@@ -206,9 +206,9 @@ categories:
 
 **可选参数：** 
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。
 
-<Boxx type='tip' title='其他支持格式' content='&emsp;ESRI Shapefile, PCIDSK, PDS4, PDF, MBTiles, MapInfo File, Memory, CSV, GML, LIBKML, KML, GeoJSON, OGR_GMT, GPKG, SQLite, WAsP, FlatGeobuf, Geoconcept, GeoRSS, ODS,  XLSX,JML, VDV, MVT, MapML。' />
+<Boxx type='tip' title='其他支持格式' content='&emsp;ESRI Shapefile，PCIDSK，PDS4，PDF，MBTiles，MapInfo File，Memory，CSV，GML，LIBKML，KML，GeoJSON，OGR_GMT，GPKG，SQLite，WAsP，FlatGeobuf，Geoconcept，GeoRSS，ODS， XLSX，JML，VDV，MVT，MapML。' />
 
 :::
 
@@ -230,7 +230,7 @@ categories:
 
 &emsp;Projection = `str`。输出矢量坐标系（EPSG 或 wkb 格式）。
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
 :::
 
@@ -252,6 +252,6 @@ categories:
 
 **可选参数：** 
 
-&emsp;OutFormat = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
 :::

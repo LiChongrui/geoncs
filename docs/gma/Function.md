@@ -39,7 +39,7 @@ sticky: 2
 | [**Evaluation.**](UserGuide-math.html#evaluation-类)[RMSE](UserGuide-math.html#rmse)    | gma.math.Evaluation.RMSE      | 【RMSE】           | 均方根误差                                                   |
 | [**Evaluation.**](UserGuide-math.html#evaluation-类)[NRMSE](UserGuide-math.html#nrmse)   | gma.math.Evaluation.NRMSE     | 【NRMSE】          | 归一化均方根误差                                             |
 | [**Evaluation.**](UserGuide-math.html#evaluation-类)[D](UserGuide-math.html#d)       | gma.math.Evaluation.D         | 【D】              | D指标                                                        |
-| [**Evaluation.**](UserGuide-math.html#evaluation-类)[r](UserGuide-math.html#r)       | gma.math.Evaluation.r         | 【r，P】           | 相关系数和显著性水平                                         |
+| [**Evaluation.**](UserGuide-math.html#evaluation-类)[CORR](UserGuide-math.html#corr)       | gma.math.Evaluation.CORR         | 【r，P】           | 相关系数和显著性水平                                         |
 | [**Evaluation.**](UserGuide-math.html#evaluation-类)[R2](UserGuide-math.html#r2)      | gma.math.Evaluation.R2        | 【R2】             | 决定系数                                                     |
 | [**Evaluation.**](UserGuide-math.html#evaluation-类)[MaxAE](UserGuide-math.html#maxae)   | gma.math.Evaluation.MaxAE     | 【MaxAE】          | 最大绝对误差                                                 |
 | [**Evaluation.**](UserGuide-math.html#evaluation-类)[Select](UserGuide-math.html#select)  | gma.math.Evaluation.Select    | 【选择方法】       | 选择Evaluation中需要计算的一个或多个评价指标进行计算         |

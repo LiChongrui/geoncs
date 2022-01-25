@@ -1,5 +1,5 @@
 ---
-title: 更新前瞻
+title: 更新计划
 date: 2021-11-21 20:12:00
 sidebar: false
 tags:
@@ -9,7 +9,7 @@ categories:
  - 地理与气象分析库
 ---
 
-## 更新计划
+## 更新前瞻
 
 ```mermaid
 gantt
@@ -18,13 +18,15 @@ gantt
 
         section 库优化
 
-        持续优化: active, des3, 2022-01-20, 2022-01-31
+        持续优化: active, des3, 2022-01-20, 2022-02-10
 
-        section 构建中
+        section 功能（函数）更新
 
-        功能（函数）更新：气象指数计算（SPEI）: crit, after now,30d
+        气象指数计算（SPEI）: crit, after now,30d
 
-        长期任务：完善、补充各个模块的函数: crit, after now,30d
+        section 长期任务
+
+        完善、补充各个模块的函数: crit, after now,30d
 
 ```
 

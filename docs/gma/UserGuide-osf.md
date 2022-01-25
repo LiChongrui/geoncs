@@ -21,9 +21,9 @@ categories:
 
 &emsp;Path：`str||list`。路径或路径集合。可以是：
 
-&emsp;&emsp;1.路径（str）。 例如：'C:/SP'。
+&emsp;&emsp;1.路径 `str`。 例如：'C:/SP'。
 
-&emsp;&emsp;2.路径集合（list）。 例如： ['C:/SD', 'C:/SP']。
+&emsp;&emsp;2.路径集合 `list`。 例如： ['C:/SD', 'C:/SP']。
 
 **可选参数：** 
 
@@ -31,11 +31,11 @@ categories:
 
 &emsp;EXT = `str||list`。查找文件的扩展名或扩展名列表。默认查找所有文件（None）。
 
-&emsp;&emsp;注意：*只有在 `SearchPath = 'FILE' `时, 此参数才生效。*
+&emsp;&emsp;注意：*只有在 `SearchPath = 'FILE' ` 时, 此参数才生效。*
 
 &emsp;String = `str||list`。查找的文件路径中包含的字符串 。默认返回全部结果（None）。
 
-&emsp;&emsp;如果为 str，则包含设置值的路径才会被记录；如果为 list，则包含列表内任意一个字符串的路径都会被记录。
+&emsp;&emsp;如果为 `str`，则包含设置值的路径才会被记录；如果为 `list`，则包含列表内任意一个字符串的路径都会被记录。
 
 **返回：**`list`。满足条件的所有【文件夹和文件路径】集合。重复的路径只会保留一个。
 ::: 
@@ -52,15 +52,15 @@ categories:
 
 &emsp;Path：`str`。压缩目标路径。
 
-&emsp;ZipFilePath：`str`。压缩结果文件路径。扩展名为 '.zip' 。
+&emsp;ZipFilePath：`str`。压缩结果文件路径。扩展名为 .zip。
 
 **可选参数：** 
 
-&emsp; Mode = `w||a` 。压缩文件处理方法。默认为覆盖（'w'）。
+&emsp; Mode = `str` 。压缩文件处理方法。默认为覆盖（w）。可接受的处理方法：
 
-&emsp;&emsp;'w': 如果目标'.zip'存在，则目标文件将会被替换。
+&emsp;&emsp;'w'：如果目标 .zip 存在，则目标文件将会被替换。
 
-&emsp;&emsp;'a': 如果目标'.zip'存在，则目标文件内容会被更新。
+&emsp;&emsp;'a'：如果目标 .zip 存在，则目标文件内容会被更新。
 
 :::
 
@@ -74,7 +74,7 @@ categories:
 
 **参数：** 
 
-&emsp;ZipFilePath：`str`。需要解压缩的'.zip'文件路径。
+&emsp;ZipFilePath：`str`。需要解压缩的 .zip 文件路径。
 
 &emsp;OutPath：`str`。解压后存储文件的路径。
 
@@ -191,7 +191,7 @@ categories:
 
 **可选参数：** 
 
-&emsp;THNumber =  `int||'ALL_CPUS'`。线程数，默认是所有 逻辑 CPU 核心数（'ALL_CPUS'）。
+&emsp;THNumber =  `int||'ALL_CPUS'`。线程数，默认是所有 逻辑 CPU 核心数（ALL_CPUS）。
 
 &emsp;*args：`Function 的固定参数`。传递给 Function 的不变参数。从 Function 的第一个开始固定。
 

@@ -48,7 +48,7 @@ categories:
 
 &emsp;**kwargs。传递给插值函数的其他参数。例如：Method 为 polynomial 或 spline 需要设置 order（阶数），默认阶数为 3。
 
-**返回：** Series, DataFrame 返回`输入类型`；list, tuple, array 返回 `array`。
+**返回：** Series，DataFrame 返回 `输入类型`；list，tuple，array 返回 `array`。
 
 ::: 
 
@@ -89,7 +89,7 @@ categories:
 
 &emsp;Delta = `float`。将应用过滤器的样本间距。默认为 1。
 
-&emsp;Mode = `str`。边缘数据处理方法。默认为 插补（'interp'）。
+&emsp;Mode = `str`。边缘数据处理方法。默认为 插补（interp）。
 
 <Boxx type='tip' title='其他方法' content='&emsp;其他处理方法还包括：mirror，nearest，wrap。' />
 
@@ -108,7 +108,7 @@ categories:
 
 **可选参数：**
 
-&emsp;Mode = `str`。边缘数据处理方法。默认为 采用最近数据填充（'nearest'）。
+&emsp;Mode = `str`。边缘数据处理方法。默认为 采用最近数据填充（nearest）。
 
 <Boxx type='tip' title='其他方法' content='&emsp;其他处理方法还包括：mirror，interp，wrap。' />
 
@@ -179,7 +179,7 @@ categories:
 ### CORR
 ::: theorem
 
-**引用：** gma.index.Evaluation().Correlation()
+**引用：** gma.index.Evaluation().CORR(Method = 'pearson')
 
 &emsp;  注意：*引用前请先初始化 `Evaluation` 类。*
 
@@ -235,7 +235,7 @@ categories:
 
 **可选参数：** 
 
-&emsp;Method = `str||list||tuple||set`。默认为输出所有方法的结果（'ALL'）。
+&emsp;Method = `str||list||tuple||set`。默认为输出所有方法的结果（ALL）。
 
 <Boxx type='tip' title='其他参数设置' content='&emsp;1. list、tuple 或 set: 列表、元组或集合内所有方法（ Evaluation 已经定义过算法）的结果。<br> &emsp;2. str: 单个评价方法（Evaluation 已经定义过算法，例如 RMSE ）的结果。' />
 

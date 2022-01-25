@@ -13,7 +13,7 @@ categories:
 ## CALDistanceFromPoint<Badge text="1.0.5 +"/>
 ::: theorem
 
-**引用：**  CALDistanceFromPoint(Points, Projection = 'WGS84', Unit = 'meter')
+**引用：**  gma.smc.CALDistanceFromPoint(Points, Projection = 'WGS84', Unit = 'meter')
 
 **功能：** 【计算距离】。计算输入两点（或多点）之间的距离。
 
@@ -25,11 +25,11 @@ categories:
 
 **可选参数：**
 
-&emsp;Projection = `str`。输入坐标点的坐标系。默认为 'WGS84'（EPSG:4326）。
+&emsp;Projection = `str`。输入坐标点的坐标系。默认为 WGS84（EPSG:4326）。
 
-&emsp;Unit = `str`。计算距离结果的单位。默认为 'meter'（米）。
+&emsp;Unit = `str`。计算距离结果的单位。默认为米（meter）。
     
-&emsp;&emsp;支持的单位还有：'kilometer'（千米）、'mile'（英里）、'nautical mile'（海里）。
+&emsp;&emsp;支持的单位还有：kilometer（千米）、mile（英里）、nautical mile（海里）。
 
 **返回：**`float`。
 

@@ -32,7 +32,7 @@ categories:
 
 **可选参数：**
 
-&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -51,7 +51,7 @@ categories:
 
 **可选参数：**
 
-&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -79,7 +79,7 @@ categories:
 
 &emsp;MaskBoundary  = `bool`。是否掩膜边界外数据。默认掩膜（True）。
 
-&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -99,9 +99,9 @@ categories:
 
 **可选参数：**
 
-&emsp;OutFormat  = `str`。输出栅格文件格式，默认为 'GTiff'。
+&emsp;OutFormat  = `str`。输出栅格文件格式，默认为 GTiff。
 
-<Boxx type='tip' title='其他支持格式' content='&emsp;AAIGrid, BT, CALS, COG, DTED, EHdr, ENVI, ERS, EXR, FIT, GIF, GPKG, GRIB, GS7BG, GSAG, GSBG, GTiff, HDF4Image,HF2, HFA, ISCE, ISIS2, ISIS3, JP2OpenJPEG, JPEG, LAN, MBTiles, XPM, XYZ, netCDF, MFF2, MRF, NITF, PAux, PCIDSK, PCRaster, PNG, RST, Rasterlite, SIGDEM, USGSDEM, VICAR, VRT' />
+<Boxx type='tip' title='其他支持格式' content='&emsp;AAIGrid，BT，CALS，COG，DTED，EHdr，ENVI，ERS，EXR，FIT，GIF，GPKG，GRIB，GS7BG，GSAG，GSBG，GTiff，HDF4Image,HF2，HFA，ISCE，ISIS2，ISIS3，JP2OpenJPEG，JPEG，LAN，MBTiles，XPM，XYZ，netCDF，MFF2，MRF，NITF，PAux，PCIDSK，PCRaster，PNG，RST，Rasterlite，SIGDEM，USGSDEM，VICAR，VRT，BMP' />
 
 ::: 
 
@@ -130,7 +130,7 @@ categories:
 
 &emsp;OutNoData  = `float`。输出栅格的无效值。默认根据输入栅格自动设置（None）。
 
-&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -152,7 +152,7 @@ categories:
 
 **可选参数：**
 
-&emsp;Method = `int||str`。重采样方法。默认为 'Cubic'法（2）。
+&emsp;Method = `int||str`。重采样方法。默认为 Cubic 法（2）。
 
 <Boxx type='tip' title='支持的重采样方法' content='&emsp;0: Nearest Neighbour, 1: Bilinear, 2: Cubic, 3: CubicSpline, 4: Lanczos, 5: Average, 6: RMS, 7: Mode'/>
 
@@ -160,7 +160,7 @@ categories:
 
 &emsp;OutNoData  = `float`。输出栅格的无效值。默认与 InNoData 的无效值相同（None）。
 
-&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -186,7 +186,7 @@ categories:
 
 &emsp;OutNoData  = `float`。输出栅格的无效值。默认与 InNoData 的无效值相同（None）。
 
-&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -210,9 +210,9 @@ categories:
 
 **可选参数：**
 
-&emsp;BitDepth  = `int`。输出栅格位深。仅为 'GTiff' 文件提供位深支持。
+&emsp;BitDepth  = `int`。输出栅格位深。仅为 GTiff 格式提供位深支持。
 
-&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -236,7 +236,7 @@ categories:
 
 &emsp;Dimension  = `list`。要转换维度的 整型数 列表。默认转换所有维度（None）。
 
-&emsp;Projection  = `str`。输入数据的 X，Y 坐标系。默认为 'WGS84'。
+&emsp;Projection  = `str`。输入数据的 X，Y 坐标系。默认为 WGS84。
 
 ::: 
 
@@ -256,11 +256,11 @@ categories:
 
 **可选参数：**
 
-&emsp;FieldName  = `str`。输出矢量字段的名称。默认为 'Value'。
+&emsp;FieldName  = `str`。输出矢量字段的名称。默认为 Value。
 
 &emsp;TranBand  = `int`。要转换的波段。默认转换第一个波段（1）。
 
-&emsp;OutFormat   = `str`。输出矢量文件格式，默认为 'ESRI Shapefile'。其他格式详见 vesp.ToOtherFormat 函数。
+&emsp;OutFormat   = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 vesp.ToOtherFormat 函数。
 
 ::: 
 
@@ -286,7 +286,7 @@ categories:
 
 &emsp;Transform  = `tuple`。输出栅格的仿射变换。默认不指定仿射变换（None）。
 
-&emsp;Format   = `str`。输出栅格文件格式。默认为 'GTiff'。其他格式详见 ToOtherFormat 函数。
+&emsp;Format   = `str`。输出栅格文件格式。默认为 GTiff。其他格式详见 ToOtherFormat 函数。
 
 &emsp;DataType  = `int`。输出栅格数据类型。默认为 float32（6）。其他数据类型见 ChangeDataType 函数。
 
@@ -332,9 +332,9 @@ categories:
 
 &emsp;DEM  = `float||str`。用于 RPC 计算的 固定海拔 或 DEM 文件的名称。默认不设置此参数（None）。
 
-&emsp;Resample  = `int||str`。重采样方法。默认为 'Nearest Neighbour'法（0）。其他重采样方法详见 Resample 函数。
+&emsp;Resample  = `int||str`。重采样方法。默认为 Nearest Neighbour 法（0）。其他重采样方法详见 Resample 函数。
 
-&emsp;OutFormat   = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat   = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -359,7 +359,7 @@ categories:
 
 &emsp;Resolution  = `float`。重采样分辨率。设置重采样分辨率。
 
-&emsp;ResampleMethod  = `int||str`。重采样方法。默认为 'Nearest Neighbour'法（0）。其他重采样方法详见 Resample 函数。
+&emsp;ResampleMethod  = `int||str`。重采样方法。默认为 Nearest Neighbour 法（0）。其他重采样方法详见 Resample 函数。
 
 &emsp;OutProjection = `str`。输出栅格坐标系名称。输出栅格坐标系（EPSG 、 wkb 或 坐标名称）。
 
@@ -367,7 +367,7 @@ categories:
 
 &emsp;OutNoData  = `float`。输出无效值。默认与 InNoData 的无效值相同（None）。
 
-&emsp;OutFormat   = `str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat   = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
@@ -405,11 +405,11 @@ categories:
 
 **参数：** 
 
-&emsp;ResampleMethod：`str`。重采样方法。默认为 'Cubic'（None）。
+&emsp;ResampleMethod：`str`。重采样方法。默认为 Cubic 法（None）。
 
-&emsp; &emsp;  重采样方法包括：Nearest, Bilinear, Cubic, CubicSpline, Lanczos, Average。
+&emsp; &emsp;  重采样方法包括：Nearest，Bilinear，Cubic，CubicSpline，Lanczos，Average。
 
-&emsp;SpatAdjust：`str`。空间坐标系调整。默认为 'Union'（None）。
+&emsp;SpatAdjust：`str`。空间坐标系调整。默认为 Union（None）。
 
 &emsp; &emsp;  调整方法还包括：Intersection, NoneWithoutWarning。
 
@@ -423,7 +423,7 @@ categories:
 
 &emsp;InNoData：`float`。全色和多光谱影像的无效值（所有输入数据的无效值应当相同，否则该设置无效），输出文件的无效值也为该值。默认不设置无效值（None）。
 
-&emsp;OutFormat：`str`。输出栅格文件格式。默认为 'GTiff'，其他格式详见 ToOtherFormat 函数。
+&emsp;OutFormat：`str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
 
