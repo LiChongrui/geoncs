@@ -19,9 +19,10 @@ categories:
 
 **参数：**
 
-&emsp;Points：`list||tuple` 。需要计算距离的两点（或多点）的 X，Y 坐标（经度、纬度）。可为嵌套列表或元组。至少有 2 个坐标点。
+&emsp;Points：`list||tuple` 。需要计算距离的两点（或多点）的 X，Y 坐标（经度、纬度）。至少有 2 个坐标点。
     
-&emsp;&emsp;例如： Points = [(130.1, 45.2), (131.5, 40.2)]
+<Boxx type='tips' title='示例' content='Points = [(130.1, 45.2), (131.5, 40.2)]'/>
+
 
 **可选参数：**
 
@@ -31,6 +32,6 @@ categories:
     
 &emsp;&emsp;支持的单位还有：kilometer（千米）、mile（英里）、nautical mile（海里）。
 
-**返回：**`float`。
+**返回：**`float`。如果 X（-180 ~ 180） 或 Y （-90 ~ 90）坐标不在有效范围内，则返回无穷（inf）。
 
 :::

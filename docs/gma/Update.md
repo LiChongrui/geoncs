@@ -75,7 +75,7 @@ categories:
 
 &emsp;　　a、解决部分插补方法的条件下，首末端缺失值未进行处理的问题。
 
-&emsp;　　b、为 'polynomial' 或 'spline' 法设定了一个默认的 order ，默认值为 3 。
+&emsp;　　b、为 polynomial 和 spline 法设定了一个默认的 order ，默认值为 3 。
 
 &emsp;　　c、修改了部分由于拼写问题引发的异常。
 

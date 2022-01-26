@@ -40,11 +40,11 @@ categories:
 
 &emsp;FillValue = `float||list`。 需要进行插补的缺失值。默认不设置（None）。
 
-<Boxx type='warning' title='注意' content='&emsp;1.当 FillValue 为列表时，列表内所有值都将被插补。<br> &emsp;2.数据内原有的NAN、INF以及不能被转化为数字的字符串等异常值也将被插补。' />
+<Boxx type='warning' title='注意' content='1.当 FillValue 为列表时，列表内所有值都将被插补。<br> 2.数据内原有的NAN、INF以及不能被转化为数字的字符串等异常值也将被插补。' />
 
 &emsp;Method = `str`。 插补方法。默认线性插值（'linear'）。
 
-<Boxx type='tip' title='其他插补方法' content='&emsp;除了线性插值以外，函数还支持：time（时间）, index（索引）, values（序列值），pad（前向填充），nearest（最邻近），zero（零值），slinear（滑动线性），quadratic（2次插值），cubic（3次插值），spline（样条函数），barycentric（重心），polynomial（分段多项式），from_derivatives（衍生），krogh（克罗格），piecewise_polynomial（分段多项式），pchip（分段三次 Hermite 多项式插值），akima（akima 光滑插值），cubicspline（3次样条）等插值方法。'/>
+<Boxx type='tip' title='其他插补方法' content='time（时间）, index（索引）, values（序列值），pad（前向填充），nearest（最邻近），zero（零值），slinear（滑动线性），quadratic（2次方），cubic（3次方），spline（样条函数），barycentric（重心），polynomial（分段多项式），from_derivatives（衍生），krogh（克罗格），piecewise_polynomial（分段多项式），pchip（分段三次 Hermite 多项式插值），akima（akima 光滑插值），cubicspline（3次样条）等。'/>
 
 &emsp;**kwargs。传递给插值函数的其他参数。例如：Method 为 polynomial 或 spline 需要设置 order（阶数），默认阶数为 3。
 
@@ -71,15 +71,16 @@ categories:
 ::: 
 
 ::: warning 注意
-&emsp;  类内函数引用前请先初始化 `Smooth` 类！
+类内函数引用前请先初始化 `Smooth` 类！
 ::: 
 
 ### SavitzkyGolay
+
 ::: theorem
 
 **引用：** gma.math.Smooth().SavitzkyGolay(Polyorder = 2, Delta = 1, Mode = 'interp')
 
-&emsp;  注意：*引用前请先初始化 `Smooth` 类。*
+&emsp;注意：*引用前请先初始化 `Smooth` 类。*
 
 **功能：**【Savitzky-Golay】。利用 SavitzkyGolay 方法对数据进行平滑。
 
@@ -91,7 +92,7 @@ categories:
 
 &emsp;Mode = `str`。边缘数据处理方法。默认为 插补（interp）。
 
-<Boxx type='tip' title='其他方法' content='&emsp;其他处理方法还包括：mirror，nearest，wrap。' />
+<Boxx type='tip' title='其他方法' content='其他处理方法还包括：mirror，nearest，wrap。' />
 
 **返回：**`array`。
 
@@ -110,7 +111,7 @@ categories:
 
 &emsp;Mode = `str`。边缘数据处理方法。默认为 采用最近数据填充（nearest）。
 
-<Boxx type='tip' title='其他方法' content='&emsp;其他处理方法还包括：mirror，interp，wrap。' />
+<Boxx type='tip' title='其他方法' content='其他处理方法还包括：mirror，interp，wrap。' />
 
 **返回：**`array`。
 :::
@@ -132,7 +133,7 @@ categories:
 ::: 
 
 ::: warning 注意
-&emsp;  类内函数引用前请先初始化 `Evaluation` 类！
+类内函数引用前请先初始化 `Evaluation` 类！
 ::: 
 
 ### RMSE
@@ -189,7 +190,7 @@ categories:
 
 &emsp;Method = `str`。默认计算皮尔逊相关（pearson）。
         
-<Boxx type='tip' title='其他支持的方法' content='&emsp;kendall（肯德尔秩相关），spearman（斯皮尔曼相关）。' />
+<Boxx type='tip' title='其他支持的方法' content='kendall（肯德尔秩相关），spearman（斯皮尔曼相关）。' />
 
 **返回：**`tuple`。
 
@@ -237,9 +238,9 @@ categories:
 
 &emsp;Method = `str||list||tuple||set`。默认为输出所有方法的结果（ALL）。
 
-<Boxx type='tip' title='其他参数设置' content='&emsp;1. list、tuple 或 set: 列表、元组或集合内所有方法（ Evaluation 已经定义过算法）的结果。<br> &emsp;2. str: 单个评价方法（Evaluation 已经定义过算法，例如 RMSE ）的结果。' />
+<Boxx type='tip' title='其他参数设置' content='1. list、tuple 或 set: 列表、元组或集合内所有方法（ Evaluation 已经定义过算法）的结果。<br>2. str: 单个评价方法（Evaluation 已经定义过算法，例如 RMSE ）的结果。' />
 
-<Boxx type='warning' title='注意' content='&emsp;选择的方法只支持默认的可选参数。例如 CORR，其计算相关系数的方法只能为 pearson，不能传入其他方法。'/>
+<Boxx type='warning' title='注意' content='选择的方法只支持默认的可选参数。例如 CORR，其计算相关系数的方法只能为 pearson，不能传入其他方法。'/>
 
 **返回：**`dict`。
 

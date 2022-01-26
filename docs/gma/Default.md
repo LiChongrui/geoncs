@@ -28,7 +28,7 @@ categories:
 | GetVectorEXTFromDriver | 函数 | 根据矢量驱动格式返回扩展名 | 支持的矢量驱动见 VectorFormat |
 
 ::: warning 注意
-*&emsp;&emsp;仅可根据 变量 / 函数 查看内置设置，不能对内置设置进行修改。*
+仅可根据 变量 / 函数 查看内置设置，不能对内置设置进行修改。
 :::
 
 ## 数据类型约定

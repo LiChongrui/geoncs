@@ -48,7 +48,8 @@ module.exports = {
             title: '坐标系', 
             collapsable: false, 
             children: [
-                'gcs', 
+                'GEOGCS', 
+                'PROJCS', 
             ]
         }
     ],

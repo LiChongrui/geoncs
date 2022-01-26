@@ -13,7 +13,7 @@ categories:
 
 ::: warning 须知
 
-&emsp;rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外部栅格金字塔 .ovr 文件。目前，除部分自带压缩的驱动，仅对 GTiff，HFA，netCDF 进行了完整的压缩支持。
+rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外部栅格金字塔 .ovr 文件。目前，除部分自带压缩的驱动，仅对 GTiff，HFA，netCDF 进行了完整的压缩支持。
 
 :::
 
@@ -101,12 +101,13 @@ categories:
 
 &emsp;OutFormat  = `str`。输出栅格文件格式，默认为 GTiff。
 
-<Boxx type='tip' title='其他支持格式' content='&emsp;AAIGrid，BT，CALS，COG，DTED，EHdr，ENVI，ERS，EXR，FIT，GIF，GPKG，GRIB，GS7BG，GSAG，GSBG，GTiff，HDF4Image,HF2，HFA，ISCE，ISIS2，ISIS3，JP2OpenJPEG，JPEG，LAN，MBTiles，XPM，XYZ，netCDF，MFF2，MRF，NITF，PAux，PCIDSK，PCRaster，PNG，RST，Rasterlite，SIGDEM，USGSDEM，VICAR，VRT，BMP' />
+<Boxx type='tip' title='其他支持格式' content='AAIGrid，BT，CALS，COG，DTED，EHdr，ENVI，ERS，EXR，FIT，GIF，GPKG，GRIB，GS7BG，GSAG，GSBG，GTiff，HDF4Image,HF2，HFA，ISCE，ISIS2，ISIS3，JP2OpenJPEG，JPEG，LAN，MBTiles，XPM，XYZ，netCDF，MFF2，MRF，NITF，PAux，PCIDSK，PCRaster，PNG，RST，Rasterlite，SIGDEM，USGSDEM，VICAR，VRT，BMP' />
 
 ::: 
 
-<Boxx type='warning' title='注意' content='&emsp;&emsp;多维数据（netCDF, HDF4Image等）转出请使用 MultiSDSToTif 函数。'/>
-
+::: warning 注意
+多维数据（netCDF, HDF4Image等）转出请使用 MultiSDSToTif 函数。
+:::
 
 ## Mosaic
 
@@ -154,7 +155,7 @@ categories:
 
 &emsp;Method = `int||str`。重采样方法。默认为 Cubic 法（2）。
 
-<Boxx type='tip' title='支持的重采样方法' content='&emsp;0: Nearest Neighbour, 1: Bilinear, 2: Cubic, 3: CubicSpline, 4: Lanczos, 5: Average, 6: RMS, 7: Mode'/>
+<Boxx type='tip' title='支持的重采样方法' content='0: Nearest Neighbour，1: Bilinear，2: Cubic，3: CubicSpline，4: Lanczos，5: Average，6: RMS，7: Mode'/>
 
 &emsp;InNoData  = `float`。输入栅格的无效值。默认自动搜索输入栅格的无效值（None）。
 
@@ -206,7 +207,7 @@ categories:
 
 &emsp;DataType：`int`。输出栅格数据类型的代码。
 
-<Boxx type='tip' title='支持的数据类型' content='&emsp;未知类型: 0, 8位无符号整型: 1, 16位无符号整型: 2, 16位整型: 3, 32位无符号整型: 4,32位整型: 5, 32位浮点: 6, 64位浮点: 7, 16位复整型: 8, 32位复整型: 9, 32位复浮点型: 10, 64位复浮点型: 11。'/>
+<Boxx type='tip' title='支持的数据类型' content='未知类型: 0，8位无符号整型: 1，16位无符号整型: 2，16位整型: 3，32位无符号整型: 4,32位整型: 5，32位浮点: 6，64位浮点: 7，16位复整型: 8，32位复整型: 9，32位复浮点型: 10，64位复浮点型: 11。'/>
 
 **可选参数：**
 
@@ -263,8 +264,9 @@ categories:
 &emsp;OutFormat   = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 vesp.ToOtherFormat 函数。
 
 ::: 
-
-<Boxx type='tip' title='描述' content='&emsp;不需要设置类型（点、线、面等），默认根据栅格数据自动确定类型。'/>
+::: tip 提示
+不需要设置类型（点、线、面等），默认根据栅格数据自动确定类型。
+:::
 
 ## WriteRaster
 
@@ -324,7 +326,7 @@ categories:
 
 &emsp;InFile：`str`。输入栅格路径。
 
-&emsp;&emsp;输入栅格必须有内部 RPC（有理多项式系数）元数据或同路径下描述 RPC 的外部 .rpb 或 _RPC.txt 文件。
+<Boxx type='warning' title='注意' content='输入栅格必须有内部 RPC（有理多项式系数）元数据或同路径下描述 RPC 的外部 .rpb 或 _RPC.txt 文件。'/>
 
 &emsp;OutFile：`str`。输出栅格路径。
 
@@ -390,7 +392,7 @@ categories:
 ::: 
 
 ::: warning 注意
-&emsp;  类内函数引用前请先初始化 `Fusion` 类！
+类内函数引用前请先初始化 `Fusion` 类！
 ::: 
 
 ### Pansharpen
@@ -405,23 +407,23 @@ categories:
 
 **参数：** 
 
-&emsp;ResampleMethod：`str`。重采样方法。默认为 Cubic 法（None）。
-
-&emsp; &emsp;  重采样方法包括：Nearest，Bilinear，Cubic，CubicSpline，Lanczos，Average。
+&emsp;ResampleMethod：`str`。重采样方法。默认为 Cubic 法（None）。其他方法详见 Resample 函数。
 
 &emsp;SpatAdjust：`str`。空间坐标系调整。默认为 Union（None）。
 
-&emsp; &emsp;  调整方法还包括：Intersection, NoneWithoutWarning。
+<Boxx type='tips' title='其他空间坐标系调整方法' content='Intersection，NoneWithoutWarning。'/>
 
 &emsp;Bands：`list`。融合多光谱波段列表。例如[1,2...]，波段计数从 1 开始。默认融合输入多光谱数据的所有波段（None）。
 
-<Boxx type='warning' title='注意' content='&emsp;每个波段的权重值（Weights）相同，根据 Bands 数量确定，为 1 / len(Bands)。'/>
+<Boxx type='warning' title='注意' content='每个波段的权重值（Weights）相同，根据 Bands 数量确定，为 1 / len(Bands)。'/>
 
 &emsp;NumThreads：`int||ALL_CPUS`。融合使用计算机 CPU 的线程数。默认不使用多线程（None）。
 
 &emsp;BitDepth：`int`。生成数据的位深。默认不设置位深（None）, 但如果全色波段存在 NBITS 值，则使用该值作为位深。
 
-&emsp;InNoData：`float`。全色和多光谱影像的无效值（所有输入数据的无效值应当相同，否则该设置无效），输出文件的无效值也为该值。默认不设置无效值（None）。
+&emsp;InNoData：`float`。全色和多光谱影像的无效值。默认不设置无效值（None）。
+
+<Boxx type='warning' title='注意' content='所有输入数据的无效值应当相同，否则该设置无效。输出文件的无效值也为该值。'/>
 
 &emsp;OutFormat：`str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
@@ -452,11 +454,11 @@ ColorTable = {10:(200,50,100,255), 20:(200,50,100,255)}。
 
 ::: warning 注意
 
-&emsp;若设置了 ColorTable，则：
+若设置了 ColorTable，则：
 
-&emsp;&emsp;1、若 TemplateFile 未设置（None），则用 ColorTable 更新输入栅格的色彩映射表。
+&emsp;1、若 TemplateFile 未设置（None），则用 ColorTable 更新输入栅格的色彩映射表。
 
-&emsp;&emsp;2、若设置了 TemplateFile，则以 TemplateFile 色彩映射表为基础，并用 ColorTable 更新该基础色彩映射表，然后将更新后的色彩映射表添加到输入栅格中。
+&emsp;2、若设置了 TemplateFile，则以 TemplateFile 色彩映射表为基础，并用 ColorTable 更新该基础色彩映射表，然后将更新后的色彩映射表添加到输入栅格中。
 
 :::
 
@@ -474,7 +476,7 @@ ColorTable = {10:(200,50,100,255), 20:(200,50,100,255)}。
 
 &emsp;OutPath：`str`。输出文件夹路径。
 
-<Boxx type='tip' title='提示' content='输出切片会自动命名。命名规则：<br>&emsp;&emsp;<输入文件名>_<切片左边界>_<切片上边界>.xxx <br>&emsp;&emsp;其中 xxx 为输入影像驱动格式的扩展名。'/>
+<Boxx type='tip' title='提示' content='输出切片会自动命名。命名规则：<br>&emsp;<输入文件名>_<切片左边界>_<切片上边界>.xxx <br>&emsp;其中 xxx 为输入影像驱动格式的扩展名。'/>
 
 **可选参数：**
 
@@ -482,13 +484,9 @@ ColorTable = {10:(200,50,100,255), 20:(200,50,100,255)}。
 
 &emsp;Lap = `int`。输出相邻切片的重叠度，默认不重叠（0）。
 
-&emsp;FillValue = `None||float||'AUTO'`。边缘切片不足 Size 大小时的处理方法。不同参数的含义：
+&emsp;FillValue = `None||float||'AUTO'`。边缘切片不足 Size 大小时的处理方法。默认忽略边缘值（None）。
 
-&emsp;&emsp;（1）None: （默认设置）忽略边缘值。不会进行扩展，不足 Size 大小的部分切片时将被舍弃。
-
-&emsp;&emsp;（2）float: 不足 Size 的部分将用此值填充。
-
-&emsp;&emsp;（2）'AUTO': 不足 Size 的部分将用输入栅格的 NoData 值填充。若 NoData不存在，则自动尝试扩展填充值。
+<Boxx type='tip' title='不同参数的含义' content='1. None: （默认设置）忽略边缘值。不会进行扩展，不足 Size 大小的部分切片时将被舍弃。<br>2. float: 不足 Size 的部分将用此值填充。<br>3. AUTO: 不足 Size 的部分将用输入栅格的 NoData 值填充。若 NoData不存在，则自动尝试扩展填充值。'/>
 
 :::
 

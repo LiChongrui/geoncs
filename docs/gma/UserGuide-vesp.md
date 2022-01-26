@@ -26,13 +26,11 @@ categories:
 
 **可选参数：**
 
-&emsp;OutNameField = `str||list`。标记输出文件名的字段名称或多个字段名称组成的列表。默认(None)按照 <0.shp, 1.shp, ...>的方式输出。
+&emsp;OutNameField = `str||list`。标记输出文件名的字段名称或字段名称列表。默认（None）按照 <0.shp, 1.shp, ... >的方式输出。
 
-&emsp;Separator = `str`。多字段连接方式。如果 OutNameField 定义了一个多字段名称的列表， 则 Separator 为输出文件名中不同字段的连接方式，默认（None）不以任何进行字段连接。例如：
+&emsp;Separator = `str`。多字段连接方式。默认（None）不以任何进行字段连接。
 
-&emsp;&emsp;OutNameField = ['City', 'Country'], Separator = '_'
-
-&emsp;&emsp;> > > City_County.shp
+<Boxx type='tips' title='说明' content='OutNameField = ["City", "Country"],  Separator = "_" <br>&emsp;> > > City_County.shp'/>
 
 &emsp;OutFormat = `str`。输出矢量文件格式，默认为 ESRI Shapefile。其他格式详见 ToOtherFormat 函数。
 
@@ -50,7 +48,7 @@ categories:
 
 &emsp;InFile：`str`。输入矢量文件路径。
 
-**返回：** 如果输入矢量通过检查，则返回 Pass。否则返回无效信息（tuple）。无效信息组成：{ Invalid float: 无效要素的数量。Invalid layer&FID: 无效图层和图层内无效要素的FID}。
+**返回：** 如果输入矢量通过检查，则返回 Pass。否则返回无效信息（dict）。无效信息组成：{ Invalid float: 无效要素的数量。Invalid layer&FID: 无效图层和图层内无效要素的FID}。
 
 :::
 
@@ -68,13 +66,15 @@ categories:
 
 &emsp;OutFile：`str`。输出栅格文件路径。
 
-&emsp; Resolution：`int`。输出栅格的分辨率。
+&emsp;Resolution：`int`。输出栅格的分辨率。
 
 **可选参数：** 
 
 &emsp;Attribute = `str`。进行转换的矢量数据的字段。如果未设置，则生成由 0 和 1 组成的栅格，0 是 nodata 值。
 
-&emsp;OutNoData = `float`。输出栅格的值无效。默认不设置（None）无效值。如果 Attribute 不为 None 且 OutNoData 未设置，则 OutNoData 修改为无穷大（inf）。
+&emsp;OutNoData = `float`。输出栅格的值无效。默认不设置（None）无效值。
+
+<Boxx type='warning' title='注意' content='如果 Attribute 不为 None 且 OutNoData 未设置，则 OutNoData 修改为无穷大（inf）。'/>
 
 &emsp;OutFormat = `str`。输出栅格文件格式，默认为 GTiff。其他格式详见 rasp.ToOtherFormat 函数。
 
@@ -92,7 +92,7 @@ categories:
 
 &emsp;InFile：`str`。输入矢量文件路径。
 
-&emsp; MethodFile：`str`。裁剪矢量范围文件路径。
+&emsp;MethodFile：`str`。裁剪矢量范围文件路径。
 
 &emsp;OutFile：`str`。输出矢量文件路径。
 
@@ -114,7 +114,7 @@ categories:
 
 &emsp;InFile：`str`。输入矢量文件路径。
 
-&emsp; MethodFile：`str`。擦除矢量范围文件路径。
+&emsp;MethodFile：`str`。擦除矢量范围文件路径。
 
 &emsp;OutFile：`str`。输出矢量文件路径。
 
@@ -136,7 +136,7 @@ categories:
 
 &emsp;InFile：`str`。第一个矢量文件路径。
 
-&emsp; MethodFile：`str`。第二个矢量文件路径。
+&emsp;MethodFile：`str`。第二个矢量文件路径。
 
 &emsp;OutFile：`str`。输出矢量文件路径。
 

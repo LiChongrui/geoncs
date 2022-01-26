@@ -19,11 +19,9 @@ categories:
 
 **参数：** 
 
-&emsp;Path：`str||list`。路径或路径集合。可以是：
+&emsp;Path：`str||list`。路径或路径集合。
 
-&emsp;&emsp;1.路径 `str`。 例如：'C:/SP'。
-
-&emsp;&emsp;2.路径集合 `list`。 例如： ['C:/SD', 'C:/SP']。
+<Boxx type='tips' title='示例' content='1. Path = "C:/SP"</br>2. Path = ["C:/SD", "C:/SP"]'/>
 
 **可选参数：** 
 
@@ -31,11 +29,11 @@ categories:
 
 &emsp;EXT = `str||list`。查找文件的扩展名或扩展名列表。默认查找所有文件（None）。
 
-&emsp;&emsp;注意：*只有在 `SearchPath = 'FILE' ` 时, 此参数才生效。*
+<Boxx type='warning' title='注意' content='只有在 SearchPath = "FILE" 时, 此参数才生效。'/>
 
 &emsp;String = `str||list`。查找的文件路径中包含的字符串 。默认返回全部结果（None）。
 
-&emsp;&emsp;如果为 `str`，则包含设置值的路径才会被记录；如果为 `list`，则包含列表内任意一个字符串的路径都会被记录。
+<Boxx type='warning' title='注意' content='1. 如果 String 为字符串，则包含设置值的路径才会被记录。<br>2. 如果为列表，则包含列表内任意一个字符串的路径都会被记录。'/>
 
 **返回：**`list`。满足条件的所有【文件夹和文件路径】集合。重复的路径只会保留一个。
 ::: 
@@ -56,11 +54,9 @@ categories:
 
 **可选参数：** 
 
-&emsp; Mode = `str` 。压缩文件处理方法。默认为覆盖（w）。可接受的处理方法：
+&emsp; Mode = `str` 。压缩文件处理方法。默认为覆盖（w）。
 
-&emsp;&emsp;'w'：如果目标 .zip 存在，则目标文件将会被替换。
-
-&emsp;&emsp;'a'：如果目标 .zip 存在，则目标文件内容会被更新。
+<Boxx type='tips' title='可接受的处理方法' content='w：如果目标 .zip 存在，则目标文件将会被替换。<br>a：如果目标 .zip 存在，则目标文件内容会被更新。'/>
 
 :::
 
@@ -119,7 +115,7 @@ categories:
 ::: 
 
 ::: warning 注意
-&emsp;  类内函数引用前请先初始化 `Rename` 类！
+类内函数引用前请先初始化 `Rename` 类！
 ::: 
 
 ### Modify
