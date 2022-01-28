@@ -7,7 +7,7 @@ categories:
  - 地信研学
 ---
 
-&emsp;　本页对地理坐标系（Geographic Coordinate System）的基础参数的进行介绍，并统计了 454 个地理坐标系的官方 ID（EPSG），坐标系名称，椭球体，长半轴（m），反扁率，角度单位和本初子午线等参数。
+&emsp;　本页对地理坐标系（Geographic Coordinate System）的基础参数的进行介绍，并统计了 616 个地理坐标系的官方 ID（EPSG），坐标系名称，椭球体，长半轴（m），反扁率，角度单位和本初子午线等参数。
 
 <!-- more -->
 
@@ -119,4104 +119,632 @@ GSK-2011|6378136.5|298.2564151|1025|2016-1-25
 大地基准面是利用特定椭球体对特定地区地球表面的逼近，因此每个国家或地区均有各自的大地基准面。
 :::
 
-<table style="font-size:14px;">
-  <thead>
-    <tr style="text-align: left;">
-      <th>官方 ID</th>
-      <th>坐标系名称</th>
-      <th>椭球体</th>
-      <th>长半轴（m）</th>
-      <th>反扁率</th>
-      <th>角度单位</th>
-      <th>本初子午线</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>EPSG:3819</td>
-      <td>HD1909</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:3821</td>
-      <td>TWD67</td>
-      <td>GRS 1967 Modified</td>
-      <td>6378160</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:3824</td>
-      <td>TWD97</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:3889</td>
-      <td>IGRS</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:3906</td>
-      <td>MGI 1901</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4023</td>
-      <td>MOLDREF99</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4046</td>
-      <td>RGRDC 2005</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4075</td>
-      <td>SREF98</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4081</td>
-      <td>REGCAN95</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4120</td>
-      <td>Greek</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4121</td>
-      <td>GGRS87</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4122</td>
-      <td>ATS77</td>
-      <td>Average Terrestrial System 1977</td>
-      <td>6378135</td>
-      <td>298.257</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4123</td>
-      <td>KKJ</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4124</td>
-      <td>RT90</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4125</td>
-      <td>Segara</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4126</td>
-      <td>LKS94</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4127</td>
-      <td>Tete</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4128</td>
-      <td>Madzansua</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4129</td>
-      <td>Observatario</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4130</td>
-      <td>Moznet</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4131</td>
-      <td>Indian 1960</td>
-      <td>Everest 1830 (1937 Adjustment)</td>
-      <td>6377276.345</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4132</td>
-      <td>FD58</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4133</td>
-      <td>EST92</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4134</td>
-      <td>PSD93</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4135</td>
-      <td>Old Hawaiian</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4136</td>
-      <td>St. Lawrence Island</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4137</td>
-      <td>St. Paul Island</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4138</td>
-      <td>St. George Island</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4139</td>
-      <td>Puerto Rico</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4140</td>
-      <td>NAD83(CSRS)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4141</td>
-      <td>Israel 1993</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4142</td>
-      <td>Locodjo 1965</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4143</td>
-      <td>Abidjan 1987</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4144</td>
-      <td>Kalianpur 1937</td>
-      <td>Everest 1830 (1937 Adjustment)</td>
-      <td>6377276.345</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4145</td>
-      <td>Kalianpur 1962</td>
-      <td>Everest 1830 (1962 Definition)</td>
-      <td>6377301.243</td>
-      <td>300.8017255</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4146</td>
-      <td>Kalianpur 1975</td>
-      <td>Everest 1830 (1975 Definition)</td>
-      <td>6377299.151</td>
-      <td>300.8017255</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4147</td>
-      <td>Hanoi 1972</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4148</td>
-      <td>Hartebeesthoek94</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4149</td>
-      <td>CH1903</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4150</td>
-      <td>CH1903+</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4151</td>
-      <td>CHTRF95</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4152</td>
-      <td>NAD83(HARN)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4153</td>
-      <td>Rassadiran</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4154</td>
-      <td>ED50(ED77)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4155</td>
-      <td>Dabola 1981</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4156</td>
-      <td>S-JTSK</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4157</td>
-      <td>Mount Dillon</td>
-      <td>Clarke 1858</td>
-      <td>6378293.64520876</td>
-      <td>294.260676369261</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4158</td>
-      <td>Naparima 1955</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4159</td>
-      <td>ELD79</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4160</td>
-      <td>Chos Malal 1914</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4161</td>
-      <td>Pampa del Castillo</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4162</td>
-      <td>Korean 1985</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4163</td>
-      <td>Yemen NGN96</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4164</td>
-      <td>South Yemen</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4165</td>
-      <td>Bissau</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4166</td>
-      <td>Korean 1995</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4167</td>
-      <td>NZGD2000</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4168</td>
-      <td>Accra</td>
-      <td>War Office</td>
-      <td>6378300</td>
-      <td>296</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4169</td>
-      <td>American Samoa 1962</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4170</td>
-      <td>SIRGAS 1995</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4171</td>
-      <td>RGF93</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4173</td>
-      <td>IRENET95</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4174</td>
-      <td>Sierra Leone 1924</td>
-      <td>War Office</td>
-      <td>6378300</td>
-      <td>296</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4175</td>
-      <td>Sierra Leone 1968</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4176</td>
-      <td>Australian Antarctic</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4178</td>
-      <td>Pulkovo 1942(83)</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4179</td>
-      <td>Pulkovo 1942(58)</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4180</td>
-      <td>EST97</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4181</td>
-      <td>Luxembourg 1930</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4182</td>
-      <td>Azores Occidental 1939</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4183</td>
-      <td>Azores Central 1948</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4184</td>
-      <td>Azores Oriental 1940</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4188</td>
-      <td>OSNI 1952</td>
-      <td>Airy 1830</td>
-      <td>6377563.396</td>
-      <td>299.3249646</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4189</td>
-      <td>REGVEN</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4190</td>
-      <td>POSGAR 98</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4191</td>
-      <td>Albanian 1987</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4192</td>
-      <td>Douala 1948</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4193</td>
-      <td>Manoca 1962</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4194</td>
-      <td>Qornoq 1927</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4195</td>
-      <td>Scoresbysund 1952</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4196</td>
-      <td>Ammassalik 1958</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4197</td>
-      <td>Garoua</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4198</td>
-      <td>Kousseri</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4199</td>
-      <td>Egypt 1930</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4200</td>
-      <td>Pulkovo 1995</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4201</td>
-      <td>Adindan</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4202</td>
-      <td>AGD66</td>
-      <td>Australian National Spheroid</td>
-      <td>6378160</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4203</td>
-      <td>AGD84</td>
-      <td>Australian National Spheroid</td>
-      <td>6378160</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4204</td>
-      <td>Ain el Abd</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4205</td>
-      <td>Afgooye</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4206</td>
-      <td>Agadez</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4207</td>
-      <td>Lisbon</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4208</td>
-      <td>Aratu</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4209</td>
-      <td>Arc 1950</td>
-      <td>Clarke 1880 (Arc)</td>
-      <td>6378249.145</td>
-      <td>293.4663077</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4210</td>
-      <td>Arc 1960</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4211</td>
-      <td>Batavia</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4212</td>
-      <td>Barbados 1938</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4213</td>
-      <td>Beduaram</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4214</td>
-      <td>Beijing 1954</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4215</td>
-      <td>BD50</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4216</td>
-      <td>Bermuda 1957</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4218</td>
-      <td>Bogota 1975</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4219</td>
-      <td>Bukit Rimpah</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4220</td>
-      <td>Camacupa 1948</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4221</td>
-      <td>Campo Inchauspe</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4222</td>
-      <td>Cape</td>
-      <td>Clarke 1880 (Arc)</td>
-      <td>6378249.145</td>
-      <td>293.4663077</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4223</td>
-      <td>Carthage</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4224</td>
-      <td>Chua</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4225</td>
-      <td>Corrego Alegre 1970-72</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4227</td>
-      <td>Deir ez Zor</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4228</td>
-      <td>Douala 1948</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4229</td>
-      <td>Egypt 1907</td>
-      <td>Helmert 1906</td>
-      <td>6378200</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4230</td>
-      <td>ED50</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4231</td>
-      <td>ED87</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4232</td>
-      <td>Fahud</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4234</td>
-      <td>Garoua</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4235</td>
-      <td>CSG67</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4236</td>
-      <td>Hu Tzu Shan 1950</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4237</td>
-      <td>HD72</td>
-      <td>GRS 1967</td>
-      <td>6378160</td>
-      <td>298.247167427</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4238</td>
-      <td>ID74</td>
-      <td>Indonesian National Spheroid</td>
-      <td>6378160</td>
-      <td>298.247</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4239</td>
-      <td>Indian 1954</td>
-      <td>Everest 1830 (1937 Adjustment)</td>
-      <td>6377276.345</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4240</td>
-      <td>Indian 1975</td>
-      <td>Everest 1830 (1937 Adjustment)</td>
-      <td>6377276.345</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4241</td>
-      <td>Jamaica 1875</td>
-      <td>Clarke 1880</td>
-      <td>6378249.14480801</td>
-      <td>293.466307655636</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4242</td>
-      <td>JAD69</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4243</td>
-      <td>Kalianpur 1880</td>
-      <td>Everest (1830 Definition)</td>
-      <td>6377299.36559538</td>
-      <td>300.801725543355</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4244</td>
-      <td>Kandawala</td>
-      <td>Everest 1830 (1937 Adjustment)</td>
-      <td>6377276.345</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4245</td>
-      <td>Kertau 1968</td>
-      <td>Everest 1830 Modified</td>
-      <td>6377304.063</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4246</td>
-      <td>KOC</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4247</td>
-      <td>La Canoa</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4248</td>
-      <td>PSAD56</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4249</td>
-      <td>Lake</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4250</td>
-      <td>Leigon</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4251</td>
-      <td>Liberia 1964</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4252</td>
-      <td>Lome</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4253</td>
-      <td>Luzon 1911</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4254</td>
-      <td>Hito XVIII 1963</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4255</td>
-      <td>Herat North</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4256</td>
-      <td>Mahe 1971</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4257</td>
-      <td>Makassar</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4258</td>
-      <td>ETRS89</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4259</td>
-      <td>Malongo 1987</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4260</td>
-      <td>Manoca 1962</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4261</td>
-      <td>Merchich</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4262</td>
-      <td>Massawa</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4263</td>
-      <td>Minna</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4265</td>
-      <td>Monte Mario</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4266</td>
-      <td>M'poraloko</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4267</td>
-      <td>NAD27</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4268</td>
-      <td>NAD27</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4269</td>
-      <td>NAD83</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4270</td>
-      <td>Nahrwan 1967</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4271</td>
-      <td>Naparima 1972</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4272</td>
-      <td>NZGD49</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4273</td>
-      <td>NGO 1948</td>
-      <td>Bessel Modified</td>
-      <td>6377492.018</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4274</td>
-      <td>Datum 73</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4275</td>
-      <td>NTF</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4276</td>
-      <td>NSWC 9Z-2</td>
-      <td>NWL 9D</td>
-      <td>6378145</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4277</td>
-      <td>OSGB36</td>
-      <td>Airy 1830</td>
-      <td>6377563.396</td>
-      <td>299.3249646</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4278</td>
-      <td>OSGB70</td>
-      <td>Airy 1830</td>
-      <td>6377563.396</td>
-      <td>299.3249646</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4279</td>
-      <td>OS(SN)80</td>
-      <td>Airy 1830</td>
-      <td>6377563.396</td>
-      <td>299.3249646</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4280</td>
-      <td>Batavia</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4281</td>
-      <td>Palestine 1923</td>
-      <td>Clarke 1880 (Benoit)</td>
-      <td>6378300.789</td>
-      <td>293.466315538981</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4282</td>
-      <td>Pointe Noire</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4283</td>
-      <td>GDA94</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4284</td>
-      <td>Pulkovo 1942</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4285</td>
-      <td>Qatar 1974</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4286</td>
-      <td>Qatar 1948</td>
-      <td>Helmert 1906</td>
-      <td>6378200</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4287</td>
-      <td>Qornoq 1927</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4288</td>
-      <td>Loma Quintana</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4289</td>
-      <td>Amersfoort</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4291</td>
-      <td>SAD69</td>
-      <td>GRS 1967 Modified</td>
-      <td>6378160</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4292</td>
-      <td>Sapper Hill 1943</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4293</td>
-      <td>Schwarzeck</td>
-      <td>Bessel Namibia (GLM)</td>
-      <td>6377483.86528042</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4294</td>
-      <td>Segara</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4295</td>
-      <td>Serindung</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4296</td>
-      <td>Adindan</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4297</td>
-      <td>Tananarive</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4298</td>
-      <td>Timbalai 1948</td>
-      <td>Everest 1830 (1967 Definition)</td>
-      <td>6377298.556</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4299</td>
-      <td>TM65</td>
-      <td>Airy Modified 1849</td>
-      <td>6377340.189</td>
-      <td>299.3249646</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4300</td>
-      <td>TM75</td>
-      <td>Airy Modified 1849</td>
-      <td>6377340.189</td>
-      <td>299.3249646</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4301</td>
-      <td>Tokyo</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4302</td>
-      <td>Trinidad 1903</td>
-      <td>Clarke 1858</td>
-      <td>6378293.64520876</td>
-      <td>294.260676369261</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4303</td>
-      <td>TC(1948)</td>
-      <td>Helmert 1906</td>
-      <td>6378200</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4304</td>
-      <td>Voirol 1875</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4306</td>
-      <td>Bern 1938</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4307</td>
-      <td>Nord Sahara 1959</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4308</td>
-      <td>RT38</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4309</td>
-      <td>Yacare</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4310</td>
-      <td>Yoff</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4311</td>
-      <td>Zanderij</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4312</td>
-      <td>MGI</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4313</td>
-      <td>BD72</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4314</td>
-      <td>DHDN</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4315</td>
-      <td>Conakry 1905</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4316</td>
-      <td>Dealul Piscului 1930</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4317</td>
-      <td>Pulkovo 1942(58)</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4318</td>
-      <td>NGN</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4319</td>
-      <td>KUDAMS</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4322</td>
-      <td>WGS 72</td>
-      <td>WGS 72</td>
-      <td>6378135</td>
-      <td>298.26</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4324</td>
-      <td>WGS 72BE</td>
-      <td>WGS 72</td>
-      <td>6378135</td>
-      <td>298.26</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4326</td>
-      <td>WGS 84</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4463</td>
-      <td>RGSPM06</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4470</td>
-      <td>RGM04</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4475</td>
-      <td>Cadastre 1997</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4483</td>
-      <td>Mexico ITRF92</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4490</td>
-      <td>China Geodetic Coordinate System 2000</td>
-      <td>CGCS2000</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4555</td>
-      <td>New Beijing</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4558</td>
-      <td>RRAF 1991</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4600</td>
-      <td>Anguilla 1957</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4601</td>
-      <td>Antigua 1943</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4602</td>
-      <td>Dominica 1945</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4603</td>
-      <td>Grenada 1953</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4604</td>
-      <td>Montserrat 1958</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4605</td>
-      <td>St. Kitts 1955</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4606</td>
-      <td>St. Lucia 1955</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4607</td>
-      <td>St. Vincent 1945</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4608</td>
-      <td>NAD27(76)</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4609</td>
-      <td>NAD27(CGQ77)</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4610</td>
-      <td>Xian 1980</td>
-      <td>IAG 1975</td>
-      <td>6378140</td>
-      <td>298.257</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4611</td>
-      <td>Hong Kong 1980</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4612</td>
-      <td>JGD2000</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4613</td>
-      <td>Segara</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4614</td>
-      <td>QND95</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4615</td>
-      <td>Porto Santo</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4616</td>
-      <td>Selvagem Grande</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4617</td>
-      <td>NAD83(CSRS)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4618</td>
-      <td>SAD69</td>
-      <td>GRS 1967 Modified</td>
-      <td>6378160</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4619</td>
-      <td>SWEREF99</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4620</td>
-      <td>Point 58</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4621</td>
-      <td>Fort Marigot</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4622</td>
-      <td>Guadeloupe 1948</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4623</td>
-      <td>CSG67</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4624</td>
-      <td>RGFG95</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4625</td>
-      <td>Martinique 1938</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4626</td>
-      <td>Reunion 1947</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4627</td>
-      <td>RGR92</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4628</td>
-      <td>Tahiti 52</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4629</td>
-      <td>Tahaa 54</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4630</td>
-      <td>IGN72 Nuku Hiva</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4631</td>
-      <td>IGN 1962 Kerguelen</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4632</td>
-      <td>Combani 1950</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4633</td>
-      <td>IGN56 Lifou</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4634</td>
-      <td>IGN72 Grande Terre</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4635</td>
-      <td>ST87 Ouvea</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4636</td>
-      <td>Petrels 1972</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4637</td>
-      <td>Perroud 1950</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4638</td>
-      <td>Saint Pierre et Miquelon 1950</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4639</td>
-      <td>MOP78</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4640</td>
-      <td>RRAF 1991</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4641</td>
-      <td>IGN53 Mare</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4642</td>
-      <td>ST84 Ile des Pins</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4643</td>
-      <td>ST71 Belep</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4644</td>
-      <td>NEA74 Noumea</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4645</td>
-      <td>RGNC91-93</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4646</td>
-      <td>Grand Comoros</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4657</td>
-      <td>Reykjavik 1900</td>
-      <td>Danish 1876</td>
-      <td>6377019.27</td>
-      <td>300</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4658</td>
-      <td>Hjorsey 1955</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4659</td>
-      <td>ISN93</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4660</td>
-      <td>Helle 1954</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4661</td>
-      <td>LKS92</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4662</td>
-      <td>IGN72 Grande Terre</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4663</td>
-      <td>Porto Santo 1995</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4664</td>
-      <td>Azores Oriental 1995</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4665</td>
-      <td>Azores Central 1995</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4666</td>
-      <td>Lisbon 1890</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4667</td>
-      <td>IKBD-92</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4668</td>
-      <td>ED79</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4669</td>
-      <td>LKS94</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4670</td>
-      <td>IGM95</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4671</td>
-      <td>Voirol 1879</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4672</td>
-      <td>Chatham Islands 1971</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4673</td>
-      <td>Chatham Islands 1979</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4674</td>
-      <td>SIRGAS 2000</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4675</td>
-      <td>Guam 1963</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4676</td>
-      <td>Vientiane 1982</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4677</td>
-      <td>Lao 1993</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4678</td>
-      <td>Lao 1997</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4679</td>
-      <td>Jouik 1961</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4680</td>
-      <td>Nouakchott 1965</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4682</td>
-      <td>Gulshan 303</td>
-      <td>Everest 1830 (1937 Adjustment)</td>
-      <td>6377276.345</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4683</td>
-      <td>PRS92</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4684</td>
-      <td>Gan 1970</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4685</td>
-      <td>Kasai 1953</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4686</td>
-      <td>MAGNA-SIRGAS</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4687</td>
-      <td>RGPF</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4688</td>
-      <td>Fatu Iva 72</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4689</td>
-      <td>IGN63 Hiva Oa</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4690</td>
-      <td>Tahiti 79</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4691</td>
-      <td>Moorea 87</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4692</td>
-      <td>Maupiti 83</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4693</td>
-      <td>Nakhl-e Ghanem</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4694</td>
-      <td>POSGAR 94</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4695</td>
-      <td>Katanga 1955</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4696</td>
-      <td>Kasai 1953</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4697</td>
-      <td>IGC 1962 6th Parallel South</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4698</td>
-      <td>IGN 1962 Kerguelen</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4699</td>
-      <td>Le Pouce 1934</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4700</td>
-      <td>IGN Astro 1960</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4701</td>
-      <td>IGCB 1955</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4702</td>
-      <td>Mauritania 1999</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4703</td>
-      <td>Mhast 1951</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4704</td>
-      <td>Mhast (onshore)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4705</td>
-      <td>Mhast (offshore)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4706</td>
-      <td>Egypt Gulf of Suez S-650 TL</td>
-      <td>Helmert 1906</td>
-      <td>6378200</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4707</td>
-      <td>Tern Island 1961</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4708</td>
-      <td>Cocos Islands 1965</td>
-      <td>Australian National Spheroid</td>
-      <td>6378160</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4709</td>
-      <td>Iwo Jima 1945</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4710</td>
-      <td>Astro DOS 71</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4711</td>
-      <td>Marcus Island 1952</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4712</td>
-      <td>Ascension Island 1958</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4713</td>
-      <td>Ayabelle Lighthouse</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4714</td>
-      <td>Bellevue</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4715</td>
-      <td>Camp Area Astro</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4716</td>
-      <td>Phoenix Islands 1966</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4717</td>
-      <td>Cape Canaveral</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4718</td>
-      <td>Solomon 1968</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4719</td>
-      <td>Easter Island 1967</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4720</td>
-      <td>Fiji 1986</td>
-      <td>WGS 72</td>
-      <td>6378135</td>
-      <td>298.26</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4721</td>
-      <td>Fiji 1956</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4722</td>
-      <td>South Georgia 1968</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4723</td>
-      <td>GCGD59</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4724</td>
-      <td>Diego Garcia 1969</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4725</td>
-      <td>Johnston Island 1961</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4726</td>
-      <td>SIGD61</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4727</td>
-      <td>Midway 1961</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4728</td>
-      <td>PN84</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4729</td>
-      <td>Pitcairn 1967</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4730</td>
-      <td>Santo 1965</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4731</td>
-      <td>Viti Levu 1912</td>
-      <td>Clarke 1880 (international foot)</td>
-      <td>6378306.3696</td>
-      <td>293.466307655635</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4732</td>
-      <td>Marshall Islands 1960</td>
-      <td>Hough 1960</td>
-      <td>6378270</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4733</td>
-      <td>Wake Island 1952</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4734</td>
-      <td>Tristan 1968</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4735</td>
-      <td>Kusaie 1951</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4736</td>
-      <td>Deception Island</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4737</td>
-      <td>Korea 2000</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4738</td>
-      <td>Hong Kong 1963</td>
-      <td>Clarke 1858</td>
-      <td>6378293.64520876</td>
-      <td>294.260676369261</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4739</td>
-      <td>Hong Kong 1963(67)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4740</td>
-      <td>PZ-90</td>
-      <td>PZ-90</td>
-      <td>6378136</td>
-      <td>298.257839303</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4741</td>
-      <td>FD54</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4742</td>
-      <td>GDM2000</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4743</td>
-      <td>Karbala 1979</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4744</td>
-      <td>Nahrwan 1934</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4745</td>
-      <td>RD/83</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4746</td>
-      <td>PD/83</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4747</td>
-      <td>GR96</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4748</td>
-      <td>Vanua Levu 1915</td>
-      <td>Clarke 1880 (international foot)</td>
-      <td>6378306.3696</td>
-      <td>293.466307655635</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4749</td>
-      <td>RGNC91-93</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4750</td>
-      <td>ST87 Ouvea</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4751</td>
-      <td>Kertau (RSO)</td>
-      <td>Everest 1830 (RSO 1969)</td>
-      <td>6377295.664</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4752</td>
-      <td>Viti Levu 1912</td>
-      <td>Clarke 1880 (international foot)</td>
-      <td>6378306.3696</td>
-      <td>293.466307655635</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4753</td>
-      <td>fk89</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4754</td>
-      <td>LGD2006</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4755</td>
-      <td>DGN95</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4756</td>
-      <td>VN-2000</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4757</td>
-      <td>SVY21</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4758</td>
-      <td>JAD2001</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4759</td>
-      <td>NAD83(NSRS2007)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4760</td>
-      <td>WGS 66</td>
-      <td>NWL 9D</td>
-      <td>6378145</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4761</td>
-      <td>HTRS96</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4762</td>
-      <td>BDA2000</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4763</td>
-      <td>Pitcairn 2006</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4764</td>
-      <td>RSRGD2000</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4765</td>
-      <td>Slovenia 1996</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4801</td>
-      <td>Bern 1898 (Bern)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Bern</td>
-    </tr>
-    <tr>
-      <td>EPSG:4802</td>
-      <td>Bogota 1975 (Bogota)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Bogota</td>
-    </tr>
-    <tr>
-      <td>EPSG:4803</td>
-      <td>Lisbon (Lisbon)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Lisbon</td>
-    </tr>
-    <tr>
-      <td>EPSG:4804</td>
-      <td>Makassar (Jakarta)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Jakarta</td>
-    </tr>
-    <tr>
-      <td>EPSG:4805</td>
-      <td>MGI (Ferro)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Ferro</td>
-    </tr>
-    <tr>
-      <td>EPSG:4806</td>
-      <td>Monte Mario (Rome)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Rome</td>
-    </tr>
-    <tr>
-      <td>EPSG:4807</td>
-      <td>NTF (Paris)</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>grad</td>
-      <td>Paris</td>
-    </tr>
-    <tr>
-      <td>EPSG:4808</td>
-      <td>Batavia (Jakarta)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Jakarta</td>
-    </tr>
-    <tr>
-      <td>EPSG:4809</td>
-      <td>BD50 (Brussels)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Brussels</td>
-    </tr>
-    <tr>
-      <td>EPSG:4810</td>
-      <td>Tananarive (Paris)</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>grad</td>
-      <td>Paris</td>
-    </tr>
-    <tr>
-      <td>EPSG:4811</td>
-      <td>Voirol 1875 (Paris)</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>grad</td>
-      <td>Paris</td>
-    </tr>
-    <tr>
-      <td>EPSG:4813</td>
-      <td>Batavia (Jakarta)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Jakarta</td>
-    </tr>
-    <tr>
-      <td>EPSG:4814</td>
-      <td>RT38 (Stockholm)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Stockholm</td>
-    </tr>
-    <tr>
-      <td>EPSG:4815</td>
-      <td>Greek (Athens)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Athens</td>
-    </tr>
-    <tr>
-      <td>EPSG:4816</td>
-      <td>Carthage (Paris)</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>grad</td>
-      <td>Paris</td>
-    </tr>
-    <tr>
-      <td>EPSG:4817</td>
-      <td>NGO 1948 (Oslo)</td>
-      <td>Bessel Modified</td>
-      <td>6377492.018</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Oslo</td>
-    </tr>
-    <tr>
-      <td>EPSG:4818</td>
-      <td>S-JTSK (Ferro)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Ferro</td>
-    </tr>
-    <tr>
-      <td>EPSG:4819</td>
-      <td>Nord Sahara 1959</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4820</td>
-      <td>Segara (Jakarta)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Jakarta</td>
-    </tr>
-    <tr>
-      <td>EPSG:4821</td>
-      <td>Voirol 1879 (Paris)</td>
-      <td>Clarke 1880 (IGN)</td>
-      <td>6378249.2</td>
-      <td>293.466021293627</td>
-      <td>grad</td>
-      <td>Paris</td>
-    </tr>
-    <tr>
-      <td>EPSG:4823</td>
-      <td>Sao Tome</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4824</td>
-      <td>Principe</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:4901</td>
-      <td>ATF (Paris)</td>
-      <td>Plessis 1817</td>
-      <td>6376523</td>
-      <td>308.64</td>
-      <td>grad</td>
-      <td>Paris RGS</td>
-    </tr>
-    <tr>
-      <td>EPSG:4902</td>
-      <td>ATF (Paris)</td>
-      <td>Plessis 1817</td>
-      <td>6376523</td>
-      <td>308.64</td>
-      <td>grad</td>
-      <td>Paris RGS</td>
-    </tr>
-    <tr>
-      <td>EPSG:4903</td>
-      <td>Madrid 1870 (Madrid)</td>
-      <td>Struve 1860</td>
-      <td>6378298.3</td>
-      <td>294.73</td>
-      <td>degree</td>
-      <td>Madrid</td>
-    </tr>
-    <tr>
-      <td>EPSG:4904</td>
-      <td>Lisbon 1890 (Lisbon)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Lisbon</td>
-    </tr>
-    <tr>
-      <td>EPSG:5013</td>
-      <td>PTRA08</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5132</td>
-      <td>Tokyo 1892</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5228</td>
-      <td>S-JTSK/05</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5229</td>
-      <td>S-JTSK/05 (Ferro)</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Ferro</td>
-    </tr>
-    <tr>
-      <td>EPSG:5233</td>
-      <td>SLD99</td>
-      <td>Everest 1830 (1937 Adjustment)</td>
-      <td>6377276.345</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5246</td>
-      <td>GDBD2009</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5252</td>
-      <td>TUREF</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5264</td>
-      <td>DRUKREF 03</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5324</td>
-      <td>ISN2004</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5340</td>
-      <td>POSGAR 2007</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5354</td>
-      <td>MARGEN</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5360</td>
-      <td>SIRGAS-Chile 2002</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5365</td>
-      <td>CR05</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5371</td>
-      <td>MACARIO SOLIS</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5373</td>
-      <td>Peru96</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5381</td>
-      <td>SIRGAS-ROU98</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5393</td>
-      <td>SIRGAS_ES2007.8</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5451</td>
-      <td>Ocotepeque 1935</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5464</td>
-      <td>Sibun Gorge 1922</td>
-      <td>Clarke 1858</td>
-      <td>6378293.64520876</td>
-      <td>294.260676369261</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5467</td>
-      <td>Panama-Colon 1911</td>
-      <td>Clarke 1866</td>
-      <td>6378206.4</td>
-      <td>294.978698213898</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5489</td>
-      <td>RGAF09</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5524</td>
-      <td>Corrego Alegre 1961</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5527</td>
-      <td>SAD69(96)</td>
-      <td>GRS 1967 Modified</td>
-      <td>6378160</td>
-      <td>298.25</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5546</td>
-      <td>PNG94</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5561</td>
-      <td>UCS-2000</td>
-      <td>Krassowsky 1940</td>
-      <td>6378245</td>
-      <td>298.3</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5593</td>
-      <td>FEH2010</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5681</td>
-      <td>DB_REF</td>
-      <td>Bessel 1841</td>
-      <td>6377397.155</td>
-      <td>299.1528128</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:5886</td>
-      <td>TGD2005</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6135</td>
-      <td>CIGD11</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6207</td>
-      <td>Nepal 1981</td>
-      <td>Everest 1830 (1937 Adjustment)</td>
-      <td>6377276.345</td>
-      <td>300.8017</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6311</td>
-      <td>CGRS93</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6318</td>
-      <td>NAD83(2011)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6322</td>
-      <td>NAD83(PA11)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6325</td>
-      <td>NAD83(MA11)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6365</td>
-      <td>Mexico ITRF2008</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6668</td>
-      <td>JGD2011</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6706</td>
-      <td>RDN2008</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6783</td>
-      <td>NAD83(CORS96)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6881</td>
-      <td>Aden 1925</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6882</td>
-      <td>Bekaa Valley 1920</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6883</td>
-      <td>Bioko</td>
-      <td>International 1924</td>
-      <td>6378388</td>
-      <td>297</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6892</td>
-      <td>South East Island 1943</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6894</td>
-      <td>Gambia</td>
-      <td>Clarke 1880 (RGS)</td>
-      <td>6378249.145</td>
-      <td>293.465</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6980</td>
-      <td>IGD05</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6983</td>
-      <td>IG05 Intermediate CRS</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6987</td>
-      <td>IGD05/12</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:6990</td>
-      <td>IG05/12 Intermediate CRS</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7035</td>
-      <td>RGSPM06 (lon-lat)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7037</td>
-      <td>RGR92 (lon-lat)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7039</td>
-      <td>RGM04 (lon-lat)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7041</td>
-      <td>RGFG95 (lon-lat)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7073</td>
-      <td>RGTAAF07</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7084</td>
-      <td>RGF93 (lon-lat)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7086</td>
-      <td>RGAF09 (lon-lat)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7088</td>
-      <td>RGTAAF07 (lon-lat)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7133</td>
-      <td>RGTAAF07 (lon-lat)</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7136</td>
-      <td>IGD05</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7139</td>
-      <td>IGD05/12</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7373</td>
-      <td>ONGD14</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7683</td>
-      <td>GSK-2011</td>
-      <td>GSK-2011</td>
-      <td>6378136.5</td>
-      <td>298.2564151</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7686</td>
-      <td>Kyrg-06</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7798</td>
-      <td>BGS2005</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7844</td>
-      <td>GDA2020</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7881</td>
-      <td>St. Helena Tritan</td>
-      <td>WGS 84</td>
-      <td>6378137</td>
-      <td>298.257223563</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-    <tr>
-      <td>EPSG:7886</td>
-      <td>SHGD2015</td>
-      <td>GRS 1980</td>
-      <td>6378137</td>
-      <td>298.257222101</td>
-      <td>degree</td>
-      <td>Greenwich</td>
-    </tr>
-  </tbody>
-</table>
+::: warning 注意
+
+原始的基准面名称以 `_` 连接每个单词，为了方便展示，下表用 `空格` 进行替代，请知悉！
+
+例如：Hungarian Datum 1909，原始的基准面名称为 Hungarian_Datum_1909。
+
+:::
+
+| 官方 ID   | 坐标系名称                                                             | 基准面                                                                 | 椭球体                             | 角度单位                        | 本初子午线   |
+|:----------|:-----------------------------------------------------------------------|:-----------------------------------------------------------------------|:-----------------------------------|:--------------------------------|:-------------|
+| EPSG:3819 | HD1909                                                                 | Hungarian Datum 1909                                                   | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:3821 | TWD67                                                                  | Taiwan Datum 1967                                                      | GRS 1967 Modified                  | degree                          | Greenwich    |
+| EPSG:3824 | TWD97                                                                  | Taiwan Datum 1997                                                      | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:3889 | IGRS                                                                   | Iraqi Geospatial Reference System                                      | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:3906 | MGI 1901                                                               | MGI 1901                                                               | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4001 | Unknown datum based upon the Airy 1830 ellipsoid                       | Not specified based on Airy 1830 ellipsoid                             | Airy 1830                          | degree                          | Greenwich    |
+| EPSG:4002 | Unknown datum based upon the Airy Modified 1849 ellipsoid              | Not specified based on Airy Modified 1849 ellipsoid                    | Airy Modified 1849                 | degree                          | Greenwich    |
+| EPSG:4003 | Unknown datum based upon the Australian National Spheroid              | Not specified based on Australian National Spheroid                    | Australian National Spheroid       | degree                          | Greenwich    |
+| EPSG:4004 | Unknown datum based upon the Bessel 1841 ellipsoid                     | Not specified based on Bessel 1841 ellipsoid                           | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4005 | Unknown datum based upon the Bessel Modified ellipsoid                 | Not specified based on Bessel Modified ellipsoid                       | Bessel Modified                    | degree                          | Greenwich    |
+| EPSG:4006 | Unknown datum based upon the Bessel Namibia ellipsoid                  | Not specified based on Bessel Namibia ellipsoid                        | Bessel Namibia (GLM)               | degree                          | Greenwich    |
+| EPSG:4007 | Unknown datum based upon the Clarke 1858 ellipsoid                     | Not specified based on Clarke 1858 ellipsoid                           | Clarke 1858                        | degree                          | Greenwich    |
+| EPSG:4008 | Unknown datum based upon the Clarke 1866 ellipsoid                     | Not specified based on Clarke 1866 ellipsoid                           | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4009 | Unknown datum based upon the Clarke 1866 Michigan ellipsoid            | Not specified based on Clarke 1866 Michigan ellipsoid                  | Clarke 1866 Michigan               | degree                          | Greenwich    |
+| EPSG:4010 | Unknown datum based upon the Clarke 1880 (Benoit) ellipsoid            | Not specified based on Clarke 1880 Benoit ellipsoid                    | Clarke 1880 (Benoit)               | degree                          | Greenwich    |
+| EPSG:4011 | Unknown datum based upon the Clarke 1880 (IGN) ellipsoid               | Not specified based on Clarke 1880 IGN ellipsoid                       | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4012 | Unknown datum based upon the Clarke 1880 (RGS) ellipsoid               | Not specified based on Clarke 1880 RGS ellipsoid                       | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4013 | Unknown datum based upon the Clarke 1880 (Arc) ellipsoid               | Not specified based on Clarke 1880 Arc ellipsoid                       | Clarke 1880 (Arc)                  | degree                          | Greenwich    |
+| EPSG:4014 | Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid          | Not specified based on Clarke 1880 SGA 1922 ellipsoid                  | Clarke 1880 (SGA 1922)             | degree                          | Greenwich    |
+| EPSG:4015 | Unknown datum based upon the Everest 1830 (1937 Adjustment) ellipsoid  | Not specified based on Everest 1830 1937 Adjustment ellipsoid          | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:4016 | Unknown datum based upon the Everest 1830 (1967 Definition) ellipsoid  | Not specified based on Everest 1830 1967 Definition ellipsoid          | Everest 1830 (1967 Definition)     | degree                          | Greenwich    |
+| EPSG:4018 | Unknown datum based upon the Everest 1830 Modified ellipsoid           | Not specified based on Everest 1830 Modified ellipsoid                 | Everest 1830 Modified              | degree                          | Greenwich    |
+| EPSG:4019 | Unknown datum based upon the GRS 1980 ellipsoid                        | Not specified based on GRS 1980 ellipsoid                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4020 | Unknown datum based upon the Helmert 1906 ellipsoid                    | Not specified based on Helmert 1906 ellipsoid                          | Helmert 1906                       | degree                          | Greenwich    |
+| EPSG:4021 | Unknown datum based upon the Indonesian National Spheroid              | Not specified based on Indonesian National Spheroid                    | Indonesian National Spheroid       | degree                          | Greenwich    |
+| EPSG:4022 | Unknown datum based upon the International 1924 ellipsoid              | Not specified based on International 1924 ellipsoid                    | International 1924                 | degree                          | Greenwich    |
+| EPSG:4023 | MOLDREF99                                                              | MOLDREF99                                                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4024 | Unknown datum based upon the Krassowsky 1940 ellipsoid                 | Not specified based on Krassowsky 1940 ellipsoid                       | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4025 | Unknown datum based upon the NWL 9D ellipsoid                          | Not specified based on NWL 9D ellipsoid                                | NWL 9D                             | degree                          | Greenwich    |
+| EPSG:4027 | Unknown datum based upon the Plessis 1817 ellipsoid                    | Not specified based on Plessis 1817 ellipsoid                          | Plessis 1817                       | degree                          | Greenwich    |
+| EPSG:4028 | Unknown datum based upon the Struve 1860 ellipsoid                     | Not specified based on Struve 1860 ellipsoid                           | Struve 1860                        | degree                          | Greenwich    |
+| EPSG:4029 | Unknown datum based upon the War Office ellipsoid                      | Not specified based on War Office ellipsoid                            | War Office                         | degree                          | Greenwich    |
+| EPSG:4030 | Unknown datum based upon the WGS 84 ellipsoid                          | Not specified based on WGS 84 ellipsoid                                | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4031 | Unknown datum based upon the GEM 10C ellipsoid                         | Not specified based on GEM 10C ellipsoid                               | GEM 10C                            | degree                          | Greenwich    |
+| EPSG:4032 | Unknown datum based upon the OSU86F ellipsoid                          | Not specified based on OSU86F ellipsoid                                | OSU86F                             | degree                          | Greenwich    |
+| EPSG:4033 | Unknown datum based upon the OSU91A ellipsoid                          | Not specified based on OSU91A ellipsoid                                | OSU91A                             | degree                          | Greenwich    |
+| EPSG:4034 | Unknown datum based upon the Clarke 1880 ellipsoid                     | Not specified based on Clarke 1880 ellipsoid                           | Clarke 1880                        | degree                          | Greenwich    |
+| EPSG:4035 | Unspecified datum based upon the GRS 1980 Authalic Sphere              | Not specified based on GRS 1980 Authalic Sphere                        | GRS 1980 Authalic Sphere           | degree                          | Greenwich    |
+| EPSG:4036 | Unknown datum based upon the GRS 1967 ellipsoid                        | Not specified based on GRS 1967 ellipsoid                              | GRS 1967                           | degree                          | Greenwich    |
+| EPSG:4041 | Unknown datum based upon the Average Terrestrial System 1977 ellipsoid | Not specified based on Average Terrestrial System 1977 ellipsoid       | Average Terrestrial System 1977    | degree                          | Greenwich    |
+| EPSG:4042 | Unknown datum based upon the Everest (1830 Definition) ellipsoid       | Not specified based on Everest 1830 Definition ellipsoid               | Everest (1830 Definition)          | degree                          | Greenwich    |
+| EPSG:4043 | Unknown datum based upon the WGS 72 ellipsoid                          | Not specified based on WGS 72 ellipsoid                                | WGS 72                             | degree                          | Greenwich    |
+| EPSG:4044 | Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid  | Not specified based on Everest 1830 1962 Definition ellipsoid          | Everest 1830 (1962 Definition)     | degree                          | Greenwich    |
+| EPSG:4045 | Unknown datum based upon the Everest 1830 (1975 Definition) ellipsoid  | Not specified based on Everest 1830 1975 Definition ellipsoid          | Everest 1830 (1975 Definition)     | degree                          | Greenwich    |
+| EPSG:4046 | RGRDC 2005                                                             | Reseau Geodesique de la RDC 2005                                       | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4047 | Unspecified datum based upon the GRS 1980 Authalic Sphere              | Not specified based on GRS 1980 Authalic Sphere                        | GRS 1980 Authalic Sphere           | degree                          | Greenwich    |
+| EPSG:4052 | Unspecified datum based upon the Clarke 1866 Authalic Sphere           | Not specified based on Clarke 1866 Authalic Sphere                     | Clarke 1866 Authalic Sphere        | degree                          | Greenwich    |
+| EPSG:4053 | Unspecified datum based upon the International 1924 Authalic Sphere    | Not specified based on International 1924 Authalic Sphere              | International 1924 Authalic Sphere | degree                          | Greenwich    |
+| EPSG:4054 | Unspecified datum based upon the Hughes 1980 ellipsoid                 | Not specified based on Hughes 1980 ellipsoid                           | Hughes 1980                        | degree                          | Greenwich    |
+| EPSG:4055 | Popular Visualisation CRS                                              | Popular Visualisation Datum                                            | Popular Visualisation Sphere       | degree                          | Greenwich    |
+| EPSG:4075 | SREF98                                                                 | Serbian Reference Network 1998                                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4081 | REGCAN95                                                               | Red Geodesica de Canarias 1995                                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4120 | Greek                                                                  | Greek                                                                  | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4121 | GGRS87                                                                 | Greek Geodetic Reference System 1987                                   | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4122 | ATS77                                                                  | Average Terrestrial System 1977                                        | Average Terrestrial System 1977    | degree                          | Greenwich    |
+| EPSG:4123 | KKJ                                                                    | Kartastokoordinaattijarjestelma 1966                                   | International 1924                 | degree                          | Greenwich    |
+| EPSG:4124 | RT90                                                                   | Rikets koordinatsystem 1990                                            | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4125 | Segara                                                                 | Gunung Segara                                                          | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4126 | LKS94                                                                  | Lithuania 1994 ETRS89                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4127 | Tete                                                                   | Tete                                                                   | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4128 | Madzansua                                                              | Madzansua                                                              | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4129 | Observatario                                                           | Observatario                                                           | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4130 | Moznet                                                                 | Moznet ITRF94                                                          | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4131 | Indian 1960                                                            | Indian 1960                                                            | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:4132 | FD58                                                                   | Final Datum 1958                                                       | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4133 | EST92                                                                  | Estonia 1992                                                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4134 | PSD93                                                                  | PDO Survey Datum 1993                                                  | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4135 | Old Hawaiian                                                           | Old Hawaiian                                                           | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4136 | St. Lawrence Island                                                    | St Lawrence Island                                                     | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4137 | St. Paul Island                                                        | St Paul Island                                                         | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4138 | St. George Island                                                      | St George Island                                                       | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4139 | Puerto Rico                                                            | Puerto Rico                                                            | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4140 | NAD83(CSRS)                                                            | NAD83 Canadian Spatial Reference System                                | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4141 | Israel 1993                                                            | Israel 1993                                                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4142 | Locodjo 1965                                                           | Locodjo 1965                                                           | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4143 | Abidjan 1987                                                           | Abidjan 1987                                                           | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4144 | Kalianpur 1937                                                         | Kalianpur 1937                                                         | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:4145 | Kalianpur 1962                                                         | Kalianpur 1962                                                         | Everest 1830 (1962 Definition)     | degree                          | Greenwich    |
+| EPSG:4146 | Kalianpur 1975                                                         | Kalianpur 1975                                                         | Everest 1830 (1975 Definition)     | degree                          | Greenwich    |
+| EPSG:4147 | Hanoi 1972                                                             | Hanoi 1972                                                             | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4148 | Hartebeesthoek94                                                       | Hartebeesthoek94                                                       | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4149 | CH1903                                                                 | CH1903                                                                 | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4150 | CH1903+                                                                | CH1903+                                                                | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4151 | CHTRS95                                                                | Swiss Terrestrial Reference System 1995                                | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4152 | NAD83(HARN)                                                            | NAD83 High Accuracy Reference Network                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4153 | Rassadiran                                                             | Rassadiran                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4154 | ED50(ED77)                                                             | European Datum 1950 1977                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4155 | Dabola 1981                                                            | Dabola 1981                                                            | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4156 | S-JTSK                                                                 | System of the Unified Trigonometrical Cadastral Network                | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4157 | Mount Dillon                                                           | Mount Dillon                                                           | Clarke 1858                        | degree                          | Greenwich    |
+| EPSG:4158 | Naparima 1955                                                          | Naparima 1955                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4159 | ELD79                                                                  | European Libyan Datum 1979                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4160 | Chos Malal 1914                                                        | Chos Malal 1914                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4161 | Pampa del Castillo                                                     | Pampa del Castillo                                                     | International 1924                 | degree                          | Greenwich    |
+| EPSG:4162 | Korean 1985                                                            | Korean Datum 1985                                                      | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4163 | Yemen NGN96                                                            | Yemen National Geodetic Network 1996                                   | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4164 | South Yemen                                                            | South Yemen                                                            | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4165 | Bissau                                                                 | Bissau                                                                 | International 1924                 | degree                          | Greenwich    |
+| EPSG:4166 | Korean 1995                                                            | Korean Datum 1995                                                      | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4167 | NZGD2000                                                               | New Zealand Geodetic Datum 2000                                        | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4168 | Accra                                                                  | Accra                                                                  | War Office                         | degree                          | Greenwich    |
+| EPSG:4169 | American Samoa 1962                                                    | American Samoa 1962                                                    | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4170 | SIRGAS 1995                                                            | Sistema de Referencia Geocentrico para America del Sur 1995            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4171 | RGF93 v1                                                               | Reseau Geodesique Francais 1993 v1                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4172 | POSGAR                                                                 | Posiciones Geodesicas Argentinas                                       | GRS 1980                           | degree minute second hemisphere | Greenwich    |
+| EPSG:4173 | IRENET95                                                               | IRENET95                                                               | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4174 | Sierra Leone 1924                                                      | Sierra Leone Colony 1924                                               | War Office                         | degree                          | Greenwich    |
+| EPSG:4175 | Sierra Leone 1968                                                      | Sierra Leone 1968                                                      | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4176 | Australian Antarctic                                                   | Australian Antarctic Datum 1998                                        | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4178 | Pulkovo 1942(83)                                                       | Pulkovo 1942 83                                                        | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4179 | Pulkovo 1942(58)                                                       | Pulkovo 1942 58                                                        | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4180 | EST97                                                                  | Estonia 1997                                                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4181 | Luxembourg 1930                                                        | Luxembourg 1930                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4182 | Azores Occidental 1939                                                 | Azores Occidental Islands 1939                                         | International 1924                 | degree                          | Greenwich    |
+| EPSG:4183 | Azores Central 1948                                                    | Azores Central Islands 1948                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4184 | Azores Oriental 1940                                                   | Azores Oriental Islands 1940                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4185 | Madeira 1936                                                           | Madeira 1936                                                           | International 1924                 | degree minute second hemisphere | Greenwich    |
+| EPSG:4188 | OSNI 1952                                                              | OSNI 1952                                                              | Airy 1830                          | degree                          | Greenwich    |
+| EPSG:4189 | REGVEN                                                                 | Red Geodesica Venezolana                                               | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4190 | POSGAR 98                                                              | Posiciones Geodesicas Argentinas 1998                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4191 | Albanian 1987                                                          | Albanian 1987                                                          | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4192 | Douala 1948                                                            | Douala 1948                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4193 | Manoca 1962                                                            | Manoca 1962                                                            | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4194 | Qornoq 1927                                                            | Qornoq 1927                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4195 | Scoresbysund 1952                                                      | Scoresbysund 1952                                                      | International 1924                 | degree                          | Greenwich    |
+| EPSG:4196 | Ammassalik 1958                                                        | Ammassalik 1958                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4197 | Garoua                                                                 | Garoua                                                                 | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4198 | Kousseri                                                               | Kousseri                                                               | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4199 | Egypt 1930                                                             | Egypt 1930                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4200 | Pulkovo 1995                                                           | Pulkovo 1995                                                           | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4201 | Adindan                                                                | Adindan                                                                | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4202 | AGD66                                                                  | Australian Geodetic Datum 1966                                         | Australian National Spheroid       | degree                          | Greenwich    |
+| EPSG:4203 | AGD84                                                                  | Australian Geodetic Datum 1984                                         | Australian National Spheroid       | degree                          | Greenwich    |
+| EPSG:4204 | Ain el Abd                                                             | Ain el Abd 1970                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4205 | Afgooye                                                                | Afgooye                                                                | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4206 | Agadez                                                                 | Agadez                                                                 | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4207 | Lisbon                                                                 | Lisbon 1937                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4208 | Aratu                                                                  | Aratu                                                                  | International 1924                 | degree                          | Greenwich    |
+| EPSG:4209 | Arc 1950                                                               | Arc 1950                                                               | Clarke 1880 (Arc)                  | degree                          | Greenwich    |
+| EPSG:4210 | Arc 1960                                                               | Arc 1960                                                               | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4211 | Batavia                                                                | Batavia                                                                | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4212 | Barbados 1938                                                          | Barbados 1938                                                          | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4213 | Beduaram                                                               | Beduaram                                                               | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4214 | Beijing 1954                                                           | Beijing 1954                                                           | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4215 | BD50                                                                   | Reseau National Belge 1950                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4216 | Bermuda 1957                                                           | Bermuda 1957                                                           | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4218 | Bogota 1975                                                            | Bogota 1975                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4219 | Bukit Rimpah                                                           | Bukit Rimpah                                                           | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4220 | Camacupa 1948                                                          | Camacupa 1948                                                          | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4221 | Campo Inchauspe                                                        | Campo Inchauspe                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4222 | Cape                                                                   | Cape                                                                   | Clarke 1880 (Arc)                  | degree                          | Greenwich    |
+| EPSG:4223 | Carthage                                                               | Carthage                                                               | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4224 | Chua                                                                   | Chua                                                                   | International 1924                 | degree                          | Greenwich    |
+| EPSG:4225 | Corrego Alegre 1970-72                                                 | Corrego Alegre 1970-72                                                 | International 1924                 | degree                          | Greenwich    |
+| EPSG:4226 | Cote d'Ivoire                                                          | Cote d Ivoire                                                          | Clarke 1880 (IGN)                  | degree minute second hemisphere | Greenwich    |
+| EPSG:4227 | Deir ez Zor                                                            | Deir ez Zor                                                            | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4228 | Douala 1948                                                            | Douala 1948                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4229 | Egypt 1907                                                             | Egypt 1907                                                             | Helmert 1906                       | degree                          | Greenwich    |
+| EPSG:4230 | ED50                                                                   | European Datum 1950                                                    | International 1924                 | degree                          | Greenwich    |
+| EPSG:4231 | ED87                                                                   | European Datum 1987                                                    | International 1924                 | degree                          | Greenwich    |
+| EPSG:4232 | Fahud                                                                  | Fahud                                                                  | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4233 | Gandajika 1970                                                         | Gandajika 1970                                                         | International 1924                 | degree                          | Greenwich    |
+| EPSG:4234 | Garoua                                                                 | Garoua                                                                 | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4235 | CSG67                                                                  | Centre Spatial Guyanais 1967                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4236 | Hu Tzu Shan 1950                                                       | Hu Tzu Shan 1950                                                       | International 1924                 | degree                          | Greenwich    |
+| EPSG:4237 | HD72                                                                   | Hungarian Datum 1972                                                   | GRS 1967                           | degree                          | Greenwich    |
+| EPSG:4238 | ID74                                                                   | Indonesian Datum 1974                                                  | Indonesian National Spheroid       | degree                          | Greenwich    |
+| EPSG:4239 | Indian 1954                                                            | Indian 1954                                                            | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:4240 | Indian 1975                                                            | Indian 1975                                                            | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:4241 | Jamaica 1875                                                           | Jamaica 1875                                                           | Clarke 1880                        | degree                          | Greenwich    |
+| EPSG:4242 | JAD69                                                                  | Jamaica 1969                                                           | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4243 | Kalianpur 1880                                                         | Kalianpur 1880                                                         | Everest (1830 Definition)          | degree                          | Greenwich    |
+| EPSG:4244 | Kandawala                                                              | Kandawala                                                              | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:4245 | Kertau 1968                                                            | Kertau 1968                                                            | Everest 1830 Modified              | degree                          | Greenwich    |
+| EPSG:4246 | KOC                                                                    | Kuwait Oil Company                                                     | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4247 | La Canoa                                                               | La Canoa                                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4248 | PSAD56                                                                 | Provisional South American Datum 1956                                  | International 1924                 | degree                          | Greenwich    |
+| EPSG:4249 | Lake                                                                   | Lake                                                                   | International 1924                 | degree                          | Greenwich    |
+| EPSG:4250 | Leigon                                                                 | Leigon                                                                 | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4251 | Liberia 1964                                                           | Liberia 1964                                                           | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4252 | Lome                                                                   | Lome                                                                   | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4253 | Luzon 1911                                                             | Luzon 1911                                                             | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4254 | Hito XVIII 1963                                                        | Hito XVIII 1963                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4255 | Herat North                                                            | Herat North                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4256 | Mahe 1971                                                              | Mahe 1971                                                              | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4257 | Makassar                                                               | Makassar                                                               | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4258 | ETRS89                                                                 | European Terrestrial Reference System 1989                             | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4259 | Malongo 1987                                                           | Malongo 1987                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4260 | Manoca 1962                                                            | Manoca 1962                                                            | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4261 | Merchich                                                               | Merchich                                                               | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4262 | Massawa                                                                | Massawa                                                                | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4263 | Minna                                                                  | Minna                                                                  | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4264 | Mhast                                                                  | Mhast                                                                  | International 1924                 | degree                          | Greenwich    |
+| EPSG:4265 | Monte Mario                                                            | Monte Mario                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4266 | M'poraloko                                                             | M poraloko                                                             | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4267 | NAD27                                                                  | North American Datum 1927                                              | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4268 | NAD27                                                                  | North American Datum 1927                                              | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4269 | NAD83                                                                  | North American Datum 1983                                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4270 | Nahrwan 1967                                                           | Nahrwan 1967                                                           | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4271 | Naparima 1972                                                          | Naparima 1972                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4272 | NZGD49                                                                 | New Zealand Geodetic Datum 1949                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4273 | NGO 1948                                                               | NGO 1948                                                               | Bessel Modified                    | degree                          | Greenwich    |
+| EPSG:4274 | Datum 73                                                               | Datum 73                                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4275 | NTF                                                                    | Nouvelle Triangulation Francaise                                       | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4276 | NSWC 9Z-2                                                              | NSWC 9Z-2                                                              | NWL 9D                             | degree                          | Greenwich    |
+| EPSG:4277 | OSGB36                                                                 | Ordnance Survey of Great Britain 1936                                  | Airy 1830                          | degree                          | Greenwich    |
+| EPSG:4278 | OSGB70                                                                 | OSGB 1970 SN                                                           | Airy 1830                          | degree                          | Greenwich    |
+| EPSG:4279 | OS(SN)80                                                               | OS SN 1980                                                             | Airy 1830                          | degree                          | Greenwich    |
+| EPSG:4280 | Batavia                                                                | Batavia                                                                | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4281 | Palestine 1923                                                         | Palestine 1923                                                         | Clarke 1880 (Benoit)               | degree                          | Greenwich    |
+| EPSG:4282 | Pointe Noire                                                           | Congo 1960 Pointe Noire                                                | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4283 | GDA94                                                                  | Geocentric Datum of Australia 1994                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4284 | Pulkovo 1942                                                           | Pulkovo 1942                                                           | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4285 | Qatar 1974                                                             | Qatar 1974                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4286 | Qatar 1948                                                             | Qatar 1948                                                             | Helmert 1906                       | degree                          | Greenwich    |
+| EPSG:4287 | Qornoq 1927                                                            | Qornoq 1927                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4288 | Loma Quintana                                                          | Loma Quintana                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4289 | Amersfoort                                                             | Amersfoort                                                             | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4291 | SAD69                                                                  | South American Datum 1969                                              | GRS 1967 Modified                  | degree                          | Greenwich    |
+| EPSG:4292 | Sapper Hill 1943                                                       | Sapper Hill 1943                                                       | International 1924                 | degree                          | Greenwich    |
+| EPSG:4293 | Schwarzeck                                                             | Schwarzeck                                                             | Bessel Namibia (GLM)               | degree                          | Greenwich    |
+| EPSG:4294 | Segara                                                                 | Gunung Segara                                                          | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4295 | Serindung                                                              | Serindung                                                              | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4296 | Adindan                                                                | Adindan                                                                | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4297 | Tananarive                                                             | Tananarive 1925                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4298 | Timbalai 1948                                                          | Timbalai 1948                                                          | Everest 1830 (1967 Definition)     | degree                          | Greenwich    |
+| EPSG:4299 | TM65                                                                   | TM65                                                                   | Airy Modified 1849                 | degree                          | Greenwich    |
+| EPSG:4300 | TM75                                                                   | Geodetic Datum of 1965                                                 | Airy Modified 1849                 | degree                          | Greenwich    |
+| EPSG:4301 | Tokyo                                                                  | Tokyo                                                                  | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4302 | Trinidad 1903                                                          | Trinidad 1903                                                          | Clarke 1858                        | degree                          | Greenwich    |
+| EPSG:4303 | TC(1948)                                                               | Trucial Coast 1948                                                     | Helmert 1906                       | degree                          | Greenwich    |
+| EPSG:4304 | Voirol 1875                                                            | Voirol 1875                                                            | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4306 | Bern 1938                                                              | Bern 1938                                                              | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4307 | Nord Sahara 1959                                                       | Nord Sahara 1959                                                       | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4308 | RT38                                                                   | Stockholm 1938                                                         | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4309 | Yacare                                                                 | Yacare                                                                 | International 1924                 | degree                          | Greenwich    |
+| EPSG:4310 | Yoff                                                                   | Yoff                                                                   | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4311 | Zanderij                                                               | Zanderij                                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4312 | MGI                                                                    | Militar-Geographische Institut                                         | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4313 | BD72                                                                   | Reseau National Belge 1972                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4314 | DHDN                                                                   | Deutsches Hauptdreiecksnetz                                            | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4315 | Conakry 1905                                                           | Conakry 1905                                                           | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4316 | Dealul Piscului 1930                                                   | Dealul Piscului 1930                                                   | International 1924                 | degree                          | Greenwich    |
+| EPSG:4317 | Pulkovo 1942(58)                                                       | Pulkovo 1942 58                                                        | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4318 | NGN                                                                    | National Geodetic Network                                              | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4319 | KUDAMS                                                                 | Kuwait Utility                                                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4322 | WGS 72                                                                 | World Geodetic System 1972                                             | WGS 72                             | degree                          | Greenwich    |
+| EPSG:4324 | WGS 72BE                                                               | WGS 72 Transit Broadcast Ephemeris                                     | WGS 72                             | degree                          | Greenwich    |
+| EPSG:4326 | WGS 84                                                                 | WGS 1984                                                               | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4463 | RGSPM06                                                                | Reseau Geodesique de Saint Pierre et Miquelon 2006                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4470 | RGM04                                                                  | Reseau Geodesique de Mayotte 2004                                      | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4475 | Cadastre 1997                                                          | CADASTRE 1997                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4483 | Mexico ITRF92                                                          | Mexico ITRF92                                                          | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4490 | China Geodetic Coordinate System 2000                                  | China 2000                                                             | CGCS2000                           | degree                          | Greenwich    |
+| EPSG:4555 | New Beijing                                                            | New Beijing                                                            | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4558 | RRAF 1991                                                              | Reseau de Reference des Antilles Francaises 1991                       | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4600 | Anguilla 1957                                                          | Anguilla 1957                                                          | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4601 | Antigua 1943                                                           | Antigua 1943                                                           | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4602 | Dominica 1945                                                          | Dominica 1945                                                          | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4603 | Grenada 1953                                                           | Grenada 1953                                                           | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4604 | Montserrat 1958                                                        | Montserrat 1958                                                        | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4605 | St. Kitts 1955                                                         | St Kitts 1955                                                          | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4606 | St. Lucia 1955                                                         | St Lucia 1955                                                          | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4607 | St. Vincent 1945                                                       | St Vincent 1945                                                        | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4608 | NAD27(76)                                                              | North American Datum 1927 1976                                         | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4609 | NAD27(CGQ77)                                                           | North American Datum 1927 CGQ77                                        | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4610 | Xian 1980                                                              | Xian 1980                                                              | IAG 1975                           | degree                          | Greenwich    |
+| EPSG:4611 | Hong Kong 1980                                                         | Hong Kong 1980                                                         | International 1924                 | degree                          | Greenwich    |
+| EPSG:4612 | JGD2000                                                                | Japanese Geodetic Datum 2000                                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4613 | Segara                                                                 | Gunung Segara                                                          | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4614 | QND95                                                                  | Qatar National Datum 1995                                              | International 1924                 | degree                          | Greenwich    |
+| EPSG:4615 | Porto Santo                                                            | Porto Santo 1936                                                       | International 1924                 | degree                          | Greenwich    |
+| EPSG:4616 | Selvagem Grande                                                        | Selvagem Grande                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4617 | NAD83(CSRS)                                                            | NAD83 Canadian Spatial Reference System                                | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4618 | SAD69                                                                  | South American Datum 1969                                              | GRS 1967 Modified                  | degree                          | Greenwich    |
+| EPSG:4619 | SWEREF99                                                               | SWEREF99                                                               | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4620 | Point 58                                                               | Point 58                                                               | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4621 | Fort Marigot                                                           | Fort Marigot                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4622 | Guadeloupe 1948                                                        | Guadeloupe 1948                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4623 | CSG67                                                                  | Centre Spatial Guyanais 1967                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4624 | RGFG95                                                                 | Reseau Geodesique Francais Guyane 1995                                 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4625 | Martinique 1938                                                        | Martinique 1938                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4626 | Reunion 1947                                                           | Reunion 1947                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4627 | RGR92                                                                  | Reseau Geodesique de la Reunion 1992                                   | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4628 | Tahiti 52                                                              | Tahiti 52                                                              | International 1924                 | degree                          | Greenwich    |
+| EPSG:4629 | Tahaa 54                                                               | Tahaa 54                                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4630 | IGN72 Nuku Hiva                                                        | IGN72 Nuku Hiva                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4631 | IGN 1962 Kerguelen                                                     | IGN 1962 Kerguelen                                                     | International 1924                 | degree                          | Greenwich    |
+| EPSG:4632 | Combani 1950                                                           | Combani 1950                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4633 | IGN56 Lifou                                                            | IGN56 Lifou                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4634 | IGN72 Grande Terre                                                     | IGN72 Grande Terre                                                     | International 1924                 | degree                          | Greenwich    |
+| EPSG:4635 | ST87 Ouvea                                                             | ST87 Ouvea                                                             | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4636 | Petrels 1972                                                           | Petrels 1972                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4637 | Perroud 1950                                                           | Pointe Geologie Perroud 1950                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4638 | Saint Pierre et Miquelon 1950                                          | Saint Pierre et Miquelon 1950                                          | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4639 | MOP78                                                                  | MOP78                                                                  | International 1924                 | degree                          | Greenwich    |
+| EPSG:4640 | RRAF 1991                                                              | Reseau de Reference des Antilles Francaises 1991                       | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4641 | IGN53 Mare                                                             | IGN53 Mare                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4642 | ST84 Ile des Pins                                                      | ST84 Ile des Pins                                                      | International 1924                 | degree                          | Greenwich    |
+| EPSG:4643 | ST71 Belep                                                             | ST71 Belep                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4644 | NEA74 Noumea                                                           | NEA74 Noumea                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4645 | RGNC91-93                                                              | Reseau Geodesique de Nouvelle Caledonie 91-93                          | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4646 | Grand Comoros                                                          | Grand Comoros                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4657 | Reykjavik 1900                                                         | Reykjavik 1900                                                         | Danish 1876                        | degree                          | Greenwich    |
+| EPSG:4658 | Hjorsey 1955                                                           | Hjorsey 1955                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4659 | ISN93                                                                  | Islands Net 1993                                                       | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4660 | Helle 1954                                                             | Helle 1954                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4661 | LKS92                                                                  | Latvia 1992                                                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4662 | IGN72 Grande Terre                                                     | IGN72 Grande Terre                                                     | International 1924                 | degree                          | Greenwich    |
+| EPSG:4663 | Porto Santo 1995                                                       | Porto Santo 1995                                                       | International 1924                 | degree                          | Greenwich    |
+| EPSG:4664 | Azores Oriental 1995                                                   | Azores Oriental Islands 1995                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4665 | Azores Central 1995                                                    | Azores Central Islands 1995                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4666 | Lisbon 1890                                                            | Lisbon 1890                                                            | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4667 | IKBD-92                                                                | Iraq-Kuwait Boundary Datum 1992                                        | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4668 | ED79                                                                   | European Datum 1979                                                    | International 1924                 | degree                          | Greenwich    |
+| EPSG:4669 | LKS94                                                                  | Lithuania 1994 ETRS89                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4670 | IGM95                                                                  | Istituto Geografico Militaire 1995                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4671 | Voirol 1879                                                            | Voirol 1879                                                            | Clarke 1880 (IGN)                  | degree                          | Greenwich    |
+| EPSG:4672 | Chatham Islands 1971                                                   | Chatham Islands Datum 1971                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4673 | Chatham Islands 1979                                                   | Chatham Islands Datum 1979                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4674 | SIRGAS 2000                                                            | Sistema de Referencia Geocentrico para las AmericaS 2000               | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4675 | Guam 1963                                                              | Guam 1963                                                              | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4676 | Vientiane 1982                                                         | Vientiane 1982                                                         | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4677 | Lao 1993                                                               | Lao 1993                                                               | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4678 | Lao 1997                                                               | Lao National Datum 1997                                                | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:4679 | Jouik 1961                                                             | Jouik 1961                                                             | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4680 | Nouakchott 1965                                                        | Nouakchott 1965                                                        | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4681 | Mauritania 1999                                                        | Mauritania 1999                                                        | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4682 | Gulshan 303                                                            | Gulshan 303                                                            | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:4683 | PRS92                                                                  | Philippine Reference System 1992                                       | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4684 | Gan 1970                                                               | Gan 1970                                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4685 | Kasai 1953                                                             | Kasai 1953                                                             | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4686 | MAGNA-SIRGAS                                                           | Marco Geocentrico Nacional de Referencia                               | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4687 | RGPF                                                                   | Reseau Geodesique de la Polynesie Francaise                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4688 | Fatu Iva 72                                                            | Fatu Iva 72                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4689 | IGN63 Hiva Oa                                                          | IGN63 Hiva Oa                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4690 | Tahiti 79                                                              | Tahiti 79                                                              | International 1924                 | degree                          | Greenwich    |
+| EPSG:4691 | Moorea 87                                                              | Moorea 87                                                              | International 1924                 | degree                          | Greenwich    |
+| EPSG:4692 | Maupiti 83                                                             | Maupiti 83                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4693 | Nakhl-e Ghanem                                                         | Nakhl-e Ghanem                                                         | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4694 | POSGAR 94                                                              | Posiciones Geodesicas Argentinas 1994                                  | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4695 | Katanga 1955                                                           | Katanga 1955                                                           | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4696 | Kasai 1953                                                             | Kasai 1953                                                             | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4697 | IGC 1962 6th Parallel South                                            | IGC 1962 Arc of the 6th Parallel South                                 | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4698 | IGN 1962 Kerguelen                                                     | IGN 1962 Kerguelen                                                     | International 1924                 | degree                          | Greenwich    |
+| EPSG:4699 | Le Pouce 1934                                                          | Le Pouce 1934                                                          | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4700 | IGN Astro 1960                                                         | IGN Astro 1960                                                         | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4701 | IGCB 1955                                                              | Institut Geographique du Congo Belge 1955                              | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4702 | Mauritania 1999                                                        | Mauritania 1999                                                        | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4703 | Mhast 1951                                                             | Missao Hidrografico Angola y Sao Tome 1951                             | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4704 | Mhast (onshore)                                                        | Mhast onshore                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4705 | Mhast (offshore)                                                       | Mhast offshore                                                         | International 1924                 | degree                          | Greenwich    |
+| EPSG:4706 | Egypt Gulf of Suez S-650 TL                                            | Egypt Gulf of Suez S-650 TL                                            | Helmert 1906                       | degree                          | Greenwich    |
+| EPSG:4707 | Tern Island 1961                                                       | Tern Island 1961                                                       | International 1924                 | degree                          | Greenwich    |
+| EPSG:4708 | Cocos Islands 1965                                                     | Cocos Islands 1965                                                     | Australian National Spheroid       | degree                          | Greenwich    |
+| EPSG:4709 | Iwo Jima 1945                                                          | Iwo Jima 1945                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4710 | Astro DOS 71                                                           | Astro DOS 71                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4711 | Marcus Island 1952                                                     | Marcus Island 1952                                                     | International 1924                 | degree                          | Greenwich    |
+| EPSG:4712 | Ascension Island 1958                                                  | Ascension Island 1958                                                  | International 1924                 | degree                          | Greenwich    |
+| EPSG:4713 | Ayabelle Lighthouse                                                    | Ayabelle Lighthouse                                                    | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4714 | Bellevue                                                               | Bellevue                                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4715 | Camp Area Astro                                                        | Camp Area Astro                                                        | International 1924                 | degree                          | Greenwich    |
+| EPSG:4716 | Phoenix Islands 1966                                                   | Phoenix Islands 1966                                                   | International 1924                 | degree                          | Greenwich    |
+| EPSG:4717 | Cape Canaveral                                                         | Cape Canaveral                                                         | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4718 | Solomon 1968                                                           | Solomon 1968                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4719 | Easter Island 1967                                                     | Easter Island 1967                                                     | International 1924                 | degree                          | Greenwich    |
+| EPSG:4720 | Fiji 1986                                                              | Fiji Geodetic Datum 1986                                               | WGS 72                             | degree                          | Greenwich    |
+| EPSG:4721 | Fiji 1956                                                              | Fiji 1956                                                              | International 1924                 | degree                          | Greenwich    |
+| EPSG:4722 | South Georgia 1968                                                     | South Georgia 1968                                                     | International 1924                 | degree                          | Greenwich    |
+| EPSG:4723 | GCGD59                                                                 | Grand Cayman Geodetic Datum 1959                                       | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4724 | Diego Garcia 1969                                                      | Diego Garcia 1969                                                      | International 1924                 | degree                          | Greenwich    |
+| EPSG:4725 | Johnston Island 1961                                                   | Johnston Island 1961                                                   | International 1924                 | degree                          | Greenwich    |
+| EPSG:4726 | SIGD61                                                                 | Sister Islands Geodetic Datum 1961                                     | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:4727 | Midway 1961                                                            | Midway 1961                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4728 | PN84                                                                   | Pico de las Nieves 1984                                                | International 1924                 | degree                          | Greenwich    |
+| EPSG:4729 | Pitcairn 1967                                                          | Pitcairn 1967                                                          | International 1924                 | degree                          | Greenwich    |
+| EPSG:4730 | Santo 1965                                                             | Santo 1965                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4731 | Viti Levu 1912                                                         | Viti Levu 1912                                                         | Clarke 1880 (international foot)   | degree                          | Greenwich    |
+| EPSG:4732 | Marshall Islands 1960                                                  | Marshall Islands 1960                                                  | Hough 1960                         | degree                          | Greenwich    |
+| EPSG:4733 | Wake Island 1952                                                       | Wake Island 1952                                                       | International 1924                 | degree                          | Greenwich    |
+| EPSG:4734 | Tristan 1968                                                           | Tristan 1968                                                           | International 1924                 | degree                          | Greenwich    |
+| EPSG:4735 | Kusaie 1951                                                            | Kusaie 1951                                                            | International 1924                 | degree                          | Greenwich    |
+| EPSG:4736 | Deception Island                                                       | Deception Island                                                       | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4737 | Korea 2000                                                             | Geocentric datum of Korea                                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4738 | Hong Kong 1963                                                         | Hong Kong 1963                                                         | Clarke 1858                        | degree                          | Greenwich    |
+| EPSG:4739 | Hong Kong 1963(67)                                                     | Hong Kong 1963 67                                                      | International 1924                 | degree                          | Greenwich    |
+| EPSG:4740 | PZ-90                                                                  | Parametry Zemli 1990                                                   | PZ-90                              | degree                          | Greenwich    |
+| EPSG:4741 | FD54                                                                   | Faroe Datum 1954                                                       | International 1924                 | degree                          | Greenwich    |
+| EPSG:4742 | GDM2000                                                                | Geodetic Datum of Malaysia 2000                                        | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4743 | Karbala 1979                                                           | Karbala 1979                                                           | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4744 | Nahrwan 1934                                                           | Nahrwan 1934                                                           | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4745 | RD/83                                                                  | Rauenberg Datum 83                                                     | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4746 | PD/83                                                                  | Potsdam Datum 83                                                       | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:4747 | GR96                                                                   | Greenland 1996                                                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4748 | Vanua Levu 1915                                                        | Vanua Levu 1915                                                        | Clarke 1880 (international foot)   | degree                          | Greenwich    |
+| EPSG:4749 | RGNC91-93                                                              | Reseau Geodesique de Nouvelle Caledonie 91-93                          | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4750 | ST87 Ouvea                                                             | ST87 Ouvea                                                             | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4751 | Kertau (RSO)                                                           | Kertau RSO                                                             | Everest 1830 (RSO 1969)            | degree                          | Greenwich    |
+| EPSG:4752 | Viti Levu 1912                                                         | Viti Levu 1912                                                         | Clarke 1880 (international foot)   | degree                          | Greenwich    |
+| EPSG:4753 | fk89                                                                   | fk89                                                                   | International 1924                 | degree                          | Greenwich    |
+| EPSG:4754 | LGD2006                                                                | Libyan Geodetic Datum 2006                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:4755 | DGN95                                                                  | Datum Geodesi Nasional 1995                                            | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4756 | VN-2000                                                                | Vietnam 2000                                                           | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4757 | SVY21                                                                  | SVY21                                                                  | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4758 | JAD2001                                                                | Jamaica 2001                                                           | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4759 | NAD83(NSRS2007)                                                        | NAD83 National Spatial Reference System 2007                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4760 | WGS 66                                                                 | World Geodetic System 1966                                             | NWL 9D                             | degree                          | Greenwich    |
+| EPSG:4761 | HTRS96                                                                 | Croatian Terrestrial Reference System                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4762 | BDA2000                                                                | Bermuda 2000                                                           | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4763 | Pitcairn 2006                                                          | Pitcairn 2006                                                          | WGS 84                             | degree                          | Greenwich    |
+| EPSG:4764 | RSRGD2000                                                              | Ross Sea Region Geodetic Datum 2000                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4765 | Slovenia 1996                                                          | Slovenia Geodetic Datum 1996                                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:4801 | Bern 1898 (Bern)                                                       | CH1903 Bern                                                            | Bessel 1841                        | degree                          | Bern         |
+| EPSG:4802 | Bogota 1975 (Bogota)                                                   | Bogota 1975 Bogota                                                     | International 1924                 | degree                          | Bogota       |
+| EPSG:4803 | Lisbon (Lisbon)                                                        | Lisbon 1937 Lisbon                                                     | International 1924                 | degree                          | Lisbon       |
+| EPSG:4804 | Makassar (Jakarta)                                                     | Makassar Jakarta                                                       | Bessel 1841                        | degree                          | Jakarta      |
+| EPSG:4805 | MGI (Ferro)                                                            | Militar-Geographische Institut Ferro                                   | Bessel 1841                        | degree                          | Ferro        |
+| EPSG:4806 | Monte Mario (Rome)                                                     | Monte Mario Rome                                                       | International 1924                 | degree                          | Rome         |
+| EPSG:4807 | NTF (Paris)                                                            | Nouvelle Triangulation Francaise Paris                                 | Clarke 1880 (IGN)                  | grad                            | Paris        |
+| EPSG:4808 | Batavia (Jakarta)                                                      | Batavia Jakarta                                                        | Bessel 1841                        | degree                          | Jakarta      |
+| EPSG:4809 | BD50 (Brussels)                                                        | Reseau National Belge 1950 Brussels                                    | International 1924                 | degree                          | Brussels     |
+| EPSG:4810 | Tananarive (Paris)                                                     | Tananarive 1925 Paris                                                  | International 1924                 | grad                            | Paris        |
+| EPSG:4811 | Voirol 1875 (Paris)                                                    | Voirol 1875 Paris                                                      | Clarke 1880 (IGN)                  | grad                            | Paris        |
+| EPSG:4813 | Batavia (Jakarta)                                                      | Batavia Jakarta                                                        | Bessel 1841                        | degree                          | Jakarta      |
+| EPSG:4814 | RT38 (Stockholm)                                                       | Stockholm 1938 Stockholm                                               | Bessel 1841                        | degree                          | Stockholm    |
+| EPSG:4815 | Greek (Athens)                                                         | Greek Athens                                                           | Bessel 1841                        | degree                          | Athens       |
+| EPSG:4816 | Carthage (Paris)                                                       | Carthage Paris                                                         | Clarke 1880 (IGN)                  | grad                            | Paris        |
+| EPSG:4817 | NGO 1948 (Oslo)                                                        | NGO 1948 Oslo                                                          | Bessel Modified                    | degree                          | Oslo         |
+| EPSG:4818 | S-JTSK (Ferro)                                                         | System of the Unified Trigonometrical Cadastral Network Ferro          | Bessel 1841                        | degree                          | Ferro        |
+| EPSG:4819 | Nord Sahara 1959                                                       | Nord Sahara 1959                                                       | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:4820 | Segara (Jakarta)                                                       | Gunung Segara Jakarta                                                  | Bessel 1841                        | degree                          | Jakarta      |
+| EPSG:4821 | Voirol 1879 (Paris)                                                    | Voirol 1879 Paris                                                      | Clarke 1880 (IGN)                  | grad                            | Paris        |
+| EPSG:4823 | Sao Tome                                                               | Sao Tome                                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4824 | Principe                                                               | Principe                                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:4901 | ATF (Paris)                                                            | Ancienne Triangulation Francaise Paris                                 | Plessis 1817                       | grad                            | Paris RGS    |
+| EPSG:4902 | ATF (Paris)                                                            | Ancienne Triangulation Francaise Paris                                 | Plessis 1817                       | grad                            | Paris RGS    |
+| EPSG:4903 | Madrid 1870 (Madrid)                                                   | Madrid 1870 Madrid                                                     | Struve 1860                        | degree                          | Madrid       |
+| EPSG:4904 | Lisbon 1890 (Lisbon)                                                   | Lisbon 1890 Lisbon                                                     | Bessel 1841                        | degree                          | Lisbon       |
+| EPSG:5013 | PTRA08                                                                 | Autonomous Regions of Portugal 2008                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5132 | Tokyo 1892                                                             | Tokyo 1892                                                             | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:5228 | S-JTSK/05                                                              | System of the Unified Trigonometrical Cadastral Network 05             | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:5229 | S-JTSK/05 (Ferro)                                                      | System of the Unified Trigonometrical Cadastral Network 05 Ferro       | Bessel 1841                        | degree                          | Ferro        |
+| EPSG:5233 | SLD99                                                                  | Sri Lanka Datum 1999                                                   | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:5246 | GDBD2009                                                               | Geocentric Datum Brunei Darussalam 2009                                | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5252 | TUREF                                                                  | Turkish National Reference Frame                                       | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5264 | DRUKREF 03                                                             | Bhutan National Geodetic Datum                                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5324 | ISN2004                                                                | Islands Net 2004                                                       | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5340 | POSGAR 2007                                                            | Posiciones Geodesicas Argentinas 2007                                  | WGS 84                             | degree                          | Greenwich    |
+| EPSG:5354 | MARGEN                                                                 | Marco Geodesico Nacional de Bolivia                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5360 | SIRGAS-Chile 2002                                                      | SIRGAS-Chile realization 1 epoch 2002                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5365 | CR05                                                                   | Costa Rica 2005                                                        | WGS 84                             | degree                          | Greenwich    |
+| EPSG:5371 | MACARIO SOLIS                                                          | Sistema Geodesico Nacional de Panama MACARIO SOLIS                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5373 | Peru96                                                                 | Peru96                                                                 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5381 | SIRGAS-ROU98                                                           | SIRGAS-ROU98                                                           | WGS 84                             | degree                          | Greenwich    |
+| EPSG:5393 | SIRGAS_ES2007.8                                                        | SIRGAS ES2007 8                                                        | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5451 | Ocotepeque 1935                                                        | Ocotepeque 1935                                                        | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:5464 | Sibun Gorge 1922                                                       | Sibun Gorge 1922                                                       | Clarke 1858                        | degree                          | Greenwich    |
+| EPSG:5467 | Panama-Colon 1911                                                      | Panama-Colon 1911                                                      | Clarke 1866                        | degree                          | Greenwich    |
+| EPSG:5489 | RGAF09                                                                 | Reseau Geodesique des Antilles Francaises 2009                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5524 | Corrego Alegre 1961                                                    | Corrego Alegre 1961                                                    | International 1924                 | degree                          | Greenwich    |
+| EPSG:5527 | SAD69(96)                                                              | South American Datum 1969 96                                           | GRS 1967 Modified                  | degree                          | Greenwich    |
+| EPSG:5546 | PNG94                                                                  | Papua New Guinea Geodetic Datum 1994                                   | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5561 | UCS-2000                                                               | Ukraine 2000                                                           | Krassowsky 1940                    | degree                          | Greenwich    |
+| EPSG:5593 | FEH2010                                                                | Fehmarnbelt Datum 2010                                                 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:5681 | DB_REF                                                                 | Deutsche Bahn Reference System                                         | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:5886 | TGD2005                                                                | Tonga Geodetic Datum 2005                                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6135 | CIGD11                                                                 | Cayman Islands Geodetic Datum 2011                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6207 | Nepal 1981                                                             | Nepal 1981                                                             | Everest 1830 (1937 Adjustment)     | degree                          | Greenwich    |
+| EPSG:6311 | CGRS93                                                                 | Cyprus Geodetic Reference System 1993                                  | WGS 84                             | degree                          | Greenwich    |
+| EPSG:6318 | NAD83(2011)                                                            | NAD83 National Spatial Reference System 2011                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6322 | NAD83(PA11)                                                            | NAD83 National Spatial Reference System PA11                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6325 | NAD83(MA11)                                                            | NAD83 National Spatial Reference System MA11                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6365 | Mexico ITRF2008                                                        | Mexico ITRF2008                                                        | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6668 | JGD2011                                                                | Japanese Geodetic Datum 2011                                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6706 | RDN2008                                                                | Rete Dinamica Nazionale 2008                                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6783 | NAD83(CORS96)                                                          | NAD83 Continuously Operating Reference Station 1996                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6881 | Aden 1925                                                              | Aden 1925                                                              | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:6882 | Bekaa Valley 1920                                                      | Bekaa Valley 1920                                                      | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:6883 | Bioko                                                                  | Bioko                                                                  | International 1924                 | degree                          | Greenwich    |
+| EPSG:6892 | South East Island 1943                                                 | South East Island 1943                                                 | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:6894 | Gambia                                                                 | Gambia                                                                 | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:6980 | IGD05                                                                  | Israeli Geodetic Datum 2005                                            | WGS 84                             | degree                          | Greenwich    |
+| EPSG:6983 | IG05 Intermediate CRS                                                  | IG05 Intermediate Datum                                                | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:6987 | IGD05/12                                                               | Israeli Geodetic Datum 2005 2012                                       | WGS 84                             | degree                          | Greenwich    |
+| EPSG:6990 | IG05/12 Intermediate CRS                                               | IG05 12 Intermediate Datum                                             | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7035 | RGSPM06 (lon-lat)                                                      | Reseau Geodesique de Saint Pierre et Miquelon 2006                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7037 | RGR92 (lon-lat)                                                        | Reseau Geodesique de la Reunion 1992                                   | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7039 | RGM04 (lon-lat)                                                        | Reseau Geodesique de Mayotte 2004                                      | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7041 | RGFG95 (lon-lat)                                                       | Reseau Geodesique Francais Guyane 1995                                 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7073 | RGTAAF07                                                               | Reseau Geodesique des Terres Australes et Antarctiques Francaises 2007 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7084 | RGF93 v1 (lon-lat)                                                     | Reseau Geodesique Francais 1993 v1                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7086 | RGAF09 (lon-lat)                                                       | Reseau Geodesique des Antilles Francaises 2009                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7088 | RGTAAF07 (lon-lat)                                                     | Reseau Geodesique des Terres Australes et Antarctiques Francaises 2007 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7133 | RGTAAF07 (lon-lat)                                                     | Reseau Geodesique des Terres Australes et Antarctiques Francaises 2007 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7136 | IGD05                                                                  | Israeli Geodetic Datum 2005                                            | WGS 84                             | degree                          | Greenwich    |
+| EPSG:7139 | IGD05/12                                                               | Israeli Geodetic Datum 2005 2012                                       | WGS 84                             | degree                          | Greenwich    |
+| EPSG:7373 | ONGD14                                                                 | Oman National Geodetic Datum 2014                                      | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7683 | GSK-2011                                                               | Geodezicheskaya Sistema Koordinat 2011                                 | GSK-2011                           | degree                          | Greenwich    |
+| EPSG:7686 | Kyrg-06                                                                | Kyrgyzstan Geodetic Datum 2006                                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7798 | BGS2005                                                                | Bulgaria Geodetic System 2005                                          | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7844 | GDA2020                                                                | Geocentric Datum of Australia 2020                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:7881 | St. Helena Tritan                                                      | St Helena Tritan                                                       | WGS 84                             | degree                          | Greenwich    |
+| EPSG:7886 | SHGD2015                                                               | St Helena Geodetic Datum 2015                                          | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8042 | Gusterberg (Ferro)                                                     | Gusterberg Ferro                                                       | Zach 1812                          | degree                          | Ferro        |
+| EPSG:8043 | St. Stephen (Ferro)                                                    | St Stephen Ferro                                                       | Zach 1812                          | degree                          | Ferro        |
+| EPSG:8086 | ISN2016                                                                | Islands Net 2016                                                       | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8232 | NAD83(CSRS96)                                                          | North American Datum of 1983 CSRS96                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8237 | NAD83(CSRS)v2                                                          | North American Datum of 1983 CSRS version 2                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8240 | NAD83(CSRS)v3                                                          | North American Datum of 1983 CSRS version 3                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8246 | NAD83(CSRS)v4                                                          | North American Datum of 1983 CSRS version 4                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8249 | NAD83(CSRS)v5                                                          | North American Datum of 1983 CSRS version 5                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8252 | NAD83(CSRS)v6                                                          | North American Datum of 1983 CSRS version 6                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8255 | NAD83(CSRS)v7                                                          | North American Datum of 1983 CSRS version 7                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8351 | S-JTSK [JTSK03]                                                        | System of the Unified Trigonometrical Cadastral Network JTSK03         | Bessel 1841                        | degree                          | Greenwich    |
+| EPSG:8427 | Hong Kong Geodetic CS                                                  | Hong Kong Geodetic                                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8428 | Macao 1920                                                             | Macao 1920                                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:8431 | Macao 2008                                                             | Macao Geodetic Datum 2008                                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8449 | NAD83(FBN)                                                             | NAD83 Federal Base Network                                             | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8545 | NAD83(HARN Corrected)                                                  | NAD83 High Accuracy Reference Network - Corrected                      | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8685 | SRB_ETRS89                                                             | Serbian Spatial Reference System 2000                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8694 | Camacupa 2015                                                          | Camacupa 2015                                                          | Clarke 1880 (RGS)                  | degree                          | Greenwich    |
+| EPSG:8699 | RSAO13                                                                 | Reference System de Angola 2013                                        | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8818 | MTRF-2000                                                              | MOMRA Terrestrial Reference Frame 2000                                 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8860 | NAD83(FBN)                                                             | NAD83 Federal Base Network                                             | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8888 | WGS 84 (Transit)                                                       | World Geodetic System 1984 Transit                                     | WGS 84                             | degree                          | Greenwich    |
+| EPSG:8900 | RGWF96                                                                 | Reseau Geodesique de Wallis et Futuna 1996                             | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8902 | RGWF96 (lon-lat)                                                       | Reseau Geodesique de Wallis et Futuna 1996                             | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8907 | CR-SIRGAS                                                              | CR-SIRGAS                                                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8949 | SIRGAS-Chile 2010                                                      | SIRGAS-Chile realization 2 epoch 2010                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8972 | SIRGAS-CON DGF00P01                                                    | SIRGAS Continuously Operating Network DGF00P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8973 | SIRGAS-CON DGF01P01                                                    | SIRGAS Continuously Operating Network DGF01P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8974 | SIRGAS-CON DGF01P02                                                    | SIRGAS Continuously Operating Network DGF01P02                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8975 | SIRGAS-CON DGF02P01                                                    | SIRGAS Continuously Operating Network DGF02P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8976 | SIRGAS-CON DGF04P01                                                    | SIRGAS Continuously Operating Network DGF04P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8977 | SIRGAS-CON DGF05P01                                                    | SIRGAS Continuously Operating Network DGF05P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8978 | SIRGAS-CON DGF06P01                                                    | SIRGAS Continuously Operating Network DGF06P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8979 | SIRGAS-CON DGF07P01                                                    | SIRGAS Continuously Operating Network DGF07P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8980 | SIRGAS-CON DGF08P01                                                    | SIRGAS Continuously Operating Network DGF08P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8981 | SIRGAS-CON SIR09P01                                                    | SIRGAS Continuously Operating Network SIR09P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8982 | SIRGAS-CON SIR10P01                                                    | SIRGAS Continuously Operating Network SIR10P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8983 | SIRGAS-CON SIR11P01                                                    | SIRGAS Continuously Operating Network SIR11P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8984 | SIRGAS-CON SIR13P01                                                    | SIRGAS Continuously Operating Network SIR13P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8985 | SIRGAS-CON SIR14P01                                                    | SIRGAS Continuously Operating Network SIR14P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8986 | SIRGAS-CON SIR15P01                                                    | SIRGAS Continuously Operating Network SIR15P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8987 | SIRGAS-CON SIR17P01                                                    | SIRGAS Continuously Operating Network SIR17P01                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8988 | ITRF88                                                                 | International Terrestrial Reference Frame 1988                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8989 | ITRF89                                                                 | International Terrestrial Reference Frame 1989                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8990 | ITRF90                                                                 | International Terrestrial Reference Frame 1990                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8991 | ITRF91                                                                 | International Terrestrial Reference Frame 1991                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8992 | ITRF92                                                                 | International Terrestrial Reference Frame 1992                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8993 | ITRF93                                                                 | International Terrestrial Reference Frame 1993                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8994 | ITRF94                                                                 | International Terrestrial Reference Frame 1994                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8995 | ITRF96                                                                 | International Terrestrial Reference Frame 1996                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8996 | ITRF97                                                                 | International Terrestrial Reference Frame 1997                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8997 | ITRF2000                                                               | International Terrestrial Reference Frame 2000                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8998 | ITRF2005                                                               | International Terrestrial Reference Frame 2005                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:8999 | ITRF2008                                                               | International Terrestrial Reference Frame 2008                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9000 | ITRF2014                                                               | International Terrestrial Reference Frame 2014                         | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9003 | IGS97                                                                  | IGS97                                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9006 | IGS00                                                                  | IGS00                                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9009 | IGb00                                                                  | IGb00                                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9012 | IGS05                                                                  | IGS05                                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9014 | IGS08                                                                  | IGS08                                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9017 | IGb08                                                                  | IGb08                                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9019 | IGS14                                                                  | IGS14                                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9053 | WGS 84 (G730)                                                          | World Geodetic System 1984 G730                                        | WGS 84                             | degree                          | Greenwich    |
+| EPSG:9054 | WGS 84 (G873)                                                          | World Geodetic System 1984 G873                                        | WGS 84                             | degree                          | Greenwich    |
+| EPSG:9055 | WGS 84 (G1150)                                                         | World Geodetic System 1984 G1150                                       | WGS 84                             | degree                          | Greenwich    |
+| EPSG:9056 | WGS 84 (G1674)                                                         | World Geodetic System 1984 G1674                                       | WGS 84                             | degree                          | Greenwich    |
+| EPSG:9057 | WGS 84 (G1762)                                                         | World Geodetic System 1984 G1762                                       | WGS 84                             | degree                          | Greenwich    |
+| EPSG:9059 | ETRF89                                                                 | European Terrestrial Reference Frame 1989                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9060 | ETRF90                                                                 | European Terrestrial Reference Frame 1990                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9061 | ETRF91                                                                 | European Terrestrial Reference Frame 1991                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9062 | ETRF92                                                                 | European Terrestrial Reference Frame 1992                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9063 | ETRF93                                                                 | European Terrestrial Reference Frame 1993                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9064 | ETRF94                                                                 | European Terrestrial Reference Frame 1994                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9065 | ETRF96                                                                 | European Terrestrial Reference Frame 1996                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9066 | ETRF97                                                                 | European Terrestrial Reference Frame 1997                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9067 | ETRF2000                                                               | European Terrestrial Reference Frame 2000                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9068 | ETRF2005                                                               | European Terrestrial Reference Frame 2005                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9069 | ETRF2014                                                               | European Terrestrial Reference Frame 2014                              | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9072 | NAD83(MARP00)                                                          | North American Datum of 1983 MARP00                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9075 | NAD83(PACP00)                                                          | North American Datum of 1983 PACP00                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9140 | KOSOVAREF01                                                            | Kosovo Reference System 2001                                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9148 | SIRGAS-Chile 2013                                                      | SIRGAS-Chile realization 3 epoch 2013                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9153 | SIRGAS-Chile 2016                                                      | SIRGAS-Chile realization 4 epoch 2016                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9184 | SIRGAS-Chile                                                           | SIRGAS-Chile                                                           | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9248 | Tapi Aike                                                              | Tapi Aike                                                              | International 1924                 | degree                          | Greenwich    |
+| EPSG:9251 | MMN                                                                    | Ministerio de Marina Norte                                             | International 1924                 | degree                          | Greenwich    |
+| EPSG:9253 | MMS                                                                    | Ministerio de Marina Sur                                               | International 1924                 | degree                          | Greenwich    |
+| EPSG:9294 | ONGD17                                                                 | Oman National Geodetic Datum 2017                                      | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9299 | HS2-IRF                                                                | HS2 Intermediate Reference Frame                                       | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9309 | ATRF2014                                                               | Australian Terrestrial Reference Frame 2014                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9333 | KSA-GRF17                                                              | Kingdom of Saudi Arabia Geodetic Reference Frame 2017                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9364 | TPEN11-IRF                                                             | TPEN11 Intermediate Reference Frame                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9372 | MML07-IRF                                                              | MML07 Intermediate Reference Frame                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9380 | IGb14                                                                  | IGb14                                                                  | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9384 | AbInvA96_2020-IRF                                                      | AbInvA96 2020 Intermediate Reference Frame                             | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9403 | PN68                                                                   | Pico de las Nieves 1968                                                | International 1924                 | degree                          | Greenwich    |
+| EPSG:9453 | GBK19-IRF                                                              | GBK19 Intermediate Reference Frame                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9470 | SRGI2013                                                               | Sistem Referensi Geospasial Indonesia 2013                             | WGS 84                             | degree                          | Greenwich    |
+| EPSG:9474 | PZ-90.02                                                               | Parametry Zemli 1990 02                                                | PZ-90                              | degree                          | Greenwich    |
+| EPSG:9475 | PZ-90.11                                                               | Parametry Zemli 1990 11                                                | PZ-90                              | degree                          | Greenwich    |
+| EPSG:9547 | LTF2004(G)                                                             | Lyon Turin Ferroviaire 2004                                            | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9696 | REDGEOMIN                                                              | Red Geodesica Para Mineria en Chile                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9702 | ETRF2000-PL                                                            | ETRF2000 Poland                                                        | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9739 | EOS21-IRF                                                              | EOS21 Intermediate Reference Frame                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9755 | WGS 84 (G2139)                                                         | World Geodetic System 1984 G2139                                       | WGS 84                             | degree                          | Greenwich    |
+| EPSG:9758 | ECML14_NB-IRF                                                          | ECML14 NB Intermediate Reference Frame                                 | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9763 | EWR2-IRF                                                               | EWR2 Intermediate Reference Frame                                      | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9777 | RGF93 v2                                                               | Reseau Geodesique Francais 1993 v2                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9779 | RGF93 v2 (lon-lat)                                                     | Reseau Geodesique Francais 1993 v2                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9782 | RGF93 v2b                                                              | Reseau Geodesique Francais 1993 v2b                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9784 | RGF93 v2b (lon-lat)                                                    | Reseau Geodesique Francais 1993 v2b                                    | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9866 | MRH21-IRF                                                              | MRH21 Intermediate Reference Frame                                     | GRS 1980                           | degree                          | Greenwich    |
+| EPSG:9871 | MOLDOR11-IRF                                                           | MOLDOR11 Intermediate Reference Frame                                  | GRS 1980                           | degree                          | Greenwich    |
+
+
+

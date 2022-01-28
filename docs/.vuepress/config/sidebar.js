@@ -54,8 +54,18 @@ module.exports = {
                 'VERT_CS',
                 'COMPD_CS',
             ]
-        }
+        },
     ],
+    '/geography/GIS/ReferenceSystem/': [
+        {
+            title: '参考系',
+            collapsable: false,
+            children: [
+                'GEOGCRS',
+            ]
+        },
+    ],
+
     //气象
     '/geography/MET/ANUSPLIN/': [
         {

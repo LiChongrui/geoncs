@@ -51,7 +51,8 @@ module.exports = [
                 text: '地信研学',
                 link: '/geography/GIS/',
                 items: [
-                    { text: '坐标系', link: '/geography/GIS/CoordinateSystem/GEOGCS' }
+                    { text: '坐标系', link: '/geography/GIS/CoordinateSystem/GEOGCS' },
+                    { text: '参考系', link: '/geography/GIS/ReferenceSystem/GEOGCRS' }
                 ]
             },
             {
