@@ -1,13 +1,13 @@
 ---
 title: 投影坐标系
-date: 2021-12-22
+date: 2022-01-10
 tags:
  - 坐标系
 categories:
  - 地信研学
 ---
 
-&emsp;　本页对投影坐标系（Projected Coordinate System）的基础参数的进行介绍，并统计了 4782 个投影坐标系的官方 ID（EPSG），坐标系名称，投影，单位和其他相关参数。
+&emsp;　本页对投影坐标系（Projected Coordinate System）的基础参数的进行介绍，并统计了 4782 个投影坐标系的官方 ID（EPSG），坐标系名称，投影方法，长度单位和其他相关参数。
 
 <!-- more -->
 
@@ -15,13 +15,13 @@ categories:
 
 &emsp;　地球椭球体表面也是个曲面，而我们日常生活中的地图及量测空间通常是二维平面，因此在地图制图和线性量测时首先要考虑把曲面转化成平面。由于球面上任何一点的位置是用地理坐标（λ，φ）表示的，而平面上的点的位置是用直角坐标（X，Y）表示的，所以要想将地球表面上的点转移到平面上，必须采用一定的方法来确定地理坐标与平面直角坐标或极坐标之间的关系。这种在球面和平面之间建立点与点之间函数关系的数学方法，就是地图投影方法。
 
-&emsp;　投影坐标系使用基于 X，Y 值的坐标系统来描述地球上某个点所处的位置。这个坐标系是从地球的近似椭球体投影得到的，它对应于某个地理坐标系。投影坐标系主要由 [地理坐标系](GEOGCS.html) 和 [投影方法](PROJCS.html#投影方法) 构成。
+&emsp;　投影坐标系使用基于 X，Y 值的坐标系统来描述地球上某个点所处的位置。这个坐标系是从地球的近似椭球体投影得到的，它对应于某个地理坐标系。投影坐标系（以及投影坐标系命名）主要由 [地理坐标系](GEOGCS.html) 和 [投影方法](PROJCS.html#投影方法) 构成。例如：WGS 84 / UTM zone 50N 坐标系（EPSG:32650），地理坐标系为 WGS 84，投影方式为 UTM （Transverse Mercator 的一种），投影区为 50N 。
 
 ## 投影方法
 
 &emsp;　地图投影是利用一定数学法则把地球表面的经、纬线转换到平面上的理论和方法。由于地球是一个赤道略宽两极略扁的不规则的梨形球体，故其表面是一个不可展平的曲面，所以运用任何数学方法进行这种转换都会产生误差和变形，为按照不同的需求缩小误差，就产生了各种投影方式。
 
-&emsp;　下表列出了投影坐标系主要采用的 33 种投影方法，以供与 [主要坐标参数](PROJCS.html#主要坐标参数) 中 **投影** 的内容进行对应。
+&emsp;　下表列出了投影坐标系主要采用的 33 种投影方法，以供与 [主要坐标参数](PROJCS.html#主要坐标参数) 中相关内容进行对应。
 
 | 投影方法                                  | 中文对照                                     |
 | :---------------------------------------- | :------------------------------------------- |
@@ -29,34 +29,34 @@ categories:
 | Oblique_Stereographic                     | 斜球面投影                                   |
 | Transverse_Mercator_South_Orientated      | 横轴墨卡托投影（南向）                       |
 | Hotine_Oblique_Mercator_Azimuth_Center    | 洪特尼斜轴墨卡托方位角中心投影               |
-| Lambert_Conformal_Conic_1SP               | 兰伯特等角圆锥投影（1标准纬线）              |
+| Lambert_Conformal_Conic_1SP               | 兰伯特等角圆锥投影（1 标准纬线）              |
 | Krovak                                    | 克罗瓦克投影                                 |
 | Cassini_Soldner                           | 卡西尼-索尔德纳投影                          |
-| Lambert_Conformal_Conic_2SP               | 兰伯特等角圆锥投影（2标准纬线）              |
+| Lambert_Conformal_Conic_2SP               | 兰伯特等角圆锥投影（2 标准纬线）              |
 | Lambert_Azimuthal_Equal_Area              | 兰伯特斜轴等面积投影                         |
 | Lambert_Conic_Conformal_(West_Orientated) | 兰伯特圆锥等角投影（西向）                   |
-| Mercator_1SP                              | 墨卡托投影（1标准纬线）                      |
+| Mercator_1SP                              | 墨卡托投影（1 标准纬线）                      |
 | Bonne_(South_Orientated)                  | 博恩投影（南向）                             |
 | Albers_Conic_Equal_Area                   | 阿尔伯斯圆锥等面积投影（正轴等积割圆锥投影） |
-| Polar_Stereographic_(variant_C)           | 极球面投影（C变体）                          |
+| Polar_Stereographic_(variant_C)           | 极球面投影（C 变体）                          |
 | Polar_Stereographic                       | 极球面投影                                   |
 | Hotine_Oblique_Mercator                   | 洪特尼斜轴墨卡托投影                         |
 | Hyperbolic Cassini-Soldner                | 卡西尼-索尔德纳双曲线投影                    |
 | Azimuthal_Equidistant                     | 等距离方位投影                               |
-| Mercator_2SP                              | 墨卡托投影（2标准纬线）                      |
+| Mercator_2SP                              | 墨卡托投影（2 标准纬线）                      |
 | Cylindrical_Equal_Area                    | 圆柱等面积投影                               |
 | Equirectangular                           | 球面投影                                     |
 | Guam Projection                           | 关岛投影                                     |
 | Krovak_Modified                           | 改良克洛瓦尔投影                             |
 | Krovak_Modified_(North_Orientated)        | 改良克洛瓦尔投影（北向）                     |
 | Polyconic                                 | 多圆锥投影                                   |
-| Lambert Conic Conformal (2SP Michigan)    | 兰伯特圆锥等角投影（2标准纬线，密歇根州）    |
+| Lambert Conic Conformal (2SP Michigan)    | 兰伯特圆锥等角投影（2 标准纬线，密歇根州）    |
 | Colombia Urban                            | 哥伦比亚城市投影                             |
 | Tunisia_Mapping_Grid                      | 突尼斯地图网格投影                           |
 | Lambert_Conic_Near-Conformal              | 兰伯特圆锥近等角投影                         |
 | New_Zealand_Map_Grid                      | 新西兰地图网格投影                           |
 | Laborde_Oblique_Mercator                  | 拉伯德斜墨卡托投影                           |
-| Lambert_Conformal_Conic_2SP_Belgium       | 兰伯特等角圆锥投影（2标准纬线，比利时）      |
+| Lambert_Conformal_Conic_2SP_Belgium       | 兰伯特等角圆锥投影（2 标准纬线，比利时）      |
 | Transverse_Mercator_Zoned_Grid_System     | 横向墨卡托分区网格投影系统                   |
 
 ## 长度单位
@@ -66,25 +66,24 @@ categories:
 | 单位  | 中文对照 |   每单位长度（m） |
 |:---|:---|:---|
 | metre                                | 米                               |          1        | 
-| Clarke's link                        | 克拉克令                    |          0.201166 |
-| Gold Coast foot                      | 黄金海岸英尺          |          0.3048   |
-| US survey foot                       | 美国测量英尺           |          0.304801 |
+| Clarke's link                        | 克拉克令                    |          0.201166195164 |
+| Gold Coast foot                      | 黄金海岸英尺          |          0.304799710181509   |
+| US survey foot                       | 美国测量英尺           |          0.304800609601219  |
 | foot                                 | 英尺                               |          0.3048   |
-| Clarke's foot                        | 克拉克英尺                 |          0.304797 |
+| Clarke's foot                        | 克拉克英尺                 |          0.3047972654 |
 | link                                 | 令                                |          0.201168 |
-| British chain (Sears 1922 truncated) | 英国测链（1922年废弃） |         20.1168   |
-|Clarke's yard                        |     克拉克码 |          0.914392 | 
+| British chain (Sears 1922 truncated) | 英国测链（1922年废弃） |         20.116756   |
+|Clarke's yard                        |     克拉克码 |         0.9143917962 | 
 kilometre                            |      千米      |       1000        |
-|Indian yard                          | 印度码 |         0.914399 | 
-|British chain (Benoit 1895 B)        |  英国码（贝诺伊特1895 B）   |       20.1168   |   
-|British yard (Sears 1922)            | 英国码（希尔斯 1922） |         0.914398 | 
-|German legal metre                   |   德国法定米  |         1.00001  |   
-|British chain (Sears 1922)           | 英国测链（希尔斯 1922） |20.1168 | 
-British foot (Sears 1922)            |英国英尺（希尔斯 1922） |          0.304799 | 
+|Indian yard                          | 印度码 |         0.914398530744441 | 
+|British chain (Benoit 1895 B)        |  英国测链（贝诺伊特1895 B）   |   20.1167824943759   |   
+|British yard (Sears 1922)            | 英国码（希尔斯 1922） |         0.914398414616029 | 
+|German legal metre                   |   德国法定米  |         1.0000135965  |   
+|British chain (Sears 1922)           | 英国测链（希尔斯 1922） |20.1167651215526 | 
+|British foot (Sears 1922)            |英国英尺（希尔斯 1922） |   0.304799471538676 | 
 
 
-
-## 坐标参数对照
+## 参数对照
 
 &emsp;　所有投影坐标系涉及到到的参数名称的中英文对照如下。
 
@@ -127,6 +126,8 @@ British foot (Sears 1922)            |英国英尺（希尔斯 1922） |        
 &emsp;　本节对  4782 个投影坐标系的参数根据 33 种投影方法进行了分类列举。
 
 ### Transverse Mercator
+
+&emsp;　由于基于 Transverse Mercator 投影的坐标系较多，本节对其进行分类列举，分别为 Gauss-Kruger （高斯-克吕格投影）、UTM （通用横轴墨卡托投影）和其他，共 3 类。
 
 #### Gauss-Kruger
 
