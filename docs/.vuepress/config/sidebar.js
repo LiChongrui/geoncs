@@ -50,7 +50,9 @@ module.exports = {
             children: [
                 'GEOGCS', 
                 'PROJCS', 
-                'GEOCCS', 
+                'GEOCCS',
+                'VERT_CS',
+                'COMPD_CS',
             ]
         }
     ],

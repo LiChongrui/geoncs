@@ -1,6 +1,6 @@
 ---
 title: 地心坐标系
-date: 2022-01-30
+date: 2022-01-10
 tags:
  - 坐标系
 categories:
@@ -21,9 +21,9 @@ categories:
 
 &emsp;　本页所统计的地心坐标系 X（Geocentric X）, Y（Geocentric Y）, Z（Geocentric Z）均为 0，0，0；单位为 metre（meter，米）；中央经线为 Greenwich（格林尼治，0°）。
 
-## 基准面或椭球体
+## 基准面
 
-&emsp;　地心坐标系的基准面所对应的椭球体参见地理坐标系 [椭球体](GEOGCS.html#椭球体) 。
+&emsp;　地心坐标系的基准面及其对应的椭球体参见 [地理坐标系](GEOGCS.html)  相关内容。
 
 ## 主要坐标参数
 
