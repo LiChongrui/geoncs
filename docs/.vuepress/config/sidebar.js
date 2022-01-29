@@ -54,6 +54,7 @@ module.exports = {
                 'VERT_CS',
                 'COMPD_CS',
                 'GEOGCRS',
+                'PROJCRS',
             ]
         },
     ],
