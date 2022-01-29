@@ -7,7 +7,7 @@ categories:
  - 地信研学
 ---
 
-&emsp;　本页对地理坐标系（Geographic Coordinate System）的基础参数的进行介绍，并统计了 616 个地理坐标系的官方 ID（EPSG），坐标系名称，椭球体，长半轴（m），反扁率，角度单位和本初子午线等参数。
+&emsp;　本页对地理坐标系（Geographic Coordinate System，GEOGCS）的基础参数的进行介绍，并统计了 616 个地理坐标系的官方 ID（EPSG），坐标系名称，椭球体，长半轴（m），反扁率，角度单位和本初子午线等参数。
 
 <!-- more -->
 

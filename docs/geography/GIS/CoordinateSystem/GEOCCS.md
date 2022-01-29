@@ -7,7 +7,7 @@ categories:
  - 地信研学
 ---
 
-&emsp;　本页对地心坐标系（Geocentric Coordinate System）的基础参数的进行介绍，并统计了 232 个地心坐标系的官方 ID（EPSG），坐标系名称，基准面，椭球体等参数。
+&emsp;　本页对地心坐标系（Geocentric Coordinate System，GEOCCS）的基础参数的进行介绍，并统计了 232 个地心坐标系的官方 ID（EPSG），坐标系名称，基准面，椭球体等参数。
 
 <!-- more -->
 

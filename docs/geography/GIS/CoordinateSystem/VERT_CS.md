@@ -7,7 +7,7 @@ categories:
  - 地信研学
 ---
 
-&emsp;　本页对垂直坐标系（Vertical Coordinate System）的基础参数的进行介绍，并统计了 252 个垂直坐标系的官方 ID（EPSG），坐标系名称，基准面，单位和垂直轴等参数。
+&emsp;　本页对垂直坐标系（Vertical Coordinate System，VERT_CS）的基础参数的进行介绍，并统计了 252 个垂直坐标系的官方 ID（EPSG），坐标系名称，基准面，单位和垂直轴等参数。
 
 <!-- more -->
 

@@ -7,7 +7,7 @@ categories:
  - 地信研学
 ---
 
-&emsp;　本页对投影坐标系（Projected Coordinate System）的基础参数的进行介绍，并统计了 4782 个投影坐标系的官方 ID（EPSG），坐标系名称，投影方法，长度单位和其他相关参数。
+&emsp;　本页对投影坐标系（Projected Coordinate System，PROJCS）的基础参数的进行介绍，并统计了 4782 个投影坐标系的官方 ID（EPSG），坐标系名称，投影方法，长度单位和其他相关参数。
 
 <!-- more -->
 

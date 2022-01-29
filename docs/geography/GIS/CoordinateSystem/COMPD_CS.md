@@ -7,7 +7,7 @@ categories:
  - 地信研学
 ---
 
-&emsp;　本页对复合坐标系（Composite Coordinate System）进行介绍，并统计了 362 个复合坐标系的官方 ID（EPSG），组成复合坐标系的基础坐标系等信息。
+&emsp;　本页对复合坐标系（Composited Coordinate System，COMPD_CS）进行介绍，并统计了 362 个复合坐标系的官方 ID（EPSG），组成复合坐标系的基础坐标系等信息。
 
 <!-- more -->
 
