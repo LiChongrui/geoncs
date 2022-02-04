@@ -52,3 +52,8 @@ gantt
 
 &emsp;　　参数设置错误时将会引发异常，不在默认返回 RMSE 结果。
 
+&emsp;　3、GetPath
+
+&emsp;　　a. 参数 String 修改为 Include，功能不变。
+
+&emsp;　　b. 增加 Exclude 参数，用以排除包含此参数设置值的路径。

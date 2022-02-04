@@ -25,15 +25,17 @@ categories:
 
 **可选参数：** 
 
-&emsp;Search = `str`。要查找路径的类型（'FILE'：文件，'DIR'：文件夹，'ALL'：文件夹和文件），默认为 'FILE'。
-
 &emsp;EXT = `str||list`。查找文件的扩展名或扩展名列表。默认查找所有文件（None）。
 
 <Boxx type='warning' title='注意' content='只有在 SearchPath = "FILE" 时, 此参数才生效。'/>
 
-&emsp;String = `str||list`。查找的文件路径中包含的字符串 。默认返回全部结果（None）。
+&emsp;Include = `str||list`。查找的文件路径中包含的字符串 。默认返回全部结果（None）。
 
-<Boxx type='warning' title='注意' content='1. 如果 String 为字符串，则包含设置值的路径才会被记录。<br>2. 如果为列表，则包含列表内任意一个字符串的路径都会被记录。'/>
+&emsp;Exclude = `str||list`。查找的文件路径中包含的字符串 。默认返回全部结果（None）。
+
+<Boxx type='tips' title='提示' content='1. 如果 Include（Exclude）为字符串，则包含设置值的路径才会被保留（排除）。<br>2. 如果 Include（Exclude）为列表，则包含列表内任意一个字符串的路径都会被保留（排除）。'/>
+
+&emsp;Search = `str`。要查找路径的类型（'FILE'：文件，'DIR'：文件夹，'ALL'：文件夹和文件），默认为 'FILE'。
 
 **返回：**`list`。满足条件的所有【文件夹和文件路径】集合。重复的路径只会保留一个。
 ::: 
