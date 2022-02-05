@@ -19,7 +19,7 @@ categories:
 
 **参数：**
 
-&emsp;Points：`list||tuple` 。需要计算距离的两点（或多点）的 X，Y 坐标（经度、纬度）。至少有 2 个坐标点。
+&emsp;Points：`list||tuple` 。需要计算距离的两点（或多点）的 X（纬度），Y（经度）坐标（最多支持 4 个坐标参数）。可为嵌套列表或元组。至少有 2 个坐标点。
     
 <Boxx type='tips' title='示例' content='Points = [(130.1, 45.2), (131.5, 40.2)]'/>
 
@@ -32,6 +32,29 @@ categories:
     
 &emsp;&emsp;支持的单位还有：kilometer（千米）、mile（英里）、nautical mile（海里）。
 
-**返回：**`float`。如果 X（-180 ~ 180） 或 Y （-90 ~ 90）坐标不在有效范围内，则返回无穷（inf）。
+**返回：**`float`。坐标值设置异常将返回无穷 （inf）。
+
+:::
+
+## TRANCoordinateFromPoint<Badge text="1.0.5 +"/>
+::: theorem
+
+**引用：**  gma.smc.TRANCoordinateFromPoint(Points, InProjection = 'WGS84', OutProjection = 'EPSG:4490')
+
+**功能：** 【坐标转换】。将输入点的坐标转换为目标坐标系的坐标。
+
+**参数：**
+
+&emsp;Points：`list||tuple` 。需要计算距离的两点（或多点）的 X（纬度），Y（经度）坐标（最多支持 4 个坐标参数）。可为嵌套列表或元组。
+    
+<Boxx type='tips' title='示例' content='Points = [(130.1, 45.2), (131.5, 40.2)]'/>
+
+**可选参数：**
+
+&emsp;InProjection = `str`。输入坐标点的坐标系。默认为 WGS84（EPSG:4326）。
+
+&emsp;OutProjection = `str`。输出坐标点的坐标系。默认为 China Geodetic Coordinate System 2000（EPSG:4490）。
+
+**返回：**`list`。
 
 :::

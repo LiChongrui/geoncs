@@ -42,6 +42,10 @@ gantt
 
 &emsp;　　计算距离。计算输入两点（或多点）之间的距离。引用：gma.smc.CALDistanceFromPoint
 
+&emsp;　2、增加【[TRANCoordinateFromPoint](UserGuide-smc.html#trancoordinatefrompoint)】函数
+
+&emsp;　　坐标转换。将输入点的坐标转换为目标坐标系的坐标。引用：gma.smc.TRANCoordinateFromPoint
+
 <font color="#3CB371"><i class="fab fa-superpowers"></i></font> **优化：**
 
 &emsp;　1、相关系数计算函数（r）

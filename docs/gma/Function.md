@@ -56,13 +56,14 @@ sticky: 2
 | [**Modify.**](UserGuide-osf.html#rename-类)[Rename](UserGuide-osf.html#modify)    | gma.osf.Rename.Modify    | 【修改】     | 将原有文件（夹）名修改为新名                     |
 | [**Modify.**](UserGuide-osf.html#rename-类)[Replace](UserGuide-osf.html#replace)  | gma.osf.Rename.Replace   | 【替换】     | 替换原文件（夹）名中字符串后作为新文件（夹）名   |
 | [**Modify.**](UserGuide-osf.html#rename-类)[Intercept](UserGuide-osf.html#intercept) | gma.osf.Rename.Intercept | 【截取】     | 截取文件（夹）名中的部分字符串作为新文件（夹）名 |
-| [MultiThreading](UserGuide-osf.html#multithreading)<Badge text="1.0.3 +"/> | gma.osf.MultiThreading | 【多线程】 | 创建多个线程，实现同一函数多个参数的同步执行。 |
+| [MultiThreading](UserGuide-osf.html#multithreading)<Badge text="1.0.3 +"/> | gma.osf.MultiThreading | 【多线程】 | 创建多个线程，实现同一函数多个参数的同步执行 |
 
  ## smc 空间杂项
 
 | 函数 | 引用（简版）| 功能 | 详细解释|                      
 | :----- | :----- | :----- | :-----|
 |[CALDistanceFromPoint](UserGuide-smc.html#caldistancefrompoint)<Badge text="1.0.5 +"/> | gma.smc.CALDistanceFromPoint |【计算距离】|计算输入两点（或多点）之间的距离。|
+|[TRANCoordinateFromPoint](UserGuide-smc.html#trancoordinatefrompoint)<Badge text="1.0.5 +"/> | gma.smc.TRANCoordinateFromPoint |【坐标转换】|将输入点的坐标转换为目标坐标系的坐标|
 
  ## rasp 栅格处理
 
