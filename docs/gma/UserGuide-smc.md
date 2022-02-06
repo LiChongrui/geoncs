@@ -19,7 +19,7 @@ categories:
 
 **参数：**
 
-&emsp;Points：`list||tuple` 。需要计算距离的两点（或多点）的 X（纬度），Y（经度）坐标（最多支持 4 个坐标参数）。可为嵌套列表或元组。至少有 2 个坐标点。
+&emsp;Points：`list||tuple||array` 。需要计算距离的两点（或多点）的 X（纬度），Y（经度）坐标。如果有，也可包含 Z（高程）或 M（其他属性）。可为嵌套列表或元组。至少有 2 个坐标点。
     
 <Boxx type='tips' title='示例' content='Points = [(130.1, 45.2), (131.5, 40.2)]'/>
 
@@ -45,7 +45,7 @@ categories:
 
 **参数：**
 
-&emsp;Points：`list||tuple` 。需要计算距离的两点（或多点）的 X（纬度），Y（经度）坐标（最多支持 4 个坐标参数）。可为嵌套列表或元组。
+&emsp;Points：`list||tuple||array` 。需要计算距离的两点（或多点）的 X（纬度），Y（经度）坐标。如果有，也可包含 Z（高程）或 M（其他属性）。可为嵌套列表或元组。
     
 <Boxx type='tips' title='示例' content='Points = [(130.1, 45.2), (131.5, 40.2)]'/>
 

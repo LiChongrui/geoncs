@@ -54,23 +54,12 @@ pip install "X:\XXX\GDAL-3.3.3-cp38-cp38-win_amd64.whl"
 
 ## 安装
 
-&emsp;&emsp;gma 已经上传至 pypi，可以直接输入以下命令安装：
+&emsp;&emsp;gma 已经上传至 [pypi](https://pypi.org/project/gma/)，可以在终端输入以下命令安装：
 
 ```bash
 pip install gma
 ```
 &emsp;&emsp;在安装 gma 时，依赖的 numpy，pandas 和 scipy 等库如果不存在则会自动安装（需联网）。
-
-&emsp;&emsp;检查 gma 版本或是否安装成功：
-
-```bash
-(base) PS C:\Users\xxxx> conda list gma
-# packages in environment at C:\Users\xxxx\anaconda3:
-#
-# Name                    Version                   Build  Channel
-gma                       1.0.0                    pypi_0    pypi
-```
-&emsp;&emsp;出现 gma 库信息则说明 gma 已经成功安装。
 
 ## 引用
 

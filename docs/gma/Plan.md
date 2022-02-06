@@ -61,3 +61,7 @@ gantt
 &emsp;　　a. 参数 String 修改为 Include，功能不变。
 
 &emsp;　　b. 增加 Exclude 参数，用以排除包含此参数设置值的路径。
+
+&emsp;　4、依赖包
+
+&emsp;　　不在将 gdal 作为安装 gma 的前提。即使缺少 gdal，gma 仍可以正常安装，但无法引用。
