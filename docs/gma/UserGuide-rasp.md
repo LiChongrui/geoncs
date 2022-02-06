@@ -205,9 +205,9 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 &emsp;OutFile：`str`。输出栅格路径。
 
-&emsp;DataType：`int`。输出栅格数据类型的代码。
+&emsp;DataType：`int||str`。输出栅格数据类型的代码或字符串标记。
 
-<Boxx type='tip' title='支持的数据类型' content='未知类型: 0，8位无符号整型: 1，16位无符号整型: 2，16位整型: 3，32位无符号整型: 4,32位整型: 5，32位浮点: 6，64位浮点: 7，16位复整型: 8，32位复整型: 9，32位复浮点型: 10，64位复浮点型: 11。'/>
+<Boxx type='tip' title='支持的数据类型' content='Unknown:0，Byte:1，UInt16:2，Int16:3，UInt32:4，Int32:5，Float32:6，Float64:7，CInt16:8，CInt32:9，CFloat32:10，CFloat64:11。'/>
 
 **可选参数：**
 
@@ -272,7 +272,7 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 ::: theorem
 
-**引用：** gma.rasp.WriteRaster(OutFile, DataArray, Projection = None, Transform = None, Format = 'GTiff', DataType = 6, NoData = None)
+**引用：** gma.rasp.WriteRaster(OutFile, DataArray, Projection = None, Transform = None, Format = 'GTiff', DataType = None, NoData = None)
 
 **功能：**【写出栅格】。将数组保存为栅格文件。
 
@@ -290,7 +290,7 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 &emsp;Format   = `str`。输出栅格文件格式。默认为 GTiff。其他格式详见 ToOtherFormat 函数。
 
-&emsp;DataType  = `int`。输出栅格数据类型。默认为 float32（6）。其他数据类型见 ChangeDataType 函数。
+&emsp;DataType  = `int||str`。输出栅格数据类型的代码或字符串标记。默认根据写出数组的数据类型确定（None），其他类型详见 ChangeDataType 函数。
 
 &emsp;NoData = `float`。输出栅格的无效值。默认不设置无效值（None）。
 
@@ -300,7 +300,7 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 ::: theorem
 
-**引用：** gma.rasp.GenerateOVR(InFile, Force = False)
+**引用：** gma.rasp.GenerateOVR(InFile, Force = False, MINSize = 10)
 
 **功能：**【构建栅格金字塔】。为 GTiff 文件构造 .ovr 栅格金字塔，或为其他类型的栅格数据强制构造 .ovr 金字塔 。
 
@@ -311,6 +311,8 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 **可选参数：**
 
 &emsp;Force  = `bool`。是否为所有类型的文件添加 .ovr 金字塔。默认（False）只为 GTiff 驱动的栅格添加金字塔。
+
+&emsp;MINSize = `float`。需要创建金字塔的栅格文件的最小文件大小（MB）。小于此大小的栅格文件不会被创建金字塔。默认为 10 MB。
 
 ::: 
 
