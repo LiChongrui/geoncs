@@ -17,9 +17,9 @@ categories:
 | :----| :---- | :---- | :----- |
 | RasterFormat | 集合 | 支持的栅格数据驱动 | AAIGrid，BT，CALS，COG，DTED，EHdr，ENVI，ERS，EXR，FIT，GIF，GPKG，GRIB，GS7BG，GSAG，GSBG，GTiff，HDF4Image,HF2，HFA，ISCE，ISIS2，ISIS3，JP2OpenJPEG，JPEG，LAN，MBTiles，XPM，XYZ，netCDF，MFF2，MRF，NITF，PAux，PCIDSK，PCRaster，PNG，RST，Rasterlite，SIGDEM，USGSDEM，VICAR，VRT，BMP |
 | VectorFormat | 集合 | 支持的矢量数据驱动 | ESRI Shapefile，PCIDSK，PDS4，PDF，MBTiles，MapInfo File，Memory，CSV，GML，LIBKML，KML，GeoJSON，OGR_GMT，GPKG，SQLite，WAsP，FlatGeobuf，Geoconcept，GeoRSS，ODS，XLSX，JML，VDV，MVT，MapML |
-| DataType | 字典 | 数据类型 | 未知类型: 0，8位无符号整型: 1，16位无符号整型: 2，16位整型: 3，32位无符号整型: 4，32位整型: 5，32位浮点: 6，64位浮点: 7，16位复整型: 8，32位复整型: 9，32位复浮点型: 10，64位复浮点型: 11 |
-| ResampleMethod | 字典 | 重采样方法 | 0: Nearest Neighbour，1: Bilinear，2: Cubic，3: CubicSpline，4: Lanczos，5: Average，6: RMS，7: Mode |
-| FeatureType | 字典 | 矢量要素类型 | 自动: 0，点: 1，线: 2，面: 3，多点: 4，多线: 5，多面: 6 |
+| DataType | 字典 | 数据类型 | Unknown:0，Byte:1，UInt16:2，Int16:3，UInt32:4，Int32:5，Float32:6，Float64:7，CInt16:8，CInt32:9，CFloat32:10，CFloat64:11 |
+| ResampleMethod | 字典 | 重采样方法 | 0:Nearest Neighbour，1:Bilinear，2:Cubic，3:CubicSpline，4: Lanczos，5:Average，6:RMS，7:Mode |
+| FeatureType | 字典 | 矢量要素类型 | Unknown geometry type:0，Point:1，Line:2，Polygon:3，Multipoint:4，Multiline:5，Multipolygon:6，LinearRing:7 |
 | GetGTiffOptions | 函数 | GTiff 的创建参数 | 1. 不生成 ESRI 世界文件（ .tfw ）。<br> 2. 不生成（ .RPB ）文件来描述 RPC（有理多项式系数）。<br> 3.  不设置数据位深（NBITS）。<br> 4. 默认 LZW 压缩。<br> 5.  默认通过估算生成文件大小来确定是否生成 BIGTIFF 文件。 |
 | GenRCOptions | 函数 | 根据栅格驱动生成创建选项 | 支持的栅格驱动见 RasterFormat  |
 | GetRasterEXTFromDriver | 函数 | 根据栅格驱动格式返回扩展名|  支持的栅格驱动见 RasterFormat   |
