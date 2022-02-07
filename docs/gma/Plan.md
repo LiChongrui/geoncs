@@ -38,13 +38,13 @@ gantt
 
 <font color="#616AE5"><i class="fas fa-award"></i></font> **新增：**
 
-&emsp;　1、增加【[CALDistanceFromPoint](UserGuide-smc.html#caldistancefrompoint)】函数
+&emsp;　1、增加【[CALDistance](UserGuide-smc.html#caldistance)】函数
 
-&emsp;　　计算距离。计算输入两点（或多点）之间的距离。引用：gma.smc.CALDistanceFromPoint
+&emsp;　　计算距离。计算输入两点（或多点）之间的距离。引用：gma.smc.CALDistance
 
-&emsp;　2、增加【[TRANCoordinateFromPoint](UserGuide-smc.html#trancoordinatefrompoint)】函数
+&emsp;　2、增加【[TRANCoordinate](UserGuide-smc.html#trancoordinate)】函数
 
-&emsp;　　坐标转换。将输入点的坐标转换为目标坐标系的坐标。引用：gma.smc.TRANCoordinateFromPoint
+&emsp;　　坐标转换。将输入点的坐标转换为目标坐标系的坐标。引用：gma.smc.TRANCoordinate
 
 <font color="#3CB371"><i class="fab fa-superpowers"></i></font> **优化：**
 

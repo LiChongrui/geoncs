@@ -35,7 +35,7 @@ categories:
 
 <Boxx type='tips' title='提示' content='1. 如果 Include（Exclude）为字符串，则包含设置值的路径才会被保留（排除）。<br>2. 如果 Include（Exclude）为列表，则包含列表内任意一个字符串的路径都会被保留（排除）。'/>
 
-&emsp;Search = `FILE||DIR||ALL`。要查找路径的类型（'FILE'：文件，'DIR'：文件夹，'ALL'：文件夹和文件），默认为 'FILE'。
+&emsp;Search = `str`。要查找路径的类型。可为`FILE`（文件），`DIR`（文件夹），`ALL`（文件夹和文件），默认为 FILE 。
 
 **返回：**`list`。满足条件的所有【文件夹和文件路径】集合。重复的路径只会保留一个。
 ::: 
@@ -189,7 +189,7 @@ categories:
 
 **可选参数：** 
 
-&emsp;THNumber =  `int||'ALL_CPUS'`。线程数，默认是所有 逻辑 CPU 核心数（ALL_CPUS）。
+&emsp;THNumber =  `int||ALL_CPUS`。线程数，默认是所有 逻辑 CPU 核心数（ALL_CPUS）。
 
 &emsp;*args：`Function 的固定参数`。传递给 Function 的不变参数。从 Function 的第一个开始固定。
 

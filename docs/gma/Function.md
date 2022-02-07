@@ -23,7 +23,7 @@ sticky: 2
 [NDBI](UserGuide-index.html#ndbi)| gma.index.NDBI    | 【NDBI】    | 归一化建筑指数                    
 [NDWI](UserGuide-index.html#ndwi)  | gma.index.NDWI    | 【NDWI】    | 归一化水指数                      
 [NDVI](UserGuide-index.html#ndvi) | gma.index.NDVI    | 【NDVI】    | 归一化植被指数                    
-[PM_ET0](UserGuide-index.html#pm-et0) | gma.index.PM_ET0 | 【PM_ET0】 | Penman-Monteith 法作物参考蒸散量 
+[PM_ET0](UserGuide-index.html#pm-et0) | gma.index.PM_ET0 | 【PM_ET0】 | 基于 FAO-56 推荐的 Penman-Monteith 法计算作物参考蒸散量（ET0） 
 [TVDI](UserGuide-index.html#tvdi) <Badge text="1.0.2 +"/> | gma.index.TVDI    | 【TVDI】    | 温度植被干旱指数                  
 
  ## math 数学运算
@@ -32,7 +32,7 @@ sticky: 2
 
 | （类）函数          | 引用（简版）                     | 功能               | 详细解释                                                     |
 | :------------------ | :------------------------------- | :----------------- | :----------------------------------------------------------- |
-| [_DFToNumeric](UserGuide-math.html#dftonumeric)       | gma.math._DFToNumeric         | 【强制转换为数字】 | 强制将 pandas 数据帧中的数据转换数字， 其中不能转换为数字的字符串将被转换为 NAN |
+| [_DFToNumeric](UserGuide-math.html#dftonumeric)       | gma.math._DFToNumeric         | 【强制转换为数字】 | 强制将 pandas 数据帧中的数据转换数字 |
 | [FillNoData](UserGuide-math.html#fillnodata)          | gma.math.FillNoData            | 【填充缺失值】     | 对缺失值或异常值值进行插值替换                               |
 | [**Smooth.**](UserGuide-math.html#smooth-类)[SavitzkyGolay](UserGuide-math.html#savitzkygolay)             | gma.math.Smooth.SavitzkyGolay | 【SavitzkyGolay】  | 利用SavitzkyGolay方法对数据进行平滑                          |
 | [**Smooth.**](UserGuide-math.html#smooth-类)[MovingAverage](UserGuide-math.html#movingaverage)       | gma.math.Smooth.MovingAverage | 【滑动平均】       | 利用滑动平均法对数据进行平滑                                 |
@@ -49,7 +49,7 @@ sticky: 2
 
 | （类）函数       | 引用（简版）                | 功能         | 详细解释                                         |
 | :--------------- | :-------------------------- | :----------- | :----------------------------------------------- |
-| [GetPath](UserGuide-osf.html#getpath)          | gma.osf.GetPath           | 【获取路径】 | 获取目标 路径或路径集合下满足条件的所有文件夹和文件路径                              |
+| [GetPath](UserGuide-osf.html#getpath)          | gma.osf.GetPath           | 【获取路径】 | 获取目标路径或路径集合下满足条件的所有文件夹和文件路径                              |
 | [Zip](UserGuide-osf.html#zip)            | gma.osf.Zip               | 【压缩】     | 将目标路径下所有文件压缩为 .zip 文件                  |
 | [UnZip](UserGuide-osf.html#unzip)            | gma.osf.UnZip             | 【解压缩】   | 解压缩 .zip 文件                                |
 | [DateSeries](UserGuide-osf.html#dateseries)       | gma.osf.DateSeries        | 【日期序列】 | 构造一个日期序列列表                               |
@@ -60,10 +60,10 @@ sticky: 2
 
  ## smc 空间杂项
 
-| 函数 | 引用（简版）| 功能 | 详细解释|                      
+| 函数 | 引用（简版）| 功能 | 详细解释|
 | :----- | :----- | :----- | :-----|
-|[CALDistanceFromPoint](UserGuide-smc.html#caldistancefrompoint)<Badge text="1.0.5 +"/> | gma.smc.CALDistanceFromPoint |【计算距离】|计算输入两点（或多点）之间的距离。|
-|[TRANCoordinateFromPoint](UserGuide-smc.html#trancoordinatefrompoint)<Badge text="1.0.5 +"/> | gma.smc.TRANCoordinateFromPoint |【坐标转换】|将输入点的坐标转换为目标坐标系的坐标|
+|[CALDistance](UserGuide-smc.html#caldistance)<Badge text="1.0.5 +"/> | gma.smc.CALDistance |【计算距离】|计算输入两点或多点之间依次连接后的总距离|
+|[TRANCoordinate](UserGuide-smc.html#trancoordinate)<Badge text="1.0.5 +"/> | gma.smc.TRANCoordinate |【坐标转换】|将输入点的坐标转换为目标坐标系下的坐标|
 
  ## rasp 栅格处理
 
@@ -103,11 +103,6 @@ sticky: 2
 | [GetGDALDataset](UserGuide-rasp.html#getgdaldataset) | gma.rasp.Open.GetGDALDataset | 【获取 GDALDataset】 |读取栅格数据为 gdal.GDALDataset|
 | [NoData](UserGuide-rasp.html#nodata)         | gma.rasp.Open.NoData         |  【无效值】                 | 获取栅格无效值|
 | [Projection](UserGuide-rasp.html#projection)     | gma.rasp.Open.Projection     |  【坐标系】                   |获取栅格坐标系 |
-
-::: tip 提示
-
-&emsp;&emsp;Open 类的属性/方法在 gma 内部调用，并对名称进行了修改，使其表达的内容更易理解，一定程度上可以代替 gdal.Open。
-:::
 
 ## vesp 矢量处理
 
