@@ -65,3 +65,10 @@ gantt
 &emsp;　4、依赖包
 
 &emsp;　　不在将 gdal 作为安装 gma 的前提。即使缺少 gdal，gma 仍可以正常安装，但无法引用。
+
+<i class="far fa-trash-alt"></i> **移除：**
+
+&emsp;　1、位深设置
+
+&emsp;　　移除了 ChangeDataType 和 Pansharpen 中位深设置的相关参数。如需应用位深参数，可调用 gma.algorithm.raster 中对应的原始函数。
+

@@ -195,7 +195,7 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 ::: theorem
 
-**引用：** gma.rasp.ChangeDataType(InFile, OutFile, DataType, BitDepth = None, OutFormat = 'GTiff')
+**引用：** gma.rasp.ChangeDataType(InFile, OutFile, DataType, OutFormat = 'GTiff')
 
 **功能：**【数据类型转换】。转换栅格数据的数据类型。
 
@@ -210,8 +210,6 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 <Boxx type='tip' title='支持的数据类型' content='Unknown:0，Byte:1，UInt16:2，Int16:3，UInt32:4，Int32:5，Float32:6，Float64:7，CInt16:8，CInt32:9，CFloat32:10，CFloat64:11。'/>
 
 **可选参数：**
-
-&emsp;BitDepth  = `int`。输出栅格位深。仅为 GTiff 格式提供位深支持。
 
 &emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
@@ -401,7 +399,7 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 ::: theorem
 
-**引用：** gma.rasp.Fusion().Pansharpen(ResampleMethod = None, SpatAdjust = None, Bands = None, NumThreads = None, BitDepth = None, InNoData = None, OutFormat = 'GTiff')
+**引用：** gma.rasp.Fusion().Pansharpen(ResampleMethod = None, SpatAdjust = None, Bands = None, NumThreads = None, InNoData = None, OutFormat = 'GTiff')
 
 &emsp;  注意：*引用前请先初始化 `Fusion` 类。*
 
@@ -420,8 +418,6 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 <Boxx type='warning' title='注意' content='每个波段的权重值（Weights）相同，根据 Bands 数量确定，为 1 / len(Bands)。'/>
 
 &emsp;NumThreads：`int||ALL_CPUS`。融合使用计算机 CPU 的线程数。默认不使用多线程（None）。
-
-&emsp;BitDepth：`int`。生成数据的位深。默认不设置位深（None）, 但如果全色波段存在 NBITS 值，则使用该值作为位深。
 
 &emsp;InNoData：`float`。全色和多光谱影像的无效值。默认不设置无效值（None）。
 

@@ -19,7 +19,7 @@ categories:
 | VectorFormat | 集合 | 支持的矢量数据驱动 | ESRI Shapefile，PCIDSK，PDS4，PDF，MBTiles，MapInfo File，Memory，CSV，GML，LIBKML，KML，GeoJSON，OGR_GMT，GPKG，SQLite，WAsP，FlatGeobuf，Geoconcept，GeoRSS，ODS，XLSX，JML，VDV，MVT，MapML |
 | DataType | 字典 | 数据类型 | Unknown:0，Byte:1，UInt16:2，Int16:3，UInt32:4，Int32:5，Float32:6，Float64:7，CInt16:8，CInt32:9，CFloat32:10，CFloat64:11 |
 | ResampleMethod | 字典 | 重采样方法 | Nearest Neighbour:0，Bilinear:1，Cubic:2，CubicSpline:3，Lanczos:4，Average:5，RMS:6，Mode:7 |
-| FeatureType | 字典 | 矢量要素类型 | Unknown geometry type:0，Point:1，Line:2，Polygon:3，Multipoint:4，Multiline:5，Multipolygon:6，LinearRing:101 |
+| FeatureType | 字典 | 矢量要素类型 | Unknown:0，Point:1，Line:2，Polygon:3，Multipoint:4，Multiline:5，Multipolygon:6，LinearRing:101 |
 | GetGTiffOptions | 函数 | GTiff 的创建参数 | 1. 不生成 ESRI 世界文件（ .tfw ）。<br> 2. 不生成（ .RPB ）文件来描述 RPC（有理多项式系数）。<br> 3.  不设置数据位深（NBITS）。<br> 4. 默认 LZW 压缩。<br> 5.  默认通过估算生成文件大小来确定是否生成 BIGTIFF 文件。 |
 | GenRCOptions | 函数 | 根据栅格驱动生成创建选项 | 支持的栅格驱动见 RasterFormat  |
 | GetRasterEXTFromDriver | 函数 | 根据栅格驱动格式返回扩展名|  支持的栅格驱动见 RasterFormat   |
@@ -64,7 +64,7 @@ categories:
 
 &emsp;&emsp;下表为函数名中出现缩写的中英文对照解释（专有缩写，如植被指数（NDVI、EVI等）、数学评估方法（RMSE、NRMSE等）以及数据驱动等不在下表中列出）。
 
-| 缩写单词 | 英文全称                            | 中文解释           | 使用条件                                                     |
+| 缩写 | 英文全称                            | 中文解释           | 使用条件                                                     |
 | :------- | :---------------------------------- |:------------------ |:------------------------------------------------------------ |
 | OVR      | Overviews                           | 概述               | 生成栅格金字塔文件，可加速栅格文件在 ArcGIS 等软件的加载显示速度 |
 | PM       | Penman-Monteith                     | 彭曼-蒙提斯        | 人名（科学家）                                               |

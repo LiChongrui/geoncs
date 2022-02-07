@@ -85,9 +85,9 @@ categories:
 
 &emsp;　　为输入参数的设置情况加入判断。
 
-<i class="far fa-trash-alt"></i> **删除：**
+<i class="far fa-trash-alt"></i> **移除：**
 
-&emsp;　1、删除了暂时未进行整合的 palmer，utils 模块。
+&emsp;　1、移除了暂时未进行整合的 palmer，utils 模块。
 
 ## 1.0.1 (2021.11.18)
 ---
