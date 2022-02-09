@@ -19,8 +19,7 @@ module.exports = [
                     {text:'库组织方式', link: '/gma/Structure'},
                     {text:'函数功能列表', link: '/gma/Function'},
                     {text:'默认设置', link: '/gma/Default'},
-                ]
-                
+                ]              
             },
             {
                 text: '使用指南',
@@ -32,13 +31,12 @@ module.exports = [
                     { text: '栅格处理', link: '/gma/UserGuide-rasp' },
                     { text: '矢量处理', link: '/gma/UserGuide-vesp' },
                 ]
-
             },
             {
                 text: '更新',
                 items:[
-                    {text:'更新计划', link: '/gma/Plan'},
                     {text:'更新日志', link: '/gma/Update'},
+                    {text:'更新预览', link: '/gma/Plan'},
                 ]
              },
         ]

@@ -1,6 +1,6 @@
 ---
-title: 更新计划
-date: 2021-11-21 20:12:00
+title: 更新预览
+date: 2022-02-08 20:12:00
 sidebar: false
 tags:
  - gma
@@ -22,11 +22,15 @@ gantt
 
         section 功能（函数）更新
 
-        气象指数计算（SPEI）: crit, after now,30d
+        气象指数计算: crit, after now,30d
+        
+        section 空间杂项计算
 
-        section 长期任务
+        空间杂项算法扩展: crit, after now,30d
 
-        完善、补充各个模块的函数: crit, after now,30d
+        section 参数检查和初始化
+
+        为 index、math、osf 模块内未实现参数检查和初始化的函数添加参数初始化或检查: crit, after now,30d
 
 ```
 
@@ -65,6 +69,10 @@ gantt
 &emsp;　4、依赖包
 
 &emsp;　　不在将 gdal 作为安装 gma 的前提。即使缺少 gdal，gma 仍可以正常安装，但无法引用。
+
+*&emsp;　5、错误检查模块（error）*
+
+*&emsp;　　错误检查模块由 error 修改为 initialize，增加数据初始化的内容，并对包内所有错误检查方法进行了重构。*
 
 <i class="far fa-trash-alt"></i> **移除：**
 

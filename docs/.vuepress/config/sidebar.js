@@ -36,8 +36,8 @@ module.exports = {
             title: '更新', 
             collapsable: false, 
             children: [
+                'Update',
                 'Plan', 
-                'Update'
             ]
         }
     ],
