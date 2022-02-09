@@ -10,25 +10,25 @@ categories:
 
 ## 风车
 
-![](/geoncs/literature/Windmill.svg)
+![](/literature/Windmill.svg)
 
 ## 雪人
 
-![](/geoncs/literature/Snowman.svg)
+![](/literature/Snowman.svg)
 
 ## 山水
 
-![](/geoncs/literature/Landscape.svg)
+![](/literature/Landscape.svg)
 
 ## 探索
 
-![](/geoncs/literature/Explore.svg)
+![](/literature/Explore.svg)
 
 ## 卫星
 
-![](/geoncs/literature/Satellite.svg)
+![](/literature/Satellite.svg)
 
 ## 太阳
 
-![](/geoncs/literature/Sun.svg)
+![](/literature/Sun.svg)
 

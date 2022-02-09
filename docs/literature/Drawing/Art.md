@@ -13,44 +13,44 @@ categories:
 
 ## 乡野
 
-![](/geoncs/literature/乡野.jpg)
+![](/literature/乡野.jpg)
 
 ## 南方村落
 
-![](/geoncs/literature/南方村落.jpg)
+![](/literature/南方村落.jpg)
 
 ## 角楼
 
-![](/geoncs/literature/角楼.jpg)
+![](/literature/角楼.jpg)
 
 ## 人家
 
-![](/geoncs/literature/人家.jpg)
+![](/literature/人家.jpg)
 
 ## 夕阳
 
-![](/geoncs/literature/夕阳.jpg)
+![](/literature/夕阳.jpg)
 
 ## 校园
 
-![](/geoncs/literature/校园.jpg)
+![](/literature/校园.jpg)
 
 ## 枫叶
 
-![](/geoncs/literature/枫叶.jpg)
+![](/literature/枫叶.jpg)
 
 ## 海边落日
 
-![](/geoncs/literature/海边落日.jpg)
+![](/literature/海边落日.jpg)
 
 ## 公园平面
 
-![](/geoncs/literature/公园平面.jpg)
+![](/literature/公园平面.jpg)
 
 ## 小桥
 
-![](/geoncs/literature/小桥.jpg)
+![](/literature/小桥.jpg)
 
 ## 洋房
 
-![](/geoncs/literature/洋房.jpg)
+![](/literature/洋房.jpg)

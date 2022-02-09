@@ -18,7 +18,7 @@ sticky: 1
 
 <!-- more -->
 
-<div align="center"><img width='300px' height='300px' src="/geoncs/images/Logo-gma.svg"></div>
+<div align="center"><img width='300px' height='300px' src="/images/Logo-gma.svg"></div>
 <font color="#D3D3D3" >
 <div style="text-align:center;">（库标志）</div>
 </font>
