@@ -50,6 +50,10 @@ categories:
 
 *&emsp;　　错误检查模块由 error 修改为 initialize，增加数据初始化的内容，并对包内所有错误检查方法进行了重构。*
 
+&emsp;　6、GenerateOVR
+
+&emsp;　　添加 MINSize 参数，仅为文件大小大于此值的栅格文件构建金字塔。默认大小为 10 MB。
+
 <i class="far fa-trash-alt"></i> **移除：**
 
 &emsp;　1、位深设置
