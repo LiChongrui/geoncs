@@ -1,4 +1,4 @@
-name: build geoncs-web
+name: build luosgeo
 
 on:
   push:
