@@ -405,7 +405,7 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 &emsp;  注意：*引用前请先初始化 `Fusion` 类。*
 
-**功能：**【Pansharp】。对全色影像和多光谱影像基于 Pansharpen 方法进行融合。
+**功能：**【Pansharpen】。对全色影像和多光谱影像基于 Pansharpen 方法进行融合。
 
 **参数：** 
 

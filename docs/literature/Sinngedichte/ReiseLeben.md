@@ -40,7 +40,7 @@ categories:
 
 &emsp;&emsp;我爱猫，它就那么粘着你。感觉不能出门的日子里，这就是我的欢乐，陪伴着我度过每一个焦灼的夜与日……
 
-![](https://s2.loli.net/2022/01/05/w58qjtDEoXhJnBy.jpg)
+![](https://s2.loli.net/2022/02/10/iyHW3SxP7vgXmfG.jpg)
 
 <font color="#D3D3D3" >
 
