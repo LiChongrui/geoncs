@@ -47,7 +47,7 @@ module.exports = {
         displayAllHeaders: true,
         subSidebar: 'auto', 
 
-        lastUpdated: '最近更新', 
+        //lastUpdated: '最近更新', 
         smoothScroll: true,
 
         // 备案号
