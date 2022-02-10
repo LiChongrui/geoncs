@@ -51,6 +51,8 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 **可选参数：**
 
+&emsp;Bands = `int||list`。需要导出文件的波段，编号从 1 开始。默认全部导出（None）。
+
 &emsp;OutFormat  = `str`。输出栅格文件格式。默认为 GTiff，其他格式详见 ToOtherFormat 函数。
 
 ::: 
@@ -351,7 +353,7 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 **参数：** 
 
-&emsp;InFiles：`str||list`。输入栅格路径。如果为列表，则列表内所有的栅格将被【镶嵌】（Mosaic）。
+&emsp;InFiles：`str||list`。输入栅格路径。如果为列表，则列表内所有的栅格将被 镶嵌。
 
 &emsp;OutFile：`str`。输出栅格路径。
 
@@ -441,7 +443,7 @@ rasp 下各个函数生成 GTiff 文件时默认采用 LZW 压缩，并生成外
 
 **可选参数：**
 
-&emsp;TemplateFile = `str`。模板栅格路径。若设置模板栅格（不为None），则将模板栅格的色彩映射表添加到输入栅格。
+&emsp;TemplateFile = `str`。模板栅格文件路径。默认不设置（None）。若设置模板栅格，则将模板栅格的色彩映射表添加到输入栅格。
 
 &emsp;ColorTable = `dict`。色彩映射表。格式为 {值: (R,G,B,A)}。默认不设置（None）。
 
