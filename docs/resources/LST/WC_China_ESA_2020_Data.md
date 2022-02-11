@@ -185,4 +185,4 @@ Export.image.toDrive({
 &emsp;&emsp; 以下为从ESA官网下载的 ESA_WorldCover_10m_2020_v100_N33E111_Map 产品示例图，主要区域为河南省洛阳市。
 ![](https://img-blog.csdnimg.cn/21120c28af1544a094e278afb2c4e0fb.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5rSb55qE5Zyw55CG56CU5a2m,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-&emsp;&emsp; 下载获得的 ESA WorldCover 数据类型为 .tif 文件（驱动格式为：COG），数据类型为 8 位无符号整型，坐标系为 WGS 84（EPSG:4326），且具有色彩映射表，色彩与值（地表覆盖类型）的对应关系见 [数据简介](1.WC_China_ESA_2020_Data.html#数据简介)。
+&emsp;&emsp; 下载获得的 ESA WorldCover 数据类型为 .tif 文件（驱动格式为：COG），数据类型为 8 位无符号整型，坐标系为 WGS 84（EPSG:4326），且具有色彩映射表，色彩与值（地表覆盖类型）的对应关系见 [数据简介](WC_China_ESA_2020_Data.html#数据简介)。

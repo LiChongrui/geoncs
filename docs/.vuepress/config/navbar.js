@@ -74,7 +74,7 @@ module.exports = [
         icon:"fab fa-wpexplorer",
         items:[
             { text: '时间线', link: '/timeline/', icon:"reco-date"},
-            { text: '分类', link: '/categories/地理与气象分析库/', icon:"reco-category"},
+            { text: '分类', link: '/categories/地信研学/', icon:"reco-category"},
             { text: '标签', link: '/tag/', icon: 'reco-tag' },
         ]      
     },
