@@ -7,6 +7,7 @@ tags:
  - Python
 categories:
  - 地理与气象分析库
+publish: false
 ---
 
 ## 更新前瞻

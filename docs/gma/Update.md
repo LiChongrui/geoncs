@@ -6,6 +6,7 @@ tags:
  - Python
 categories:
  - 地理与气象分析库
+publish: false
 ---
 
 &emsp;　gma 所有发布版本的更新内容都会在这里记录。

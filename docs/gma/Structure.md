@@ -6,6 +6,7 @@ tags:
  - Python
 categories:
  - 地理与气象分析库
+publish: false
 ---
 &emsp;&emsp;不同的类型的函数在 gma 中分类构建，**库组织方式**列出了 gma 库的整体组织和构造，供大家了解和参考。
 

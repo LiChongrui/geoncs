@@ -6,6 +6,7 @@ tags:
  - Python
 categories:
  - 地理与气象分析库
+publish: false
 ---
 **&emsp;&emsp;数学运算** 为 **gma.math** 内所有数学方法相关函数的详细功能、参数设置和引用方法说明，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。
 

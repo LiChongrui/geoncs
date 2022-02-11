@@ -1,46 +1,46 @@
 module.exports = {
     // gma的侧边栏
-    '/gma/': [
-        {
-            title: '开始',
-            collapsable: false,
-            children: [
-                'Introduce',
-                'Setup',
-            ]
+    //'/gma/': [
+        //{
+        //    title: '开始',
+        //    collapsable: false,
+         //   children: [
+        //        'Introduce',
+        //       'Setup',
+       //     ]
 
-        },
-        {
-            title: '函数和功能', 
-            collapsable: false, 
-            children: [
-                'Structure',
-                'Function',
-                'Default'
-            ]
-        },
-        {
-            title: '使用指南',
-            collapsable: false,
-            children: [
-                'UserGuide-index',
-                'UserGuide-math',
-                'UserGuide-osf',
-                'UserGuide-smc',
-                'UserGuide-rasp',
-                'UserGuide-vesp',
-            ]
-
-        },
-        {
-            title: '更新', 
-            collapsable: false, 
-            children: [
-                'Update',
-                'Plan', 
-            ]
-        }
-    ],
+      //  },
+       // {
+       //     title: '函数和功能', 
+       //     collapsable: false, 
+       //     children: [
+       //         'Structure',
+      //          'Function',
+      //          'Default'
+      //      ]
+      //  },
+      //  {
+      //      title: '使用指南',
+     //       collapsable: false,
+    //        children: [
+    //            'UserGuide-index',
+      //          'UserGuide-math',
+      //          'UserGuide-osf',
+      //          'UserGuide-smc',
+     //           'UserGuide-rasp',
+     //           'UserGuide-vesp',
+    //        ]
+//
+     //   },
+     //   {
+      //      title: '更新', 
+      //      collapsable: false, 
+      //      children: [
+      //          'Update',
+      //          'Plan', 
+      //      ]
+     //   }
+    //],
     // 地理研学侧边栏，
     // 地理
     '/geography/GIS/CoordinateSystem/': [

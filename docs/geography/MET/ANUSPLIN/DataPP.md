@@ -137,7 +137,7 @@ categories:
 &emsp;&emsp; 4）删除插值前的数据，保留插值后的数据，重新转置数据并导出为 Excel 文件。
 
 ::: theorem 进阶
-&emsp;&emsp; 缺失值插补可使用[地理与气象分析库（gma）](/gma/Introduce.html)的 [gma.math.FillNoData](/gma/UserGuide-math.html#fillnodata) 函数。
+&emsp;&emsp; 缺失值插补可使用[地理与气象分析库（gma）](http://gma.luosgeo.com/)的 [gma.math.FillNoData](http://gma.luosgeo.com/UserGuide/math.html#fillnodata) 函数。
 :::
 
 ### 2.6 单位换算

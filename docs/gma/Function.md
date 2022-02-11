@@ -7,6 +7,7 @@ tags:
 categories:
  - 地理与气象分析库
 sticky: 2
+publish: false
 ---
 
 **&emsp;&emsp;函数功能列表** 列出了 gma 包含的所有可用函数定义和说明，**可以快速了解所有的函数和功能**。如果你需要详细的函数参数说明，请在 Python 中使用 ```help``` 获取函数帮助或参考 [使用指南](UserGuide-index.html)。

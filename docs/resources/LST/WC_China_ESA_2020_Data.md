@@ -5,6 +5,7 @@ tags:
  - LST
 categories:
  - 资源教程
+sticky: 1
 ---
 
 &emsp;&emsp;欧洲航天局（ESA）**< ESA WorldCover 10m 2020 >** 产品基于 Sentinel-1 和 Sentinel-2 数据提供了一种新的全球地表覆盖产品，分辨率为 10 米，时间为 2020 年。

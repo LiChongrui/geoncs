@@ -7,6 +7,7 @@ tags:
  - 数据处理
 categories:
  - 资源教程
+sticky: 2
 ---
 &emsp;&emsp;（时间）序列数据处理过程中往往会有缺失值（例如 9999、NaN 或其他的异常值），对这些数据的处理是下一步分析、研究和应用的基础。
 
@@ -198,7 +199,7 @@ plt.plot(X, Data, color = 'b')
 
 ## 3 利用 gma 库 FillNoData 函数
 
-&emsp;&emsp;gma 已对插值函数进行封装，详细函数说明请参见 [gma.math.FillNoData](/01.gma/6.Use.html#_2-2-fillnodata)。
+&emsp;&emsp;gma 已对插值函数进行封装，详细函数说明请参见 [gma.math.FillNoData](http://gma.luosgeo.com/UserGuide/math.html#fillnodata)。
 
 &emsp;&emsp;我们只需带入原始数据（Data），设置异常值（FillValue）和插值方法（Method）即可获得相应结果。
 

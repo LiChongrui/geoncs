@@ -6,6 +6,7 @@ tags:
  - Python
 categories:
  - 地理与气象分析库
+publish: false
 ---
 
 **&emsp;&emsp;栅格处理** 为 **gma.rasp** 内所有栅格处理操作相关函数的详细功能、参数设置和引用方法说明，如果您想了解 gma 所有函数的整体情况，请参考 [函数功能列表](Function.html) 。

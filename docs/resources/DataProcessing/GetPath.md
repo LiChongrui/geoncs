@@ -7,6 +7,7 @@ tags:
  - 数据处理
 categories:
  - 资源教程
+sticky: 3
 ---
 
 &emsp;&emsp;当我们批量进行文件处理时，往往需要程序自动读取某一文件夹下某一类型的所有文件。因此，本文针对查找某一类型的文件或文件夹的方法进行示例和说明。
@@ -21,7 +22,7 @@ categories:
 
 &emsp;&emsp;并提供相应的基础示例，由简单到复杂，方便理解。除此之外，还针对两种库**构造函数实例**，实现获取全部文件夹、文件等多种高级搜索功能，甚至还能查找含有固定字符的文件或文件夹。
 
-&emsp;&emsp;基于 glob 的方法已经构建 [GetPath](/gma/UserGuide-osf.html#getpath)  函数并合入 gma 库，方便应用时直接调用，简化应用过程。
+&emsp;&emsp;基于 glob 的方法已经构建 [GetPath](http://gma.luosgeo.com/UserGuide/osf.html#getpath)  函数并合入 gma 库，方便应用时直接调用，简化应用过程。
 
 ## 0 关键字
 &emsp;&emsp;遍历，文件，os，glob，通配符
@@ -281,7 +282,7 @@ print(Files)
 
 ### 4.4 利用 gma 库 GetPath 函数
 
-&emsp;&emsp;推荐使用该函数实现查找功能。该函数已经集成到 gma 库，详细的函数帮助参见 [gma.osf.GetPath](/01.gma/6.Use.html#_3-1-getpath)。
+&emsp;&emsp;推荐使用该函数实现查找功能。该函数已经集成到 gma 库，详细的函数帮助参见 [gma.osf.GetPath](http://gma.luosgeo.com/UserGuide/osf.html#getpath)。
 
 &emsp;&emsp;该函数可以以一个或多个文件夹为查找目标（Path），实现文件、文件夹、文件和文件夹查找（Search）；查找文件时可提供扩展名（EXT），获取目标类型的文件；同时，也能够根据文件包含的字符串（String），实现精确查找。当然，EXT 和 String 参数也可为列表，实现多类型，多字符串的同时匹配，满足多种查找需求。另外，如果大家有其他更好的想法，也欢迎反馈和讨论。
 
