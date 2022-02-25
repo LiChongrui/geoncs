@@ -67,7 +67,7 @@ module.exports = {
             title: '数据清洗',
             collapsable: false,//true, 
             children: [
-                'DataCleaning/FillNoData',
+                'FillNoData',
             ]
         },
     ],
