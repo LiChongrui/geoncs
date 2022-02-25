@@ -1,46 +1,4 @@
 module.exports = {
-    // gma的侧边栏
-    //'/gma/': [
-        //{
-        //    title: '开始',
-        //    collapsable: false,
-         //   children: [
-        //        'Introduce',
-        //       'Setup',
-       //     ]
-
-      //  },
-       // {
-       //     title: '函数和功能', 
-       //     collapsable: false, 
-       //     children: [
-       //         'Structure',
-      //          'Function',
-      //          'Default'
-      //      ]
-      //  },
-      //  {
-      //      title: '使用指南',
-     //       collapsable: false,
-    //        children: [
-    //            'UserGuide-index',
-      //          'UserGuide-math',
-      //          'UserGuide-osf',
-      //          'UserGuide-smc',
-     //           'UserGuide-rasp',
-     //           'UserGuide-vesp',
-    //        ]
-//
-     //   },
-     //   {
-      //      title: '更新', 
-      //      collapsable: false, 
-      //      children: [
-      //          'Update',
-      //          'Plan', 
-      //      ]
-     //   }
-    //],
     // 地理研学侧边栏，
     // 地理
     '/geography/GIS/CoordinateSystem/': [
@@ -85,16 +43,36 @@ module.exports = {
             ]
         }
     ],
-    // 资源教程
-    '/resources/': [
+    // Python 基础
+    '/Python/DataType/': [
         {
-            title: '数据处理',
+            title: '数据类型',
             collapsable: false,//true, 
             children: [
-                'DataProcessing/GetPath',
-                'DataProcessing/FillNoData',
+                'str',
             ]
         },
+    ],
+    '/Python/System/': [
+        {
+            title: '系统操作',
+            collapsable: false,//true, 
+            children: [
+                'GetPath',
+            ]
+        },
+    ],
+    '/Python/DataCleaning/': [
+        {
+            title: '数据清洗',
+            collapsable: false,//true, 
+            children: [
+                'DataCleaning/FillNoData',
+            ]
+        },
+    ],
+    // 资源教程
+    '/resources/': [
         {
             title: '陆表覆盖',
             collapsable: false,
@@ -103,14 +81,5 @@ module.exports = {
             ]
         }
     ],
-    // 地理人文就不配置侧边栏了
-    //'/literature/': [
-    //    {
-    //        title: '寓言短诗',
-    //        collapsable: false,
-    //        children: [
-    //            'Sinngedichte/ReiseLeben'
-    //        ]
-    //    }
-    //]
+
 }

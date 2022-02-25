@@ -30,17 +30,33 @@ module.exports = [
         ]
     },
     {
-        text: '资源教程',
-        link: '/resources/',
-        icon: "fab fa-sourcetree",
+        text: 'Python 基础',
+        icon: "fab fa-python",
         items: [
             {
-                text: '数据处理',
+                text: '数据类型',
                 items: [
-                    { text: '获取路径', link: '/resources/DataProcessing/GetPath' },
-                    { text: '缺失值插补', link: '/resources/DataProcessing/FillNoData' }
+                    { text: '字符串', link: '/Python/DataType/str' }
                 ]
             },
+            {
+                text: '系统操作',
+                items: [
+                    { text: '获取路径', link: '/Python/System/GetPath' }
+                ]
+            },
+            {
+                text: '数据清洗',
+                items: [
+                    { text: '缺失值插补', link: '/Python/DataCleaning/FillNoData' }
+                ]
+            }
+        ]
+    },
+    {
+        text: '资源教程',
+        icon: "fab fa-sourcetree",
+        items: [
             {
                 text: '陆表覆盖',
                 items: [
@@ -69,54 +85,12 @@ module.exports = [
             },
         ]
     },
-
-    { 
-        text: '地理与气象分析库', 
-        link: 'http://gma.luosgeo.com/',
-        icon: "fas fa-globe-asia",
-       // items: [
-        //    {
-        //        text: '开始', 
-        //        items:[
-        //            { text: '简介', link:'/gma/Introduce'},
-        //            { text: '安装和引用', link:'/gma/Setup'}
-        //         ]
-        //     },
-        //    {
-        //        text: '函数和功能', 
-        //        items:[
-        //            {text:'库组织方式', link: '/gma/Structure'},
-       //             {text:'函数功能列表', link: '/gma/Function'},
-        //            {text:'默认设置', link: '/gma/Default'},
-        //        ]              
-        //    },
-       //     {
-       //         text: '使用指南',
-       //         items: [
-       //             { text: '指数运算', link: '/gma/UserGuide-index' },
-       //             { text: '数学运算', link: '/gma/UserGuide-math' },
-      //              { text: '系统交互', link: '/gma/UserGuide-osf' },
-      //              { text: '空间杂项', link: '/gma/UserGuide-smc' },
-     //               { text: '栅格处理', link: '/gma/UserGuide-rasp' },
-      //              { text: '矢量处理', link: '/gma/UserGuide-vesp' },
-      //          ]
-      //      },
-      //      {
-     //           text: '更新',
-     //           items:[
-     //               {text:'更新日志', link: '/gma/Update'},
-     //               {text:'更新预览', link: '/gma/Plan'},
-     //           ]
-     //        },
-     //   ]
-    },
     {
         text:'探索',
         icon:"fab fa-wpexplorer",
         items:[
-            { text: '时间线', link: '/timeline/', icon:"reco-date"},
-            { text: '分类', link: '/categories/地信研学/', icon:"reco-category"},
-            { text: '标签', link: '/tag/', icon: 'reco-tag' },
+            { text: '地理与气象分析库', link:'http://gma.luosgeo.com/'},
+            { text: '反馈与赞助', link: '/Support'}
         ]      
     },
 ]
