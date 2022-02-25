@@ -36,7 +36,8 @@ module.exports = [
             {
                 text: '数据类型',
                 items: [
-                    { text: '字符串', link: '/Python/DataType/str' }
+                    { text: '字符串', link: '/Python/DataType/str' },
+                    { text: '列表', link: '/Python/DataType/list' }
                 ]
             },
             {
