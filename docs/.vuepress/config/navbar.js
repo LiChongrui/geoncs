@@ -37,7 +37,8 @@ module.exports = [
                 text: '数据类型',
                 items: [
                     { text: '字符串', link: '/Python/DataType/str' },
-                    { text: '列表', link: '/Python/DataType/list' }
+                    { text: '列表', link: '/Python/DataType/list' },
+                    { text: '字典', link: '/Python/DataType/dict' },
                 ]
             },
             {
@@ -47,7 +48,7 @@ module.exports = [
                 ]
             },
             {
-                text: '数据清洗',
+                text: '数据处理',
                 items: [
                     { text: '缺失值插补', link: '/Python/DataCleaning/FillNoData' }
                 ]

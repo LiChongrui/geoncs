@@ -152,7 +152,7 @@ print(SLL)
 
 ```python
 # 修正为原列表序列的顺序
-SLL.sort(key=NUMList.index)
+SLL.sort(key = NUMList.index)
 print(SLL)
 ```
 
@@ -192,7 +192,6 @@ A = [i for i in range(10000000) if i <= 1000]
 
 ```python
 import datetime as dt
-import numpy as np
 ```
 
 &emsp;&emsp;简单 for 循环：
@@ -222,6 +221,7 @@ print((T1 - T0).total_seconds())
 &emsp;&emsp;numpy 向量化：
 
 ```python
+import numpy as np
 T0 = dt.datetime.now()
 A = np.arange(10000000) ** 2
 T1 = dt.datetime.now()
@@ -231,3 +231,19 @@ print((T1 - T0).total_seconds())
 > 耗时：0.139675 秒
 
 &emsp;&emsp;与 for 循环相比，列表解析式效率更高，但两者效率均远低于 numpy 的生成速率。处理纯数字型数据推荐使用 numpy，其他类型可优先使用列表解析式。
+
+## 自由组合
+
+&emsp;&emsp;若对列表元素顺序有需求，可对列表实现自由组合（数学）。
+
+```python
+PMT = list(permutations(['Name', 'Year', 'Month']))
+print(PMT)
+```
+
+> 执行结果：[('Name', 'Year', 'Month'),
+>  ('Name', 'Month', 'Year'),
+>  ('Year', 'Name', 'Month'),
+>  ('Year', 'Month', 'Name'),
+>  ('Month', 'Name', 'Year'),
+>  ('Month', 'Year', 'Name')]

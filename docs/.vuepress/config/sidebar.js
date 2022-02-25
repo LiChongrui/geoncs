@@ -51,6 +51,7 @@ module.exports = {
             children: [
                 'str',
                 'list',
+                'dict',
             ]
         },
     ],
@@ -65,7 +66,7 @@ module.exports = {
     ],
     '/Python/DataCleaning/': [
         {
-            title: '数据清洗',
+            title: '数据处理',
             collapsable: false,//true, 
             children: [
                 'FillNoData',
