@@ -90,7 +90,7 @@ export default defineComponent({
           font-size 0.9em
       a
         display block
-        line-height 2rem
+        line-height 1.65rem
         position relative
         border-bottom none
         font-weight 400

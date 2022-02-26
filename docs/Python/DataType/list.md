@@ -236,6 +236,7 @@ print((T1 - T0).total_seconds())
 &emsp;&emsp;若对列表元素顺序有需求，可对列表实现自由组合（数学）。
 
 ```python
+from itertools import permutations
 PMT = list(permutations(['Name', 'Year', 'Month']))
 print(PMT)
 ```
