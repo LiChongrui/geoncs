@@ -5,7 +5,6 @@ tags:
  - Python 基础
 categories:
  - 数据类型
-
 ---
 
 &emsp;&emsp;字典是另一种可变容器模型，且可存储任意类型对象。可以采用`{}`或`dict`来创建，其中每个元素均包含一个键（key）和一个值（value），并以 `:` 分割。例如：
@@ -18,6 +17,14 @@ Dict = {'Name':'Luo','Year':2022}
 ## 键值
 
 ![](/python/dict.svg)
+
+&emsp;&emsp;字典的每个值都可以为包括字典在内的其他任一类型的数据。
+
+::: warning 注意
+
+字典内键是唯一的，不能重复。
+
+:::
 
 ### 获取键
 
@@ -116,3 +123,21 @@ print(KV)
 ```
 
 > 执行结果：['Luo', 'Name', 'Suppe', 'Pseudonym']
+
+## 字典解析式
+
+&emsp;&emsp;与列表解析式相似，字典解析式是将一个可迭代对象（如列表）转换成字典的工具。示例：
+
+```python
+# 将列表元素值与其对应的索引组成字典
+List = ['Luo', 'Year', 'Suppe']
+NDict = {List[i]:i for i in range(len(List))} 
+print(NDict)
+```
+
+> 执行结果：{'Luo': 0, 'Year': 1, 'Suppe': 2}
+
+
+
+
+

@@ -52,6 +52,7 @@ module.exports = {
                 'str',
                 'list',
                 'dict',
+                'tuple',
             ]
         },
     ],

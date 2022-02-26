@@ -39,6 +39,7 @@ module.exports = [
                     { text: '字符串', link: '/Python/DataType/str' },
                     { text: '列表', link: '/Python/DataType/list' },
                     { text: '字典', link: '/Python/DataType/dict' },
+                    { text: '元组', link: '/Python/DataType/tuple' },
                 ]
             },
             {

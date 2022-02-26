@@ -2,7 +2,6 @@
 title: 列表
 date: 2022-02-25 23:12:00
 tags:
-
  - Python 基础
 categories:
  - 数据类型
@@ -11,9 +10,9 @@ categories:
 &emsp;&emsp;列表是 Python 中最基本的数据结构，可以使用 `[]`  来创建列表，也可使用或`list`来将其他数据强制转换为列表。例如：
 
 ```python
-LL = [1, 3, 4, 'You', 'Me'] 
+List = [1, 3, 4, 'You', 'Me'] 
 ```
-&emsp;&emsp;列表内的每个元素都可以包括列表在内的其他任一类型的数据。
+&emsp;&emsp;列表内的每个元素都可以为包括列表在内的其他任一类型的数据。
 
 ## 索引
 
@@ -26,7 +25,7 @@ LL = [1, 3, 4, 'You', 'Me']
 &emsp;&emsp;可根据列表索引提取对应位置的元素。
 
 ```python
-Fetch2 = LL[2]
+Fetch2 = List[2]
 print(Fetch2)
 ```
 > 执行结果：`4`
@@ -34,7 +33,7 @@ print(Fetch2)
 &emsp;&emsp;也可根据列表索引区间提取多个元素组成新列表（切片提取）。
 
 ```python
-Fetch2_4 = Me[2:4]
+Fetch2_4 = List[2:4]
 print(Fetch2_4)
 ```
 > 执行结果：`[4, 'You']`
@@ -55,7 +54,7 @@ print(M)
 &emsp;&emsp;利用`append`函数在列表末尾添加 `5`。
 
 ```python
-A = LL.append(5)
+A = List.append(5)
 print(A)
 ```
 
@@ -66,7 +65,7 @@ print(A)
 &emsp;&emsp;利用`insert`函数在索引为 0 的位置添加 `Insert` 。
 
 ```python
-I = LL.insert(0, 'Insert')
+I = List.insert(0, 'Insert')
 print(I)
 ```
 
@@ -110,8 +109,8 @@ print(I)
 ### 替换
 
 ```python
-LL[0] = 'She'
-print(LL)
+List[0] = 'She'
+print(List)
 ```
 
 > 执行结果：`['She', 3, 4, 'You', 'You', 'Me'] `
@@ -232,7 +231,7 @@ print((T1 - T0).total_seconds())
 
 &emsp;&emsp;与 for 循环相比，列表解析式效率更高，但两者效率均远低于 numpy 的生成速率。处理纯数字型数据推荐使用 numpy，其他类型可优先使用列表解析式。
 
-## 自由组合
+## 排列组合
 
 &emsp;&emsp;若对列表元素顺序有需求，可对列表实现自由组合（数学）。
 
