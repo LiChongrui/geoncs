@@ -44,7 +44,7 @@ module.exports = {
         }
     ],
     // Python 基础
-    '/Python/DataType/': [
+    '/BasicPy/DataType/': [
         {
             title: '数据类型',
             collapsable: false,//true, 
@@ -56,7 +56,7 @@ module.exports = {
             ]
         },
     ],
-    '/Python/System/': [
+    '/BasicPy/System/': [
         {
             title: '系统操作',
             collapsable: false,//true, 
@@ -65,7 +65,7 @@ module.exports = {
             ]
         },
     ],
-    '/Python/DataCleaning/': [
+    '/BasicPy/DataCleaning/': [
         {
             title: '数据处理',
             collapsable: false,//true, 

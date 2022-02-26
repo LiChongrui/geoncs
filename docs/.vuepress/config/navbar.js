@@ -36,22 +36,22 @@ module.exports = [
             {
                 text: '数据类型',
                 items: [
-                    { text: '字符串', link: '/Python/DataType/str' },
-                    { text: '列表', link: '/Python/DataType/list' },
-                    { text: '字典', link: '/Python/DataType/dict' },
-                    { text: '元组', link: '/Python/DataType/tuple' }
+                    { text: '字符串', link: '/BasicPy/DataType/str' },
+                    { text: '列表', link: '/BasicPy/DataType/list' },
+                    { text: '字典', link: '/BasicPy/DataType/dict' },
+                    { text: '元组', link: '/BasicPy/DataType/tuple' }
                 ]
             },
             {
                 text: '系统操作',
                 items: [
-                    { text: '获取路径', link: '/Python/System/GetPath' }
+                    { text: '获取路径', link: '/BasicPy/System/GetPath' }
                 ]
             },
             {
                 text: '数据处理',
                 items: [
-                    { text: '缺失值插补', link: '/Python/DataCleaning/FillNoData' }
+                    { text: '缺失值插补', link: '/BasicPy/DataCleaning/FillNoData' }
                 ]
             }
         ]
