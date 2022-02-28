@@ -25,6 +25,7 @@ List = [1, 3, 4, 'You', 'Me']
 &emsp;&emsp;可根据列表索引提取对应位置的元素。
 
 ```python
+List = [1, 3, 4, 'You', 'Me'] 
 Fetch2 = List[2]
 print(Fetch2)
 ```
@@ -39,6 +40,10 @@ print(Fetch2_4)
 > 执行结果：`[4, 'You']`
 
 ## 修改
+
+```python
+List = [1, 3, 4, 'You', 'Me']
+```
 
 ### 合并
 
@@ -233,7 +238,7 @@ print((T1 - T0).total_seconds())
 
 ## 排列组合
 
-&emsp;&emsp;若对列表元素顺序有需求，可对列表实现自由组合（数学）。
+&emsp;&emsp;若对列表元素顺序有需求，可对列表实现排列组合（数学）。
 
 ```python
 from itertools import permutations

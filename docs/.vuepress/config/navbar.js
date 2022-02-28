@@ -42,18 +42,6 @@ module.exports = [
                     { text: '元组', link: '/BasicPy/DataType/tuple' },
                     { text: '集合', link: '/BasicPy/DataType/set' },
                 ]
-            },
-            {
-                text: '系统操作',
-                items: [
-                    { text: '获取路径', link: '/BasicPy/System/GetPath' }
-                ]
-            },
-            {
-                text: '数据处理',
-                items: [
-                    { text: '缺失值插补', link: '/BasicPy/DataCleaning/FillNoData' }
-                ]
             }
         ]
     },
@@ -67,6 +55,18 @@ module.exports = [
                     { text: 'ESA WorldCover', link: '/resources/LST/WC_China_ESA_2020_Data' },
                 ]
             },
+            {
+                text: '系统操作',
+                items: [
+                    { text: '获取路径', link: '/resources/System/GetPath' }
+                ]
+            },
+            {
+                text: '数据处理',
+                items: [
+                    { text: '缺失值插补', link: '/resources/DataRelated/FillNoData' }
+                ]
+            }
         ]
     },
     {

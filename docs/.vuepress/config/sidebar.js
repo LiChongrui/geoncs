@@ -57,24 +57,6 @@ module.exports = {
             ]
         },
     ],
-    '/BasicPy/System/': [
-        {
-            title: '系统操作',
-            collapsable: false,//true, 
-            children: [
-                'GetPath',
-            ]
-        },
-    ],
-    '/BasicPy/DataCleaning/': [
-        {
-            title: '数据处理',
-            collapsable: false,//true, 
-            children: [
-                'FillNoData',
-            ]
-        },
-    ],
     // 资源教程
     '/resources/': [
         {
@@ -82,6 +64,20 @@ module.exports = {
             collapsable: false,
             children: [
                 'LST/WC_China_ESA_2020_Data',
+            ]
+        },
+        {
+            title: '系统操作',
+            collapsable: false,//true, 
+            children: [
+                'System/GetPath',
+            ]
+        },
+        {
+            title: '数据处理',
+            collapsable: false,//true, 
+            children: [
+                'DataRelated/FillNoData',
             ]
         }
     ],

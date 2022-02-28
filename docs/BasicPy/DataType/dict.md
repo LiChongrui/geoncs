@@ -10,7 +10,7 @@ categories:
 &emsp;&emsp;字典是另一种可变容器模型，且可存储任意类型对象。可以采用`{}`或`dict`来创建，其中每个元素均包含一个键（key）和一个值（value），并以 `:` 分割。例如：
 
 ```python
-Dict = {'Name':'Luo','Year':2022} 
+Dict = {'Name':'Luo', 'Year':2022} 
 ```
 
 
@@ -56,6 +56,7 @@ print(Value)
 &emsp;&emsp;返回一个嵌套元组的列表，每个元组的内的子元素为字典的每个元组对应的键和值。
 
 ```python
+Dict = {'Name':'Luo','Year':2022} 
 Items = Dict.items() 
 print(Items)
 ```
@@ -64,6 +65,10 @@ print(Items)
 
 ## 修改
 
+```python
+Dict = {'Name':'Luo','Year':2022} 
+```
+
 ### 更新
 
 ```python
@@ -71,7 +76,7 @@ Dict.update({'Month':2})
 print(Dict)
 ```
 
-> 执行结果：{'Name': 'Luo', 'Year': 2022, 'Month': 2}
+> 执行结果：{'Name':'Luo', 'Year':2022, 'Month':2}
 
 ### 剔除
 
@@ -80,7 +85,7 @@ Dict.pop('Year')
 print(Dict)
 ```
 
-> 执行结果：{'Name': 'Luo', 'Month': 2}
+> 执行结果：{'Name':'Luo', 'Month':2}
 
 ### 替换值
 
@@ -89,7 +94,7 @@ Dict['Month'] = 3
 print(Dict)
 ```
 
-> 执行结果：{'Name': 'Luo', 'Month': 3}
+> 执行结果：{'Name':'Luo', 'Month':3}
 
 ### 增加
 
@@ -98,7 +103,7 @@ Dict['Love'] = 'Time'
 print(Dict)
 ```
 
-> 执行结果：{'Name': 'Luo', 'Moth': 3, 'Love': 'Time'}
+> 执行结果：{'Name':'Luo', 'Moth':3, 'Love':'Time'}
 
 ## 组装字典
 
@@ -109,18 +114,19 @@ NewDict = dict(zip(['Luo','Suppe'],['Name','Pseudonym']))
 print(NewDict)
 ```
 
-> 执行结果：{'Luo': 'Name', 'Suppe': 'Pseudonym'}
+> 执行结果：{'Luo':'Name', 'Suppe':'Pseudonym'}
 
 ## 解包键值
 
 &emsp;&emsp;将所有的键值返回到一个列表里。
 
 ```python
+NewDict = {'Luo':'Name', 'Suppe':'Pseudonym'}
 KV = list(sum(NewDict.items(), ()))
 print(KV)
 ```
 
-> 执行结果：['Luo', 'Name', 'Suppe', 'Pseudonym']
+> 执行结果：['Luo',  'Name',  'Suppe',  'Pseudonym']
 
 ## 字典解析式
 
@@ -133,9 +139,4 @@ NDict = {List[i]:i for i in range(len(List))}
 print(NDict)
 ```
 
-> 执行结果：{'Luo': 0, 'Year': 1, 'Suppe': 2}
-
-
-
-
-
+> 执行结果：{'Luo':0, 'Year':1, 'Suppe':2}

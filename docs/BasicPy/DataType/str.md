@@ -27,6 +27,7 @@ Me = 'I am Luo!'  # 或 Me = "I am Luo!"
 &emsp;&emsp;可根据字符索引提取对应位置的字符。
 
 ```python
+Me = 'I am Luo!' 
 Fetch2 = Me[2]
 print(Fetch2)
 ```
@@ -105,8 +106,8 @@ Windows 下路径以 `\` 表示，Python 读取路径时需标记不转义（路
 | \r       | ASCII 回车符（CR）      |
 | \t       | ASCII 水平制表符（TAB） |
 | \v       | ASCII 垂直制表符（VT）  |
-| \ooo     | 八进制数 *ooo* 字符     |
-| \xhh     | 十六进制数 *hh* 字符    |
+| \ooo     | 八进制数 ooo 字符       |
+| \xhh     | 十六进制数 hh 字符      |
 
 ## 格式化
 

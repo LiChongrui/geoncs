@@ -31,6 +31,7 @@ Tuple = (1, 3, 4, 'You', 'Me')
 &emsp;&emsp;可根据元组索引提取对应位置的元素。
 
 ```python
+Tuple = (1, 3, 4, 'You', 'Me')
 Fetch2 = Tuple[2]
 print(Fetch2)
 ```
