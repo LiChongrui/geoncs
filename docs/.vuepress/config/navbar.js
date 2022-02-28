@@ -39,7 +39,8 @@ module.exports = [
                     { text: '字符串', link: '/BasicPy/DataType/str' },
                     { text: '列表', link: '/BasicPy/DataType/list' },
                     { text: '字典', link: '/BasicPy/DataType/dict' },
-                    { text: '元组', link: '/BasicPy/DataType/tuple' }
+                    { text: '元组', link: '/BasicPy/DataType/tuple' },
+                    { text: '集合', link: '/BasicPy/DataType/set' },
                 ]
             },
             {

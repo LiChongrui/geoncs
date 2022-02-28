@@ -53,6 +53,7 @@ module.exports = {
                 'list',
                 'dict',
                 'tuple',
+                'set',
             ]
         },
     ],

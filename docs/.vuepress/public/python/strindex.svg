@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" width="100%" height="100%" viewBox="0 0 743 99">
+<svg xmlns="http://www.w3.org/2000/svg" width="743" height="99" viewBox="0 0 743 99">
   <defs>
     <style>
       .cls-1 {
@@ -39,19 +39,21 @@
   <rect id="矩形_1_拷贝_6" data-name="矩形 1 拷贝 6" class="cls-1" x="413" y="33.406" width="30" height="29.875"/>
   <rect id="矩形_1_拷贝_7" data-name="矩形 1 拷贝 7" class="cls-1" x="443" y="33.406" width="30" height="29.875"/>
   <rect id="矩形_1_拷贝_8" data-name="矩形 1 拷贝 8" class="cls-1" x="473" y="33.406" width="30" height="29.875"/>
-  <path id="形状_1" data-name="形状 1" class="cls-2" d="M184,17.483V14.494h42V13l6,2.989-6,2.989V17.483H184Z"/>
-  <path id="形状_1_拷贝" data-name="形状 1 拷贝" class="cls-2" d="M551,78.718v2.989H509V83.2l-6-2.989,6-2.989v1.494h42Z"/>
+  <path id="形状_1" data-name="形状 1" class="cls-2" d="M165,17.483V14.494h42V13l6,2.989-6,2.989V17.483H165Z"/>
+  <path id="形状_1_拷贝" data-name="形状 1 拷贝" class="cls-2" d="M570,78.718v2.989H528V83.2l-6-2.989,6-2.989v1.494h42Z"/>
   <text id="I_" data-name="I " class="cls-3" transform="translate(247.706 56.117)"><tspan x="0">I</tspan></text>
+  <text id="_" data-name="“" class="cls-3" transform="translate(218.706 56.117)"><tspan x="0">“</tspan></text>
+  <text id="_2" data-name="”" class="cls-3" transform="translate(516.706 56.117)"><tspan x="0">”</tspan></text>
   <text id="a" class="cls-4" transform="translate(308.706 56.117)"><tspan x="0">a</tspan></text>
   <text id="m" class="cls-4" transform="translate(337.706 56.117)"><tspan x="0">m</tspan></text>
   <text id="u" class="cls-4" transform="translate(428.706 56.117)"><tspan x="0">u</tspan></text>
   <text id="o" class="cls-4" transform="translate(458.706 56.117)"><tspan x="0">o</tspan></text>
-  <text id="_" data-name="!" class="cls-4" transform="translate(488.706 56.117)"><tspan x="0">!</tspan></text>
+  <text id="_3" data-name="!" class="cls-4" transform="translate(488.706 56.117)"><tspan x="0">!</tspan></text>
   <text id="L" class="cls-4" transform="translate(398.706 56.117)"><tspan x="0">L</tspan></text>
   <text id="_0" data-name="0" class="cls-5" transform="translate(247.177 21.266)"><tspan x="0">0</tspan></text>
   <text id="_1" data-name="1" class="cls-5" transform="translate(278.176 21.266)"><tspan x="0">1</tspan></text>
-  <text id="_2" data-name="2" class="cls-5" transform="translate(308.176 21.266)"><tspan x="0">2</tspan></text>
-  <text id="_3" data-name="3" class="cls-5" transform="translate(337.176 21.266)"><tspan x="0">3</tspan></text>
+  <text id="_2-2" data-name="2" class="cls-5" transform="translate(308.176 21.266)"><tspan x="0">2</tspan></text>
+  <text id="_3-2" data-name="3" class="cls-5" transform="translate(337.176 21.266)"><tspan x="0">3</tspan></text>
   <text id="_4" data-name="4" class="cls-5" transform="translate(367.176 21.266)"><tspan x="0">4</tspan></text>
   <text id="_5" data-name="5" class="cls-5" transform="translate(396.177 21.266)"><tspan x="0">5</tspan></text>
   <text id="_6" data-name="6" class="cls-5" transform="translate(428.177 21.266)"><tspan x="0">6</tspan></text>

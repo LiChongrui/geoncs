@@ -13,9 +13,7 @@ categories:
 Me = 'I am Luo!'  # 或 Me = "I am Luo!"
 ```
 ::: tip 提示
-
 源字符集由编码声明定义；源文件没有编码声明时，默认为 UTF-8。
-
 :::
 
 ## 索引
