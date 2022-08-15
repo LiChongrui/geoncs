@@ -84,7 +84,8 @@ module.exports = [
                 text: '绘画设计展',
                 items: [
                     { text: '卡通画', link: '/literature/Drawing/Cartoon' },
-                    { text: '艺术手绘', link: '/literature/Drawing/Art' }
+                    { text: '艺术手绘', link: '/literature/Drawing/Art' },
+                    { text: '快题设计', link: '/literature/Drawing/Sketch' },
                 ]
             },
         ]
